@@ -1,0 +1,472 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="es.upv.epsg.iot_g1_1"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="21"
+8-->/Users/lauragavilanfernandez/Desktop/IoT_G11_v3/app/src/main/AndroidManifest.xml
+9        android:targetSdkVersion="32" />
+9-->/Users/lauragavilanfernandez/Desktop/IoT_G11_v3/app/src/main/AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+11-->[com.firebaseui:firebase-ui-auth:7.1.1] /Users/lauragavilanfernandez/.gradle/caches/transforms-3/9d9fb59aceb523c913c0885801ab7929/transformed/firebase-ui-auth-7.1.1/AndroidManifest.xml:12:5-79
+11-->[com.firebaseui:firebase-ui-auth:7.1.1] /Users/lauragavilanfernandez/.gradle/caches/transforms-3/9d9fb59aceb523c913c0885801ab7929/transformed/firebase-ui-auth-7.1.1/AndroidManifest.xml:12:22-76
+12    <uses-permission android:name="android.permission.INTERNET" />
+12-->[com.firebaseui:firebase-ui-auth:7.1.1] /Users/lauragavilanfernandez/.gradle/caches/transforms-3/9d9fb59aceb523c913c0885801ab7929/transformed/firebase-ui-auth-7.1.1/AndroidManifest.xml:13:5-67
+12-->[com.firebaseui:firebase-ui-auth:7.1.1] /Users/lauragavilanfernandez/.gradle/caches/transforms-3/9d9fb59aceb523c913c0885801ab7929/transformed/firebase-ui-auth-7.1.1/AndroidManifest.xml:13:22-64
+13    <uses-permission android:name="android.permission.WAKE_LOCK" />
+13-->[com.google.android.gms:play-services-measurement-api:21.2.0] /Users/lauragavilanfernandez/.gradle/caches/transforms-3/c0f30181d9cd5e3d606ad78973556466/transformed/play-services-measurement-api-21.2.0/AndroidManifest.xml:24:5-68
+13-->[com.google.android.gms:play-services-measurement-api:21.2.0] /Users/lauragavilanfernandez/.gradle/caches/transforms-3/c0f30181d9cd5e3d606ad78973556466/transformed/play-services-measurement-api-21.2.0/AndroidManifest.xml:24:22-65
+14    <uses-permission android:name="com.google.android.gms.permission.AD_ID" />
+14-->[com.google.android.gms:play-services-measurement-api:21.2.0] /Users/lauragavilanfernandez/.gradle/caches/transforms-3/c0f30181d9cd5e3d606ad78973556466/transformed/play-services-measurement-api-21.2.0/AndroidManifest.xml:25:5-79
+14-->[com.google.android.gms:play-services-measurement-api:21.2.0] /Users/lauragavilanfernandez/.gradle/caches/transforms-3/c0f30181d9cd5e3d606ad78973556466/transformed/play-services-measurement-api-21.2.0/AndroidManifest.xml:25:22-76
+15    <uses-permission android:name="com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE" />
+15-->[com.google.android.gms:play-services-measurement:21.2.0] /Users/lauragavilanfernandez/.gradle/caches/transforms-3/bfd6cea21695863e78221e007eb2751f/transformed/play-services-measurement-21.2.0/AndroidManifest.xml:26:5-110
+15-->[com.google.android.gms:play-services-measurement:21.2.0] /Users/lauragavilanfernandez/.gradle/caches/transforms-3/bfd6cea21695863e78221e007eb2751f/transformed/play-services-measurement-21.2.0/AndroidManifest.xml:26:22-107
+16
+17    <application
+17-->/Users/lauragavilanfernandez/Desktop/IoT_G11_v3/app/src/main/AndroidManifest.xml:6:5-40:19
+18        android:allowBackup="true"
+18-->/Users/lauragavilanfernandez/Desktop/IoT_G11_v3/app/src/main/AndroidManifest.xml:7:9-35
+19        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+19-->[androidx.core:core:1.8.0] /Users/lauragavilanfernandez/.gradle/caches/transforms-3/ca18492abc4e717cba0e2f1b8c3a4c89/transformed/core-1.8.0/AndroidManifest.xml:24:18-86
+20        android:dataExtractionRules="@xml/data_extraction_rules"
+20-->/Users/lauragavilanfernandez/Desktop/IoT_G11_v3/app/src/main/AndroidManifest.xml:8:9-65
+21        android:debuggable="true"
+22        android:fullBackupContent="@xml/backup_rules"
+22-->/Users/lauragavilanfernandez/Desktop/IoT_G11_v3/app/src/main/AndroidManifest.xml:9:9-54
+23        android:icon="@mipmap/ic_launcher"
+23-->/Users/lauragavilanfernandez/Desktop/IoT_G11_v3/app/src/main/AndroidManifest.xml:10:9-43
+24        android:label="@string/app_name"
+24-->/Users/lauragavilanfernandez/Desktop/IoT_G11_v3/app/src/main/AndroidManifest.xml:11:9-41
+25        android:roundIcon="@mipmap/ic_launcher_round"
+25-->/Users/lauragavilanfernandez/Desktop/IoT_G11_v3/app/src/main/AndroidManifest.xml:12:9-54
+26        android:supportsRtl="true"
+26-->/Users/lauragavilanfernandez/Desktop/IoT_G11_v3/app/src/main/AndroidManifest.xml:13:9-35
+27        android:testOnly="true"
+28        android:theme="@style/Theme.IoT_G11" >
+28-->/Users/lauragavilanfernandez/Desktop/IoT_G11_v3/app/src/main/AndroidManifest.xml:14:9-45
+29        <activity
+29-->/Users/lauragavilanfernandez/Desktop/IoT_G11_v3/app/src/main/AndroidManifest.xml:16:9-20:64
+30            android:name="es.upv.epsg.iot_g1_1.MainActivity"
+30-->/Users/lauragavilanfernandez/Desktop/IoT_G11_v3/app/src/main/AndroidManifest.xml:17:13-41
+31            android:exported="false"
+31-->/Users/lauragavilanfernandez/Desktop/IoT_G11_v3/app/src/main/AndroidManifest.xml:18:13-37
+32            android:label="@string/title_activity_main"
+32-->/Users/lauragavilanfernandez/Desktop/IoT_G11_v3/app/src/main/AndroidManifest.xml:19:13-56
+33            android:theme="@style/Theme.IoT_G11.NoActionBar" />
+33-->/Users/lauragavilanfernandez/Desktop/IoT_G11_v3/app/src/main/AndroidManifest.xml:20:13-61
+34        <activity
+34-->/Users/lauragavilanfernandez/Desktop/IoT_G11_v3/app/src/main/AndroidManifest.xml:21:9-22:60
+35            android:name="es.upv.epsg.iot_g1_1.UsuarioActivity"
+35-->/Users/lauragavilanfernandez/Desktop/IoT_G11_v3/app/src/main/AndroidManifest.xml:21:19-50
+36            android:label="Información sobre el usuario" />
+36-->/Users/lauragavilanfernandez/Desktop/IoT_G11_v3/app/src/main/AndroidManifest.xml:22:13-57
+37        <activity
+37-->/Users/lauragavilanfernandez/Desktop/IoT_G11_v3/app/src/main/AndroidManifest.xml:23:9-31:20
+38            android:name="es.upv.epsg.iot_g1_1.LoginActivity"
+38-->/Users/lauragavilanfernandez/Desktop/IoT_G11_v3/app/src/main/AndroidManifest.xml:24:13-42
+39            android:exported="true" >
+39-->/Users/lauragavilanfernandez/Desktop/IoT_G11_v3/app/src/main/AndroidManifest.xml:25:13-36
+40            <intent-filter>
+40-->/Users/lauragavilanfernandez/Desktop/IoT_G11_v3/app/src/main/AndroidManifest.xml:26:13-30:29
+41                <action android:name="android.intent.action.MAIN" />
+41-->/Users/lauragavilanfernandez/Desktop/IoT_G11_v3/app/src/main/AndroidManifest.xml:27:17-69
+41-->/Users/lauragavilanfernandez/Desktop/IoT_G11_v3/app/src/main/AndroidManifest.xml:27:25-66
+42
+43                <category android:name="android.intent.category.LAUNCHER" />
+43-->/Users/lauragavilanfernandez/Desktop/IoT_G11_v3/app/src/main/AndroidManifest.xml:29:17-77
+43-->/Users/lauragavilanfernandez/Desktop/IoT_G11_v3/app/src/main/AndroidManifest.xml:29:27-74
+44            </intent-filter>
+45        </activity>
+46        <activity
+46-->/Users/lauragavilanfernandez/Desktop/IoT_G11_v3/app/src/main/AndroidManifest.xml:32:9-34:66
+47            android:name="es.upv.epsg.iot_g1_1.AcercaDeActivity"
+47-->/Users/lauragavilanfernandez/Desktop/IoT_G11_v3/app/src/main/AndroidManifest.xml:32:19-51
+48            android:label="Acerca de ..."
+48-->/Users/lauragavilanfernandez/Desktop/IoT_G11_v3/app/src/main/AndroidManifest.xml:33:13-42
+49            android:theme="@style/Theme.AppCompat.Light.Dialog" />
+49-->/Users/lauragavilanfernandez/Desktop/IoT_G11_v3/app/src/main/AndroidManifest.xml:34:13-64
+50        <activity
+50-->/Users/lauragavilanfernandez/Desktop/IoT_G11_v3/app/src/main/AndroidManifest.xml:35:9-37:66
+51            android:name="es.upv.epsg.iot_g1_1.CambioDatos"
+51-->/Users/lauragavilanfernandez/Desktop/IoT_G11_v3/app/src/main/AndroidManifest.xml:35:19-46
+52            android:label="Cambia tus datos"
+52-->/Users/lauragavilanfernandez/Desktop/IoT_G11_v3/app/src/main/AndroidManifest.xml:36:13-45
+53            android:theme="@style/Theme.AppCompat.Light.Dialog" />
+53-->/Users/lauragavilanfernandez/Desktop/IoT_G11_v3/app/src/main/AndroidManifest.xml:37:13-64
+54
+55        <meta-data
+55-->[com.firebaseui:firebase-ui-auth:7.1.1] /Users/lauragavilanfernandez/.gradle/caches/transforms-3/9d9fb59aceb523c913c0885801ab7929/transformed/firebase-ui-auth-7.1.1/AndroidManifest.xml:16:9-18:69
+56            android:name="com.google.android.gms.version"
+56-->[com.firebaseui:firebase-ui-auth:7.1.1] /Users/lauragavilanfernandez/.gradle/caches/transforms-3/9d9fb59aceb523c913c0885801ab7929/transformed/firebase-ui-auth-7.1.1/AndroidManifest.xml:17:13-58
+57            android:value="@integer/google_play_services_version" />
+57-->[com.firebaseui:firebase-ui-auth:7.1.1] /Users/lauragavilanfernandez/.gradle/caches/transforms-3/9d9fb59aceb523c913c0885801ab7929/transformed/firebase-ui-auth-7.1.1/AndroidManifest.xml:18:13-66
+58        <meta-data
+58-->[com.firebaseui:firebase-ui-auth:7.1.1] /Users/lauragavilanfernandez/.gradle/caches/transforms-3/9d9fb59aceb523c913c0885801ab7929/transformed/firebase-ui-auth-7.1.1/AndroidManifest.xml:19:9-21:63
+59            android:name="com.facebook.sdk.ApplicationId"
+59-->[com.firebaseui:firebase-ui-auth:7.1.1] /Users/lauragavilanfernandez/.gradle/caches/transforms-3/9d9fb59aceb523c913c0885801ab7929/transformed/firebase-ui-auth-7.1.1/AndroidManifest.xml:20:13-58
+60            android:value="@string/facebook_application_id" />
+60-->[com.firebaseui:firebase-ui-auth:7.1.1] /Users/lauragavilanfernandez/.gradle/caches/transforms-3/9d9fb59aceb523c913c0885801ab7929/transformed/firebase-ui-auth-7.1.1/AndroidManifest.xml:21:13-60
+61
+62        <activity
+62-->[com.firebaseui:firebase-ui-auth:7.1.1] /Users/lauragavilanfernandez/.gradle/caches/transforms-3/9d9fb59aceb523c913c0885801ab7929/transformed/firebase-ui-auth-7.1.1/AndroidManifest.xml:23:9-27:61
+63            android:name="com.firebase.ui.auth.KickoffActivity"
+63-->[com.firebaseui:firebase-ui-auth:7.1.1] /Users/lauragavilanfernandez/.gradle/caches/transforms-3/9d9fb59aceb523c913c0885801ab7929/transformed/firebase-ui-auth-7.1.1/AndroidManifest.xml:24:13-64
+64            android:exported="false"
+64-->[com.firebaseui:firebase-ui-auth:7.1.1] /Users/lauragavilanfernandez/.gradle/caches/transforms-3/9d9fb59aceb523c913c0885801ab7929/transformed/firebase-ui-auth-7.1.1/AndroidManifest.xml:25:13-37
+65            android:label=""
+65-->[com.firebaseui:firebase-ui-auth:7.1.1] /Users/lauragavilanfernandez/.gradle/caches/transforms-3/9d9fb59aceb523c913c0885801ab7929/transformed/firebase-ui-auth-7.1.1/AndroidManifest.xml:26:13-29
+66            android:theme="@style/FirebaseUI.Transparent" />
+66-->[com.firebaseui:firebase-ui-auth:7.1.1] /Users/lauragavilanfernandez/.gradle/caches/transforms-3/9d9fb59aceb523c913c0885801ab7929/transformed/firebase-ui-auth-7.1.1/AndroidManifest.xml:27:13-58
+67        <activity
+67-->[com.firebaseui:firebase-ui-auth:7.1.1] /Users/lauragavilanfernandez/.gradle/caches/transforms-3/9d9fb59aceb523c913c0885801ab7929/transformed/firebase-ui-auth-7.1.1/AndroidManifest.xml:28:9-32:61
+68            android:name="com.firebase.ui.auth.ui.idp.SingleSignInActivity"
+68-->[com.firebaseui:firebase-ui-auth:7.1.1] /Users/lauragavilanfernandez/.gradle/caches/transforms-3/9d9fb59aceb523c913c0885801ab7929/transformed/firebase-ui-auth-7.1.1/AndroidManifest.xml:29:13-76
+69            android:exported="false"
+69-->[com.firebaseui:firebase-ui-auth:7.1.1] /Users/lauragavilanfernandez/.gradle/caches/transforms-3/9d9fb59aceb523c913c0885801ab7929/transformed/firebase-ui-auth-7.1.1/AndroidManifest.xml:30:13-37
+70            android:label=""
+70-->[com.firebaseui:firebase-ui-auth:7.1.1] /Users/lauragavilanfernandez/.gradle/caches/transforms-3/9d9fb59aceb523c913c0885801ab7929/transformed/firebase-ui-auth-7.1.1/AndroidManifest.xml:31:13-29
+71            android:theme="@style/FirebaseUI.Transparent" />
+71-->[com.firebaseui:firebase-ui-auth:7.1.1] /Users/lauragavilanfernandez/.gradle/caches/transforms-3/9d9fb59aceb523c913c0885801ab7929/transformed/firebase-ui-auth-7.1.1/AndroidManifest.xml:32:13-58
+72        <activity
+72-->[com.firebaseui:firebase-ui-auth:7.1.1] /Users/lauragavilanfernandez/.gradle/caches/transforms-3/9d9fb59aceb523c913c0885801ab7929/transformed/firebase-ui-auth-7.1.1/AndroidManifest.xml:33:9-37:61
+73            android:name="com.firebase.ui.auth.ui.credentials.CredentialSaveActivity"
+73-->[com.firebaseui:firebase-ui-auth:7.1.1] /Users/lauragavilanfernandez/.gradle/caches/transforms-3/9d9fb59aceb523c913c0885801ab7929/transformed/firebase-ui-auth-7.1.1/AndroidManifest.xml:34:13-86
+74            android:exported="false"
+74-->[com.firebaseui:firebase-ui-auth:7.1.1] /Users/lauragavilanfernandez/.gradle/caches/transforms-3/9d9fb59aceb523c913c0885801ab7929/transformed/firebase-ui-auth-7.1.1/AndroidManifest.xml:35:13-37
+75            android:label=""
+75-->[com.firebaseui:firebase-ui-auth:7.1.1] /Users/lauragavilanfernandez/.gradle/caches/transforms-3/9d9fb59aceb523c913c0885801ab7929/transformed/firebase-ui-auth-7.1.1/AndroidManifest.xml:36:13-29
+76            android:theme="@style/FirebaseUI.Transparent" />
+76-->[com.firebaseui:firebase-ui-auth:7.1.1] /Users/lauragavilanfernandez/.gradle/caches/transforms-3/9d9fb59aceb523c913c0885801ab7929/transformed/firebase-ui-auth-7.1.1/AndroidManifest.xml:37:13-58
+77        <activity
+77-->[com.firebaseui:firebase-ui-auth:7.1.1] /Users/lauragavilanfernandez/.gradle/caches/transforms-3/9d9fb59aceb523c913c0885801ab7929/transformed/firebase-ui-auth-7.1.1/AndroidManifest.xml:38:9-42:58
+78            android:name="com.firebase.ui.auth.ui.email.RecoverPasswordActivity"
+78-->[com.firebaseui:firebase-ui-auth:7.1.1] /Users/lauragavilanfernandez/.gradle/caches/transforms-3/9d9fb59aceb523c913c0885801ab7929/transformed/firebase-ui-auth-7.1.1/AndroidManifest.xml:39:13-81
+79            android:exported="false"
+79-->[com.firebaseui:firebase-ui-auth:7.1.1] /Users/lauragavilanfernandez/.gradle/caches/transforms-3/9d9fb59aceb523c913c0885801ab7929/transformed/firebase-ui-auth-7.1.1/AndroidManifest.xml:40:13-37
+80            android:label="@string/fui_title_recover_password_activity"
+80-->[com.firebaseui:firebase-ui-auth:7.1.1] /Users/lauragavilanfernandez/.gradle/caches/transforms-3/9d9fb59aceb523c913c0885801ab7929/transformed/firebase-ui-auth-7.1.1/AndroidManifest.xml:41:13-72
+81            android:windowSoftInputMode="adjustResize" />
+81-->[com.firebaseui:firebase-ui-auth:7.1.1] /Users/lauragavilanfernandez/.gradle/caches/transforms-3/9d9fb59aceb523c913c0885801ab7929/transformed/firebase-ui-auth-7.1.1/AndroidManifest.xml:42:13-55
+82        <activity
+82-->[com.firebaseui:firebase-ui-auth:7.1.1] /Users/lauragavilanfernandez/.gradle/caches/transforms-3/9d9fb59aceb523c913c0885801ab7929/transformed/firebase-ui-auth-7.1.1/AndroidManifest.xml:43:9-47:58
+83            android:name="com.firebase.ui.auth.ui.email.EmailActivity"
+83-->[com.firebaseui:firebase-ui-auth:7.1.1] /Users/lauragavilanfernandez/.gradle/caches/transforms-3/9d9fb59aceb523c913c0885801ab7929/transformed/firebase-ui-auth-7.1.1/AndroidManifest.xml:44:13-71
+84            android:exported="false"
+84-->[com.firebaseui:firebase-ui-auth:7.1.1] /Users/lauragavilanfernandez/.gradle/caches/transforms-3/9d9fb59aceb523c913c0885801ab7929/transformed/firebase-ui-auth-7.1.1/AndroidManifest.xml:45:13-37
+85            android:label="@string/fui_sign_in_default"
+85-->[com.firebaseui:firebase-ui-auth:7.1.1] /Users/lauragavilanfernandez/.gradle/caches/transforms-3/9d9fb59aceb523c913c0885801ab7929/transformed/firebase-ui-auth-7.1.1/AndroidManifest.xml:46:13-56
+86            android:windowSoftInputMode="adjustResize" />
+86-->[com.firebaseui:firebase-ui-auth:7.1.1] /Users/lauragavilanfernandez/.gradle/caches/transforms-3/9d9fb59aceb523c913c0885801ab7929/transformed/firebase-ui-auth-7.1.1/AndroidManifest.xml:47:13-55
+87        <activity
+87-->[com.firebaseui:firebase-ui-auth:7.1.1] /Users/lauragavilanfernandez/.gradle/caches/transforms-3/9d9fb59aceb523c913c0885801ab7929/transformed/firebase-ui-auth-7.1.1/AndroidManifest.xml:48:9-52:77
+88            android:name="com.firebase.ui.auth.ui.phone.PhoneActivity"
+88-->[com.firebaseui:firebase-ui-auth:7.1.1] /Users/lauragavilanfernandez/.gradle/caches/transforms-3/9d9fb59aceb523c913c0885801ab7929/transformed/firebase-ui-auth-7.1.1/AndroidManifest.xml:49:13-71
+89            android:exported="false"
+89-->[com.firebaseui:firebase-ui-auth:7.1.1] /Users/lauragavilanfernandez/.gradle/caches/transforms-3/9d9fb59aceb523c913c0885801ab7929/transformed/firebase-ui-auth-7.1.1/AndroidManifest.xml:50:13-37
+90            android:label="@string/fui_sign_in_with_phone_number"
+90-->[com.firebaseui:firebase-ui-auth:7.1.1] /Users/lauragavilanfernandez/.gradle/caches/transforms-3/9d9fb59aceb523c913c0885801ab7929/transformed/firebase-ui-auth-7.1.1/AndroidManifest.xml:51:13-66
+91            android:windowSoftInputMode="adjustResize|stateAlwaysVisible" />
+91-->[com.firebaseui:firebase-ui-auth:7.1.1] /Users/lauragavilanfernandez/.gradle/caches/transforms-3/9d9fb59aceb523c913c0885801ab7929/transformed/firebase-ui-auth-7.1.1/AndroidManifest.xml:52:13-74
+92        <activity
+92-->[com.firebaseui:firebase-ui-auth:7.1.1] /Users/lauragavilanfernandez/.gradle/caches/transforms-3/9d9fb59aceb523c913c0885801ab7929/transformed/firebase-ui-auth-7.1.1/AndroidManifest.xml:53:9-57:58
+93            android:name="com.firebase.ui.auth.ui.idp.WelcomeBackIdpPrompt"
+93-->[com.firebaseui:firebase-ui-auth:7.1.1] /Users/lauragavilanfernandez/.gradle/caches/transforms-3/9d9fb59aceb523c913c0885801ab7929/transformed/firebase-ui-auth-7.1.1/AndroidManifest.xml:54:13-76
+94            android:exported="false"
+94-->[com.firebaseui:firebase-ui-auth:7.1.1] /Users/lauragavilanfernandez/.gradle/caches/transforms-3/9d9fb59aceb523c913c0885801ab7929/transformed/firebase-ui-auth-7.1.1/AndroidManifest.xml:55:13-37
+95            android:label="@string/fui_title_welcome_back_idp_prompt"
+95-->[com.firebaseui:firebase-ui-auth:7.1.1] /Users/lauragavilanfernandez/.gradle/caches/transforms-3/9d9fb59aceb523c913c0885801ab7929/transformed/firebase-ui-auth-7.1.1/AndroidManifest.xml:56:13-70
+96            android:windowSoftInputMode="adjustResize" />
+96-->[com.firebaseui:firebase-ui-auth:7.1.1] /Users/lauragavilanfernandez/.gradle/caches/transforms-3/9d9fb59aceb523c913c0885801ab7929/transformed/firebase-ui-auth-7.1.1/AndroidManifest.xml:57:13-55
+97        <activity
+97-->[com.firebaseui:firebase-ui-auth:7.1.1] /Users/lauragavilanfernandez/.gradle/caches/transforms-3/9d9fb59aceb523c913c0885801ab7929/transformed/firebase-ui-auth-7.1.1/AndroidManifest.xml:58:9-62:58
+98            android:name="com.firebase.ui.auth.ui.email.WelcomeBackPasswordPrompt"
+98-->[com.firebaseui:firebase-ui-auth:7.1.1] /Users/lauragavilanfernandez/.gradle/caches/transforms-3/9d9fb59aceb523c913c0885801ab7929/transformed/firebase-ui-auth-7.1.1/AndroidManifest.xml:59:13-83
+99            android:exported="false"
+99-->[com.firebaseui:firebase-ui-auth:7.1.1] /Users/lauragavilanfernandez/.gradle/caches/transforms-3/9d9fb59aceb523c913c0885801ab7929/transformed/firebase-ui-auth-7.1.1/AndroidManifest.xml:60:13-37
+100            android:label="@string/fui_title_welcome_back_password_prompt"
+100-->[com.firebaseui:firebase-ui-auth:7.1.1] /Users/lauragavilanfernandez/.gradle/caches/transforms-3/9d9fb59aceb523c913c0885801ab7929/transformed/firebase-ui-auth-7.1.1/AndroidManifest.xml:61:13-75
+101            android:windowSoftInputMode="adjustResize" />
+101-->[com.firebaseui:firebase-ui-auth:7.1.1] /Users/lauragavilanfernandez/.gradle/caches/transforms-3/9d9fb59aceb523c913c0885801ab7929/transformed/firebase-ui-auth-7.1.1/AndroidManifest.xml:62:13-55
+102        <activity
+102-->[com.firebaseui:firebase-ui-auth:7.1.1] /Users/lauragavilanfernandez/.gradle/caches/transforms-3/9d9fb59aceb523c913c0885801ab7929/transformed/firebase-ui-auth-7.1.1/AndroidManifest.xml:63:9-67:58
+103            android:name="com.firebase.ui.auth.ui.email.WelcomeBackEmailLinkPrompt"
+103-->[com.firebaseui:firebase-ui-auth:7.1.1] /Users/lauragavilanfernandez/.gradle/caches/transforms-3/9d9fb59aceb523c913c0885801ab7929/transformed/firebase-ui-auth-7.1.1/AndroidManifest.xml:64:13-84
+104            android:exported="false"
+104-->[com.firebaseui:firebase-ui-auth:7.1.1] /Users/lauragavilanfernandez/.gradle/caches/transforms-3/9d9fb59aceb523c913c0885801ab7929/transformed/firebase-ui-auth-7.1.1/AndroidManifest.xml:65:13-37
+105            android:label="@string/fui_title_welcome_back_password_prompt"
+105-->[com.firebaseui:firebase-ui-auth:7.1.1] /Users/lauragavilanfernandez/.gradle/caches/transforms-3/9d9fb59aceb523c913c0885801ab7929/transformed/firebase-ui-auth-7.1.1/AndroidManifest.xml:66:13-75
+106            android:windowSoftInputMode="adjustResize" />
+106-->[com.firebaseui:firebase-ui-auth:7.1.1] /Users/lauragavilanfernandez/.gradle/caches/transforms-3/9d9fb59aceb523c913c0885801ab7929/transformed/firebase-ui-auth-7.1.1/AndroidManifest.xml:67:13-55
+107        <activity
+107-->[com.firebaseui:firebase-ui-auth:7.1.1] /Users/lauragavilanfernandez/.gradle/caches/transforms-3/9d9fb59aceb523c913c0885801ab7929/transformed/firebase-ui-auth-7.1.1/AndroidManifest.xml:68:9-73:58
+108            android:name="com.firebase.ui.auth.ui.email.EmailLinkCatcherActivity"
+108-->[com.firebaseui:firebase-ui-auth:7.1.1] /Users/lauragavilanfernandez/.gradle/caches/transforms-3/9d9fb59aceb523c913c0885801ab7929/transformed/firebase-ui-auth-7.1.1/AndroidManifest.xml:69:13-82
+109            android:exported="false"
+109-->[com.firebaseui:firebase-ui-auth:7.1.1] /Users/lauragavilanfernandez/.gradle/caches/transforms-3/9d9fb59aceb523c913c0885801ab7929/transformed/firebase-ui-auth-7.1.1/AndroidManifest.xml:70:13-37
+110            android:label=""
+110-->[com.firebaseui:firebase-ui-auth:7.1.1] /Users/lauragavilanfernandez/.gradle/caches/transforms-3/9d9fb59aceb523c913c0885801ab7929/transformed/firebase-ui-auth-7.1.1/AndroidManifest.xml:71:13-29
+111            android:theme="@style/FirebaseUI.Transparent"
+111-->[com.firebaseui:firebase-ui-auth:7.1.1] /Users/lauragavilanfernandez/.gradle/caches/transforms-3/9d9fb59aceb523c913c0885801ab7929/transformed/firebase-ui-auth-7.1.1/AndroidManifest.xml:72:13-58
+112            android:windowSoftInputMode="adjustResize" />
+112-->[com.firebaseui:firebase-ui-auth:7.1.1] /Users/lauragavilanfernandez/.gradle/caches/transforms-3/9d9fb59aceb523c913c0885801ab7929/transformed/firebase-ui-auth-7.1.1/AndroidManifest.xml:73:13-55
+113        <activity
+113-->[com.firebaseui:firebase-ui-auth:7.1.1] /Users/lauragavilanfernandez/.gradle/caches/transforms-3/9d9fb59aceb523c913c0885801ab7929/transformed/firebase-ui-auth-7.1.1/AndroidManifest.xml:74:9-78:58
+114            android:name="com.firebase.ui.auth.ui.email.EmailLinkErrorRecoveryActivity"
+114-->[com.firebaseui:firebase-ui-auth:7.1.1] /Users/lauragavilanfernandez/.gradle/caches/transforms-3/9d9fb59aceb523c913c0885801ab7929/transformed/firebase-ui-auth-7.1.1/AndroidManifest.xml:75:13-88
+115            android:exported="false"
+115-->[com.firebaseui:firebase-ui-auth:7.1.1] /Users/lauragavilanfernandez/.gradle/caches/transforms-3/9d9fb59aceb523c913c0885801ab7929/transformed/firebase-ui-auth-7.1.1/AndroidManifest.xml:76:13-37
+116            android:label="@string/fui_sign_in_default"
+116-->[com.firebaseui:firebase-ui-auth:7.1.1] /Users/lauragavilanfernandez/.gradle/caches/transforms-3/9d9fb59aceb523c913c0885801ab7929/transformed/firebase-ui-auth-7.1.1/AndroidManifest.xml:77:13-56
+117            android:windowSoftInputMode="adjustResize" />
+117-->[com.firebaseui:firebase-ui-auth:7.1.1] /Users/lauragavilanfernandez/.gradle/caches/transforms-3/9d9fb59aceb523c913c0885801ab7929/transformed/firebase-ui-auth-7.1.1/AndroidManifest.xml:78:13-55
+118        <activity
+118-->[com.firebaseui:firebase-ui-auth:7.1.1] /Users/lauragavilanfernandez/.gradle/caches/transforms-3/9d9fb59aceb523c913c0885801ab7929/transformed/firebase-ui-auth-7.1.1/AndroidManifest.xml:79:9-82:65
+119            android:name="com.firebase.ui.auth.ui.idp.AuthMethodPickerActivity"
+119-->[com.firebaseui:firebase-ui-auth:7.1.1] /Users/lauragavilanfernandez/.gradle/caches/transforms-3/9d9fb59aceb523c913c0885801ab7929/transformed/firebase-ui-auth-7.1.1/AndroidManifest.xml:80:13-80
+120            android:exported="false"
+120-->[com.firebaseui:firebase-ui-auth:7.1.1] /Users/lauragavilanfernandez/.gradle/caches/transforms-3/9d9fb59aceb523c913c0885801ab7929/transformed/firebase-ui-auth-7.1.1/AndroidManifest.xml:81:13-37
+121            android:label="@string/fui_default_toolbar_title" />
+121-->[com.firebaseui:firebase-ui-auth:7.1.1] /Users/lauragavilanfernandez/.gradle/caches/transforms-3/9d9fb59aceb523c913c0885801ab7929/transformed/firebase-ui-auth-7.1.1/AndroidManifest.xml:82:13-62
+122        <activity
+122-->[com.firebaseui:firebase-ui-auth:7.1.1] /Users/lauragavilanfernandez/.gradle/caches/transforms-3/9d9fb59aceb523c913c0885801ab7929/transformed/firebase-ui-auth-7.1.1/AndroidManifest.xml:83:9-87:48
+123            android:name="com.facebook.FacebookActivity"
+123-->[com.firebaseui:firebase-ui-auth:7.1.1] /Users/lauragavilanfernandez/.gradle/caches/transforms-3/9d9fb59aceb523c913c0885801ab7929/transformed/firebase-ui-auth-7.1.1/AndroidManifest.xml:84:13-57
+124            android:configChanges="keyboard|keyboardHidden|screenLayout|screenSize|orientation"
+124-->[com.firebaseui:firebase-ui-auth:7.1.1] /Users/lauragavilanfernandez/.gradle/caches/transforms-3/9d9fb59aceb523c913c0885801ab7929/transformed/firebase-ui-auth-7.1.1/AndroidManifest.xml:85:13-96
+125            android:label="@string/app_name" />
+125-->[com.firebaseui:firebase-ui-auth:7.1.1] /Users/lauragavilanfernandez/.gradle/caches/transforms-3/9d9fb59aceb523c913c0885801ab7929/transformed/firebase-ui-auth-7.1.1/AndroidManifest.xml:86:13-45
+126        <activity
+126-->[com.firebaseui:firebase-ui-auth:7.1.1] /Users/lauragavilanfernandez/.gradle/caches/transforms-3/9d9fb59aceb523c913c0885801ab7929/transformed/firebase-ui-auth-7.1.1/AndroidManifest.xml:88:9-100:20
+127            android:name="com.facebook.CustomTabActivity"
+127-->[com.firebaseui:firebase-ui-auth:7.1.1] /Users/lauragavilanfernandez/.gradle/caches/transforms-3/9d9fb59aceb523c913c0885801ab7929/transformed/firebase-ui-auth-7.1.1/AndroidManifest.xml:89:13-58
+128            android:exported="true" >
+128-->[com.firebaseui:firebase-ui-auth:7.1.1] /Users/lauragavilanfernandez/.gradle/caches/transforms-3/9d9fb59aceb523c913c0885801ab7929/transformed/firebase-ui-auth-7.1.1/AndroidManifest.xml:90:13-36
+129            <intent-filter>
+129-->[com.firebaseui:firebase-ui-auth:7.1.1] /Users/lauragavilanfernandez/.gradle/caches/transforms-3/9d9fb59aceb523c913c0885801ab7929/transformed/firebase-ui-auth-7.1.1/AndroidManifest.xml:92:13-99:29
+130                <action android:name="android.intent.action.VIEW" />
+130-->[com.firebaseui:firebase-ui-auth:7.1.1] /Users/lauragavilanfernandez/.gradle/caches/transforms-3/9d9fb59aceb523c913c0885801ab7929/transformed/firebase-ui-auth-7.1.1/AndroidManifest.xml:93:17-69
+130-->[com.firebaseui:firebase-ui-auth:7.1.1] /Users/lauragavilanfernandez/.gradle/caches/transforms-3/9d9fb59aceb523c913c0885801ab7929/transformed/firebase-ui-auth-7.1.1/AndroidManifest.xml:93:25-66
+131
+132                <category android:name="android.intent.category.DEFAULT" />
+132-->[com.firebaseui:firebase-ui-auth:7.1.1] /Users/lauragavilanfernandez/.gradle/caches/transforms-3/9d9fb59aceb523c913c0885801ab7929/transformed/firebase-ui-auth-7.1.1/AndroidManifest.xml:95:17-76
+132-->[com.firebaseui:firebase-ui-auth:7.1.1] /Users/lauragavilanfernandez/.gradle/caches/transforms-3/9d9fb59aceb523c913c0885801ab7929/transformed/firebase-ui-auth-7.1.1/AndroidManifest.xml:95:27-73
+133                <category android:name="android.intent.category.BROWSABLE" />
+133-->[com.firebaseui:firebase-ui-auth:7.1.1] /Users/lauragavilanfernandez/.gradle/caches/transforms-3/9d9fb59aceb523c913c0885801ab7929/transformed/firebase-ui-auth-7.1.1/AndroidManifest.xml:96:17-78
+133-->[com.firebaseui:firebase-ui-auth:7.1.1] /Users/lauragavilanfernandez/.gradle/caches/transforms-3/9d9fb59aceb523c913c0885801ab7929/transformed/firebase-ui-auth-7.1.1/AndroidManifest.xml:96:27-75
+134
+135                <data android:scheme="@string/facebook_login_protocol_scheme" />
+135-->[com.firebaseui:firebase-ui-auth:7.1.1] /Users/lauragavilanfernandez/.gradle/caches/transforms-3/9d9fb59aceb523c913c0885801ab7929/transformed/firebase-ui-auth-7.1.1/AndroidManifest.xml:98:17-81
+135-->[com.firebaseui:firebase-ui-auth:7.1.1] /Users/lauragavilanfernandez/.gradle/caches/transforms-3/9d9fb59aceb523c913c0885801ab7929/transformed/firebase-ui-auth-7.1.1/AndroidManifest.xml:98:23-78
+136            </intent-filter>
+137        </activity>
+138
+139        <provider
+139-->[com.firebaseui:firebase-ui-auth:7.1.1] /Users/lauragavilanfernandez/.gradle/caches/transforms-3/9d9fb59aceb523c913c0885801ab7929/transformed/firebase-ui-auth-7.1.1/AndroidManifest.xml:102:9-106:38
+140            android:name="com.firebase.ui.auth.data.client.AuthUiInitProvider"
+140-->[com.firebaseui:firebase-ui-auth:7.1.1] /Users/lauragavilanfernandez/.gradle/caches/transforms-3/9d9fb59aceb523c913c0885801ab7929/transformed/firebase-ui-auth-7.1.1/AndroidManifest.xml:103:13-79
+141            android:authorities="es.upv.epsg.iot_g1_1.authuiinitprovider"
+141-->[com.firebaseui:firebase-ui-auth:7.1.1] /Users/lauragavilanfernandez/.gradle/caches/transforms-3/9d9fb59aceb523c913c0885801ab7929/transformed/firebase-ui-auth-7.1.1/AndroidManifest.xml:104:13-70
+142            android:exported="false"
+142-->[com.firebaseui:firebase-ui-auth:7.1.1] /Users/lauragavilanfernandez/.gradle/caches/transforms-3/9d9fb59aceb523c913c0885801ab7929/transformed/firebase-ui-auth-7.1.1/AndroidManifest.xml:105:13-37
+143            android:initOrder="90" />
+143-->[com.firebaseui:firebase-ui-auth:7.1.1] /Users/lauragavilanfernandez/.gradle/caches/transforms-3/9d9fb59aceb523c913c0885801ab7929/transformed/firebase-ui-auth-7.1.1/AndroidManifest.xml:106:13-35
+144
+145        <activity
+145-->[com.google.firebase:firebase-auth:21.1.0] /Users/lauragavilanfernandez/.gradle/caches/transforms-3/1aeae38695591b5982ad501f0dcd82d1/transformed/firebase-auth-21.1.0/AndroidManifest.xml:27:9-44:20
+146            android:name="com.google.firebase.auth.internal.GenericIdpActivity"
+146-->[com.google.firebase:firebase-auth:21.1.0] /Users/lauragavilanfernandez/.gradle/caches/transforms-3/1aeae38695591b5982ad501f0dcd82d1/transformed/firebase-auth-21.1.0/AndroidManifest.xml:28:13-80
+147            android:excludeFromRecents="true"
+147-->[com.google.firebase:firebase-auth:21.1.0] /Users/lauragavilanfernandez/.gradle/caches/transforms-3/1aeae38695591b5982ad501f0dcd82d1/transformed/firebase-auth-21.1.0/AndroidManifest.xml:29:13-46
+148            android:exported="true"
+148-->[com.google.firebase:firebase-auth:21.1.0] /Users/lauragavilanfernandez/.gradle/caches/transforms-3/1aeae38695591b5982ad501f0dcd82d1/transformed/firebase-auth-21.1.0/AndroidManifest.xml:30:13-36
+149            android:launchMode="singleTask"
+149-->[com.google.firebase:firebase-auth:21.1.0] /Users/lauragavilanfernandez/.gradle/caches/transforms-3/1aeae38695591b5982ad501f0dcd82d1/transformed/firebase-auth-21.1.0/AndroidManifest.xml:31:13-44
+150            android:theme="@android:style/Theme.Translucent.NoTitleBar" >
+150-->[com.google.firebase:firebase-auth:21.1.0] /Users/lauragavilanfernandez/.gradle/caches/transforms-3/1aeae38695591b5982ad501f0dcd82d1/transformed/firebase-auth-21.1.0/AndroidManifest.xml:32:13-72
+151            <intent-filter>
+151-->[com.google.firebase:firebase-auth:21.1.0] /Users/lauragavilanfernandez/.gradle/caches/transforms-3/1aeae38695591b5982ad501f0dcd82d1/transformed/firebase-auth-21.1.0/AndroidManifest.xml:33:13-43:29
+152                <action android:name="android.intent.action.VIEW" />
+152-->[com.firebaseui:firebase-ui-auth:7.1.1] /Users/lauragavilanfernandez/.gradle/caches/transforms-3/9d9fb59aceb523c913c0885801ab7929/transformed/firebase-ui-auth-7.1.1/AndroidManifest.xml:93:17-69
+152-->[com.firebaseui:firebase-ui-auth:7.1.1] /Users/lauragavilanfernandez/.gradle/caches/transforms-3/9d9fb59aceb523c913c0885801ab7929/transformed/firebase-ui-auth-7.1.1/AndroidManifest.xml:93:25-66
+153
+154                <category android:name="android.intent.category.DEFAULT" />
+154-->[com.firebaseui:firebase-ui-auth:7.1.1] /Users/lauragavilanfernandez/.gradle/caches/transforms-3/9d9fb59aceb523c913c0885801ab7929/transformed/firebase-ui-auth-7.1.1/AndroidManifest.xml:95:17-76
+154-->[com.firebaseui:firebase-ui-auth:7.1.1] /Users/lauragavilanfernandez/.gradle/caches/transforms-3/9d9fb59aceb523c913c0885801ab7929/transformed/firebase-ui-auth-7.1.1/AndroidManifest.xml:95:27-73
+155                <category android:name="android.intent.category.BROWSABLE" />
+155-->[com.firebaseui:firebase-ui-auth:7.1.1] /Users/lauragavilanfernandez/.gradle/caches/transforms-3/9d9fb59aceb523c913c0885801ab7929/transformed/firebase-ui-auth-7.1.1/AndroidManifest.xml:96:17-78
+155-->[com.firebaseui:firebase-ui-auth:7.1.1] /Users/lauragavilanfernandez/.gradle/caches/transforms-3/9d9fb59aceb523c913c0885801ab7929/transformed/firebase-ui-auth-7.1.1/AndroidManifest.xml:96:27-75
+156
+157                <data
+157-->[com.firebaseui:firebase-ui-auth:7.1.1] /Users/lauragavilanfernandez/.gradle/caches/transforms-3/9d9fb59aceb523c913c0885801ab7929/transformed/firebase-ui-auth-7.1.1/AndroidManifest.xml:98:17-81
+158                    android:host="firebase.auth"
+159                    android:path="/"
+160                    android:scheme="genericidp" />
+160-->[com.firebaseui:firebase-ui-auth:7.1.1] /Users/lauragavilanfernandez/.gradle/caches/transforms-3/9d9fb59aceb523c913c0885801ab7929/transformed/firebase-ui-auth-7.1.1/AndroidManifest.xml:98:23-78
+161            </intent-filter>
+162        </activity>
+163        <activity
+163-->[com.google.firebase:firebase-auth:21.1.0] /Users/lauragavilanfernandez/.gradle/caches/transforms-3/1aeae38695591b5982ad501f0dcd82d1/transformed/firebase-auth-21.1.0/AndroidManifest.xml:45:9-62:20
+164            android:name="com.google.firebase.auth.internal.RecaptchaActivity"
+164-->[com.google.firebase:firebase-auth:21.1.0] /Users/lauragavilanfernandez/.gradle/caches/transforms-3/1aeae38695591b5982ad501f0dcd82d1/transformed/firebase-auth-21.1.0/AndroidManifest.xml:46:13-79
+165            android:excludeFromRecents="true"
+165-->[com.google.firebase:firebase-auth:21.1.0] /Users/lauragavilanfernandez/.gradle/caches/transforms-3/1aeae38695591b5982ad501f0dcd82d1/transformed/firebase-auth-21.1.0/AndroidManifest.xml:47:13-46
+166            android:exported="true"
+166-->[com.google.firebase:firebase-auth:21.1.0] /Users/lauragavilanfernandez/.gradle/caches/transforms-3/1aeae38695591b5982ad501f0dcd82d1/transformed/firebase-auth-21.1.0/AndroidManifest.xml:48:13-36
+167            android:launchMode="singleTask"
+167-->[com.google.firebase:firebase-auth:21.1.0] /Users/lauragavilanfernandez/.gradle/caches/transforms-3/1aeae38695591b5982ad501f0dcd82d1/transformed/firebase-auth-21.1.0/AndroidManifest.xml:49:13-44
+168            android:theme="@android:style/Theme.Translucent.NoTitleBar" >
+168-->[com.google.firebase:firebase-auth:21.1.0] /Users/lauragavilanfernandez/.gradle/caches/transforms-3/1aeae38695591b5982ad501f0dcd82d1/transformed/firebase-auth-21.1.0/AndroidManifest.xml:50:13-72
+169            <intent-filter>
+169-->[com.google.firebase:firebase-auth:21.1.0] /Users/lauragavilanfernandez/.gradle/caches/transforms-3/1aeae38695591b5982ad501f0dcd82d1/transformed/firebase-auth-21.1.0/AndroidManifest.xml:51:13-61:29
+170                <action android:name="android.intent.action.VIEW" />
+170-->[com.firebaseui:firebase-ui-auth:7.1.1] /Users/lauragavilanfernandez/.gradle/caches/transforms-3/9d9fb59aceb523c913c0885801ab7929/transformed/firebase-ui-auth-7.1.1/AndroidManifest.xml:93:17-69
+170-->[com.firebaseui:firebase-ui-auth:7.1.1] /Users/lauragavilanfernandez/.gradle/caches/transforms-3/9d9fb59aceb523c913c0885801ab7929/transformed/firebase-ui-auth-7.1.1/AndroidManifest.xml:93:25-66
+171
+172                <category android:name="android.intent.category.DEFAULT" />
+172-->[com.firebaseui:firebase-ui-auth:7.1.1] /Users/lauragavilanfernandez/.gradle/caches/transforms-3/9d9fb59aceb523c913c0885801ab7929/transformed/firebase-ui-auth-7.1.1/AndroidManifest.xml:95:17-76
+172-->[com.firebaseui:firebase-ui-auth:7.1.1] /Users/lauragavilanfernandez/.gradle/caches/transforms-3/9d9fb59aceb523c913c0885801ab7929/transformed/firebase-ui-auth-7.1.1/AndroidManifest.xml:95:27-73
+173                <category android:name="android.intent.category.BROWSABLE" />
+173-->[com.firebaseui:firebase-ui-auth:7.1.1] /Users/lauragavilanfernandez/.gradle/caches/transforms-3/9d9fb59aceb523c913c0885801ab7929/transformed/firebase-ui-auth-7.1.1/AndroidManifest.xml:96:17-78
+173-->[com.firebaseui:firebase-ui-auth:7.1.1] /Users/lauragavilanfernandez/.gradle/caches/transforms-3/9d9fb59aceb523c913c0885801ab7929/transformed/firebase-ui-auth-7.1.1/AndroidManifest.xml:96:27-75
+174
+175                <data
+175-->[com.firebaseui:firebase-ui-auth:7.1.1] /Users/lauragavilanfernandez/.gradle/caches/transforms-3/9d9fb59aceb523c913c0885801ab7929/transformed/firebase-ui-auth-7.1.1/AndroidManifest.xml:98:17-81
+176                    android:host="firebase.auth"
+177                    android:path="/"
+178                    android:scheme="recaptcha" />
+178-->[com.firebaseui:firebase-ui-auth:7.1.1] /Users/lauragavilanfernandez/.gradle/caches/transforms-3/9d9fb59aceb523c913c0885801ab7929/transformed/firebase-ui-auth-7.1.1/AndroidManifest.xml:98:23-78
+179            </intent-filter>
+180        </activity>
+181
+182        <service
+182-->[com.google.firebase:firebase-auth:21.1.0] /Users/lauragavilanfernandez/.gradle/caches/transforms-3/1aeae38695591b5982ad501f0dcd82d1/transformed/firebase-auth-21.1.0/AndroidManifest.xml:64:9-70:19
+183            android:name="com.google.firebase.components.ComponentDiscoveryService"
+183-->[com.google.firebase:firebase-auth:21.1.0] /Users/lauragavilanfernandez/.gradle/caches/transforms-3/1aeae38695591b5982ad501f0dcd82d1/transformed/firebase-auth-21.1.0/AndroidManifest.xml:65:13-84
+184            android:directBootAware="true"
+184-->[com.google.firebase:firebase-common:20.2.0] /Users/lauragavilanfernandez/.gradle/caches/transforms-3/43ecb9fe4a41b74bf6ca0512832e7f27/transformed/firebase-common-20.2.0/AndroidManifest.xml:34:13-43
+185            android:exported="false" >
+185-->[com.google.firebase:firebase-auth:21.1.0] /Users/lauragavilanfernandez/.gradle/caches/transforms-3/1aeae38695591b5982ad501f0dcd82d1/transformed/firebase-auth-21.1.0/AndroidManifest.xml:66:13-37
+186            <meta-data
+186-->[com.google.firebase:firebase-auth:21.1.0] /Users/lauragavilanfernandez/.gradle/caches/transforms-3/1aeae38695591b5982ad501f0dcd82d1/transformed/firebase-auth-21.1.0/AndroidManifest.xml:67:13-69:85
+187                android:name="com.google.firebase.components:com.google.firebase.auth.FirebaseAuthRegistrar"
+187-->[com.google.firebase:firebase-auth:21.1.0] /Users/lauragavilanfernandez/.gradle/caches/transforms-3/1aeae38695591b5982ad501f0dcd82d1/transformed/firebase-auth-21.1.0/AndroidManifest.xml:68:17-109
+188                android:value="com.google.firebase.components.ComponentRegistrar" />
+188-->[com.google.firebase:firebase-auth:21.1.0] /Users/lauragavilanfernandez/.gradle/caches/transforms-3/1aeae38695591b5982ad501f0dcd82d1/transformed/firebase-auth-21.1.0/AndroidManifest.xml:69:17-82
+189            <meta-data
+189-->[com.google.android.gms:play-services-measurement-api:21.2.0] /Users/lauragavilanfernandez/.gradle/caches/transforms-3/c0f30181d9cd5e3d606ad78973556466/transformed/play-services-measurement-api-21.2.0/AndroidManifest.xml:31:13-33:85
+190                android:name="com.google.firebase.components:com.google.firebase.analytics.connector.internal.AnalyticsConnectorRegistrar"
+190-->[com.google.android.gms:play-services-measurement-api:21.2.0] /Users/lauragavilanfernandez/.gradle/caches/transforms-3/c0f30181d9cd5e3d606ad78973556466/transformed/play-services-measurement-api-21.2.0/AndroidManifest.xml:32:17-139
+191                android:value="com.google.firebase.components.ComponentRegistrar" />
+191-->[com.google.android.gms:play-services-measurement-api:21.2.0] /Users/lauragavilanfernandez/.gradle/caches/transforms-3/c0f30181d9cd5e3d606ad78973556466/transformed/play-services-measurement-api-21.2.0/AndroidManifest.xml:33:17-82
+192            <meta-data
+192-->[com.google.firebase:firebase-installations:17.1.0] /Users/lauragavilanfernandez/.gradle/caches/transforms-3/2688d1466ddf905fe792150b8a685bcc/transformed/firebase-installations-17.1.0/AndroidManifest.xml:17:13-19:85
+193                android:name="com.google.firebase.components:com.google.firebase.installations.FirebaseInstallationsRegistrar"
+193-->[com.google.firebase:firebase-installations:17.1.0] /Users/lauragavilanfernandez/.gradle/caches/transforms-3/2688d1466ddf905fe792150b8a685bcc/transformed/firebase-installations-17.1.0/AndroidManifest.xml:18:17-127
+194                android:value="com.google.firebase.components.ComponentRegistrar" />
+194-->[com.google.firebase:firebase-installations:17.1.0] /Users/lauragavilanfernandez/.gradle/caches/transforms-3/2688d1466ddf905fe792150b8a685bcc/transformed/firebase-installations-17.1.0/AndroidManifest.xml:19:17-82
+195        </service>
+196
+197        <provider
+197-->[com.google.firebase:firebase-common:20.2.0] /Users/lauragavilanfernandez/.gradle/caches/transforms-3/43ecb9fe4a41b74bf6ca0512832e7f27/transformed/firebase-common-20.2.0/AndroidManifest.xml:25:9-30:39
+198            android:name="com.google.firebase.provider.FirebaseInitProvider"
+198-->[com.google.firebase:firebase-common:20.2.0] /Users/lauragavilanfernandez/.gradle/caches/transforms-3/43ecb9fe4a41b74bf6ca0512832e7f27/transformed/firebase-common-20.2.0/AndroidManifest.xml:26:13-77
+199            android:authorities="es.upv.epsg.iot_g1_1.firebaseinitprovider"
+199-->[com.google.firebase:firebase-common:20.2.0] /Users/lauragavilanfernandez/.gradle/caches/transforms-3/43ecb9fe4a41b74bf6ca0512832e7f27/transformed/firebase-common-20.2.0/AndroidManifest.xml:27:13-72
+200            android:directBootAware="true"
+200-->[com.google.firebase:firebase-common:20.2.0] /Users/lauragavilanfernandez/.gradle/caches/transforms-3/43ecb9fe4a41b74bf6ca0512832e7f27/transformed/firebase-common-20.2.0/AndroidManifest.xml:28:13-43
+201            android:exported="false"
+201-->[com.google.firebase:firebase-common:20.2.0] /Users/lauragavilanfernandez/.gradle/caches/transforms-3/43ecb9fe4a41b74bf6ca0512832e7f27/transformed/firebase-common-20.2.0/AndroidManifest.xml:29:13-37
+202            android:initOrder="100" />
+202-->[com.google.firebase:firebase-common:20.2.0] /Users/lauragavilanfernandez/.gradle/caches/transforms-3/43ecb9fe4a41b74bf6ca0512832e7f27/transformed/firebase-common-20.2.0/AndroidManifest.xml:30:13-36
+203
+204        <activity
+204-->[com.google.android.gms:play-services-auth:19.0.0] /Users/lauragavilanfernandez/.gradle/caches/transforms-3/3523441c2bd8fe817ff287dfe2f810c9/transformed/play-services-auth-19.0.0/AndroidManifest.xml:23:9-27:75
+205            android:name="com.google.android.gms.auth.api.signin.internal.SignInHubActivity"
+205-->[com.google.android.gms:play-services-auth:19.0.0] /Users/lauragavilanfernandez/.gradle/caches/transforms-3/3523441c2bd8fe817ff287dfe2f810c9/transformed/play-services-auth-19.0.0/AndroidManifest.xml:24:13-93
+206            android:excludeFromRecents="true"
+206-->[com.google.android.gms:play-services-auth:19.0.0] /Users/lauragavilanfernandez/.gradle/caches/transforms-3/3523441c2bd8fe817ff287dfe2f810c9/transformed/play-services-auth-19.0.0/AndroidManifest.xml:25:13-46
+207            android:exported="false"
+207-->[com.google.android.gms:play-services-auth:19.0.0] /Users/lauragavilanfernandez/.gradle/caches/transforms-3/3523441c2bd8fe817ff287dfe2f810c9/transformed/play-services-auth-19.0.0/AndroidManifest.xml:26:13-37
+208            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+208-->[com.google.android.gms:play-services-auth:19.0.0] /Users/lauragavilanfernandez/.gradle/caches/transforms-3/3523441c2bd8fe817ff287dfe2f810c9/transformed/play-services-auth-19.0.0/AndroidManifest.xml:27:13-72
+209        <!--
+210            Service handling Google Sign-In user revocation. For apps that do not integrate with
+211            Google Sign-In, this service will never be started.
+212        -->
+213        <service
+213-->[com.google.android.gms:play-services-auth:19.0.0] /Users/lauragavilanfernandez/.gradle/caches/transforms-3/3523441c2bd8fe817ff287dfe2f810c9/transformed/play-services-auth-19.0.0/AndroidManifest.xml:33:9-37:51
+214            android:name="com.google.android.gms.auth.api.signin.RevocationBoundService"
+214-->[com.google.android.gms:play-services-auth:19.0.0] /Users/lauragavilanfernandez/.gradle/caches/transforms-3/3523441c2bd8fe817ff287dfe2f810c9/transformed/play-services-auth-19.0.0/AndroidManifest.xml:34:13-89
+215            android:exported="true"
+215-->[com.google.android.gms:play-services-auth:19.0.0] /Users/lauragavilanfernandez/.gradle/caches/transforms-3/3523441c2bd8fe817ff287dfe2f810c9/transformed/play-services-auth-19.0.0/AndroidManifest.xml:35:13-36
+216            android:permission="com.google.android.gms.auth.api.signin.permission.REVOCATION_NOTIFICATION"
+216-->[com.google.android.gms:play-services-auth:19.0.0] /Users/lauragavilanfernandez/.gradle/caches/transforms-3/3523441c2bd8fe817ff287dfe2f810c9/transformed/play-services-auth-19.0.0/AndroidManifest.xml:36:13-107
+217            android:visibleToInstantApps="true" />
+217-->[com.google.android.gms:play-services-auth:19.0.0] /Users/lauragavilanfernandez/.gradle/caches/transforms-3/3523441c2bd8fe817ff287dfe2f810c9/transformed/play-services-auth-19.0.0/AndroidManifest.xml:37:13-48
+218
+219        <activity
+219-->[com.google.android.gms:play-services-base:17.1.0] /Users/lauragavilanfernandez/.gradle/caches/transforms-3/bde6a4ee1157c82698da5ca081113751/transformed/play-services-base-17.1.0/AndroidManifest.xml:23:9-26:75
+220            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+220-->[com.google.android.gms:play-services-base:17.1.0] /Users/lauragavilanfernandez/.gradle/caches/transforms-3/bde6a4ee1157c82698da5ca081113751/transformed/play-services-base-17.1.0/AndroidManifest.xml:24:13-79
+221            android:exported="false"
+221-->[com.google.android.gms:play-services-base:17.1.0] /Users/lauragavilanfernandez/.gradle/caches/transforms-3/bde6a4ee1157c82698da5ca081113751/transformed/play-services-base-17.1.0/AndroidManifest.xml:25:13-37
+222            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+222-->[com.google.android.gms:play-services-base:17.1.0] /Users/lauragavilanfernandez/.gradle/caches/transforms-3/bde6a4ee1157c82698da5ca081113751/transformed/play-services-base-17.1.0/AndroidManifest.xml:26:13-72
+223
+224        <receiver
+224-->[com.google.android.gms:play-services-measurement:21.2.0] /Users/lauragavilanfernandez/.gradle/caches/transforms-3/bfd6cea21695863e78221e007eb2751f/transformed/play-services-measurement-21.2.0/AndroidManifest.xml:29:9-33:20
+225            android:name="com.google.android.gms.measurement.AppMeasurementReceiver"
+225-->[com.google.android.gms:play-services-measurement:21.2.0] /Users/lauragavilanfernandez/.gradle/caches/transforms-3/bfd6cea21695863e78221e007eb2751f/transformed/play-services-measurement-21.2.0/AndroidManifest.xml:30:13-85
+226            android:enabled="true"
+226-->[com.google.android.gms:play-services-measurement:21.2.0] /Users/lauragavilanfernandez/.gradle/caches/transforms-3/bfd6cea21695863e78221e007eb2751f/transformed/play-services-measurement-21.2.0/AndroidManifest.xml:31:13-35
+227            android:exported="false" >
+227-->[com.google.android.gms:play-services-measurement:21.2.0] /Users/lauragavilanfernandez/.gradle/caches/transforms-3/bfd6cea21695863e78221e007eb2751f/transformed/play-services-measurement-21.2.0/AndroidManifest.xml:32:13-37
+228        </receiver>
+229
+230        <service
+230-->[com.google.android.gms:play-services-measurement:21.2.0] /Users/lauragavilanfernandez/.gradle/caches/transforms-3/bfd6cea21695863e78221e007eb2751f/transformed/play-services-measurement-21.2.0/AndroidManifest.xml:35:9-38:40
+231            android:name="com.google.android.gms.measurement.AppMeasurementService"
+231-->[com.google.android.gms:play-services-measurement:21.2.0] /Users/lauragavilanfernandez/.gradle/caches/transforms-3/bfd6cea21695863e78221e007eb2751f/transformed/play-services-measurement-21.2.0/AndroidManifest.xml:36:13-84
+232            android:enabled="true"
+232-->[com.google.android.gms:play-services-measurement:21.2.0] /Users/lauragavilanfernandez/.gradle/caches/transforms-3/bfd6cea21695863e78221e007eb2751f/transformed/play-services-measurement-21.2.0/AndroidManifest.xml:37:13-35
+233            android:exported="false" />
+233-->[com.google.android.gms:play-services-measurement:21.2.0] /Users/lauragavilanfernandez/.gradle/caches/transforms-3/bfd6cea21695863e78221e007eb2751f/transformed/play-services-measurement-21.2.0/AndroidManifest.xml:38:13-37
+234        <service
+234-->[com.google.android.gms:play-services-measurement:21.2.0] /Users/lauragavilanfernandez/.gradle/caches/transforms-3/bfd6cea21695863e78221e007eb2751f/transformed/play-services-measurement-21.2.0/AndroidManifest.xml:39:9-43:72
+235            android:name="com.google.android.gms.measurement.AppMeasurementJobService"
+235-->[com.google.android.gms:play-services-measurement:21.2.0] /Users/lauragavilanfernandez/.gradle/caches/transforms-3/bfd6cea21695863e78221e007eb2751f/transformed/play-services-measurement-21.2.0/AndroidManifest.xml:40:13-87
+236            android:enabled="true"
+236-->[com.google.android.gms:play-services-measurement:21.2.0] /Users/lauragavilanfernandez/.gradle/caches/transforms-3/bfd6cea21695863e78221e007eb2751f/transformed/play-services-measurement-21.2.0/AndroidManifest.xml:41:13-35
+237            android:exported="false"
+237-->[com.google.android.gms:play-services-measurement:21.2.0] /Users/lauragavilanfernandez/.gradle/caches/transforms-3/bfd6cea21695863e78221e007eb2751f/transformed/play-services-measurement-21.2.0/AndroidManifest.xml:42:13-37
+238            android:permission="android.permission.BIND_JOB_SERVICE" />
+238-->[com.google.android.gms:play-services-measurement:21.2.0] /Users/lauragavilanfernandez/.gradle/caches/transforms-3/bfd6cea21695863e78221e007eb2751f/transformed/play-services-measurement-21.2.0/AndroidManifest.xml:43:13-69
+239
+240        <provider
+240-->[androidx.emoji2:emoji2:1.2.0] /Users/lauragavilanfernandez/.gradle/caches/transforms-3/39e3520655ef763a8ff65228d9ba7c89/transformed/emoji2-1.2.0/AndroidManifest.xml:24:9-32:20
+241            android:name="androidx.startup.InitializationProvider"
+241-->[androidx.emoji2:emoji2:1.2.0] /Users/lauragavilanfernandez/.gradle/caches/transforms-3/39e3520655ef763a8ff65228d9ba7c89/transformed/emoji2-1.2.0/AndroidManifest.xml:25:13-67
+242            android:authorities="es.upv.epsg.iot_g1_1.androidx-startup"
+242-->[androidx.emoji2:emoji2:1.2.0] /Users/lauragavilanfernandez/.gradle/caches/transforms-3/39e3520655ef763a8ff65228d9ba7c89/transformed/emoji2-1.2.0/AndroidManifest.xml:26:13-68
+243            android:exported="false" >
+243-->[androidx.emoji2:emoji2:1.2.0] /Users/lauragavilanfernandez/.gradle/caches/transforms-3/39e3520655ef763a8ff65228d9ba7c89/transformed/emoji2-1.2.0/AndroidManifest.xml:27:13-37
+244            <meta-data
+244-->[androidx.emoji2:emoji2:1.2.0] /Users/lauragavilanfernandez/.gradle/caches/transforms-3/39e3520655ef763a8ff65228d9ba7c89/transformed/emoji2-1.2.0/AndroidManifest.xml:29:13-31:52
+245                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+245-->[androidx.emoji2:emoji2:1.2.0] /Users/lauragavilanfernandez/.gradle/caches/transforms-3/39e3520655ef763a8ff65228d9ba7c89/transformed/emoji2-1.2.0/AndroidManifest.xml:30:17-75
+246                android:value="androidx.startup" />
+246-->[androidx.emoji2:emoji2:1.2.0] /Users/lauragavilanfernandez/.gradle/caches/transforms-3/39e3520655ef763a8ff65228d9ba7c89/transformed/emoji2-1.2.0/AndroidManifest.xml:31:17-49
+247            <meta-data
+247-->[androidx.lifecycle:lifecycle-process:2.4.1] /Users/lauragavilanfernandez/.gradle/caches/transforms-3/ee189f7a444f9d3aa467ea05a84d6234/transformed/lifecycle-process-2.4.1/AndroidManifest.xml:31:13-33:52
+248                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+248-->[androidx.lifecycle:lifecycle-process:2.4.1] /Users/lauragavilanfernandez/.gradle/caches/transforms-3/ee189f7a444f9d3aa467ea05a84d6234/transformed/lifecycle-process-2.4.1/AndroidManifest.xml:32:17-78
+249                android:value="androidx.startup" />
+249-->[androidx.lifecycle:lifecycle-process:2.4.1] /Users/lauragavilanfernandez/.gradle/caches/transforms-3/ee189f7a444f9d3aa467ea05a84d6234/transformed/lifecycle-process-2.4.1/AndroidManifest.xml:33:17-49
+250        </provider>
+251    </application>
+252
+253</manifest>

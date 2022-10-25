@@ -1,0 +1,758 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /Users/lauragavilanfernandez/Desktop/IoT_G11/app/src/main/AndroidManifest.xml:2:1-32:12
+INJECTED from /Users/lauragavilanfernandez/Desktop/IoT_G11/app/src/main/AndroidManifest.xml:2:1-32:12
+INJECTED from /Users/lauragavilanfernandez/Desktop/IoT_G11/app/src/main/AndroidManifest.xml:2:1-32:12
+INJECTED from /Users/lauragavilanfernandez/Desktop/IoT_G11/app/src/main/AndroidManifest.xml:2:1-32:12
+MERGED from [androidx.databinding:viewbinding:7.2.2] /Users/lauragavilanfernandez/.gradle/caches/transforms-3/29fabfbd8c8466e95de343c503c26e27/transformed/viewbinding-7.2.2/AndroidManifest.xml:17:1-24:12
+MERGED from [com.firebaseui:firebase-ui-auth:7.1.1] /Users/lauragavilanfernandez/.gradle/caches/transforms-3/9d9fb59aceb523c913c0885801ab7929/transformed/firebase-ui-auth-7.1.1/AndroidManifest.xml:2:1-109:12
+MERGED from [com.google.android.material:material:1.6.1] /Users/lauragavilanfernandez/.gradle/caches/transforms-3/75297023975bdd76dc810ed23ff29bbf/transformed/material-1.6.1/AndroidManifest.xml:17:1-26:12
+MERGED from [androidx.constraintlayout:constraintlayout:2.1.4] /Users/lauragavilanfernandez/.gradle/caches/transforms-3/4b099e9383f288a93a1c224aa6e4f6ea/transformed/constraintlayout-2.1.4/AndroidManifest.xml:2:1-11:12
+MERGED from [me.zhanghai.android.materialprogressbar:library:1.6.1] /Users/lauragavilanfernandez/.gradle/caches/transforms-3/5b70b770c252fb05ba53aaddd51bfd11/transformed/library-1.6.1/AndroidManifest.xml:6:1-15:12
+MERGED from [androidx.appcompat:appcompat-resources:1.5.1] /Users/lauragavilanfernandez/.gradle/caches/transforms-3/cb1b70b4dfc72cecdbaf106b333bce91/transformed/appcompat-resources-1.5.1/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.appcompat:appcompat:1.5.1] /Users/lauragavilanfernandez/.gradle/caches/transforms-3/372d00aa2f4d7211b45d55920b368f40/transformed/appcompat-1.5.1/AndroidManifest.xml:17:1-22:12
+MERGED from [com.google.firebase:firebase-auth:21.1.0] /Users/lauragavilanfernandez/.gradle/caches/transforms-3/1aeae38695591b5982ad501f0dcd82d1/transformed/firebase-auth-21.1.0/AndroidManifest.xml:17:1-73:12
+MERGED from [com.google.firebase:firebase-analytics:21.2.0] /Users/lauragavilanfernandez/.gradle/caches/transforms-3/95b495ecc168dd9e8aaab6105afe5b4d/transformed/firebase-analytics-21.2.0/AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.firebase:firebase-auth-interop:20.0.0] /Users/lauragavilanfernandez/.gradle/caches/transforms-3/c2fe606d6c5ee3319fc6e7f4908f33e8/transformed/firebase-auth-interop-20.0.0/AndroidManifest.xml:2:1-10:12
+MERGED from [com.google.android.gms:play-services-measurement-api:21.2.0] /Users/lauragavilanfernandez/.gradle/caches/transforms-3/c0f30181d9cd5e3d606ad78973556466/transformed/play-services-measurement-api-21.2.0/AndroidManifest.xml:17:1-37:12
+MERGED from [com.google.firebase:firebase-installations:17.1.0] /Users/lauragavilanfernandez/.gradle/caches/transforms-3/2688d1466ddf905fe792150b8a685bcc/transformed/firebase-installations-17.1.0/AndroidManifest.xml:2:1-23:12
+MERGED from [com.google.firebase:firebase-common:20.2.0] /Users/lauragavilanfernandez/.gradle/caches/transforms-3/43ecb9fe4a41b74bf6ca0512832e7f27/transformed/firebase-common-20.2.0/AndroidManifest.xml:15:1-39:12
+MERGED from [androidx.cardview:cardview:1.0.0] /Users/lauragavilanfernandez/.gradle/caches/transforms-3/0cf294ef09e8d5c5a111e8beb5037aef/transformed/cardview-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-extensions:2.2.0] /Users/lauragavilanfernandez/.gradle/caches/transforms-3/764a54d97c0709389e2737f45778a79d/transformed/lifecycle-extensions-2.2.0/AndroidManifest.xml:17:1-27:12
+MERGED from [androidx.legacy:legacy-support-v4:1.0.0] /Users/lauragavilanfernandez/.gradle/caches/transforms-3/bbc762f72e7199023079430c2209830e/transformed/legacy-support-v4-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [com.google.android.gms:play-services-auth:19.0.0] /Users/lauragavilanfernandez/.gradle/caches/transforms-3/3523441c2bd8fe817ff287dfe2f810c9/transformed/play-services-auth-19.0.0/AndroidManifest.xml:17:1-40:12
+MERGED from [androidx.viewpager2:viewpager2:1.0.0] /Users/lauragavilanfernandez/.gradle/caches/transforms-3/4651e669afa4edff4d1b2aaae9b101d1/transformed/viewpager2-1.0.0/AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.android.gms:play-services-auth-api-phone:17.4.0] /Users/lauragavilanfernandez/.gradle/caches/transforms-3/a9bd77bf317bc8f2fc0be0af188778f7/transformed/play-services-auth-api-phone-17.4.0/AndroidManifest.xml:2:1-7:12
+MERGED from [com.google.android.gms:play-services-safetynet:17.0.0] /Users/lauragavilanfernandez/.gradle/caches/transforms-3/049f3a5154f91dddc65db0535a02f0ba/transformed/play-services-safetynet-17.0.0/AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.android.gms:play-services-auth-base:17.0.0] /Users/lauragavilanfernandez/.gradle/caches/transforms-3/a17e8f7aca637ee2b5e87abce20080f1/transformed/play-services-auth-base-17.0.0/AndroidManifest.xml:2:1-7:12
+MERGED from [com.google.android.gms:play-services-base:17.1.0] /Users/lauragavilanfernandez/.gradle/caches/transforms-3/bde6a4ee1157c82698da5ca081113751/transformed/play-services-base-17.1.0/AndroidManifest.xml:17:1-29:12
+MERGED from [com.google.firebase:firebase-installations-interop:17.1.0] /Users/lauragavilanfernandez/.gradle/caches/transforms-3/32f0a3a3c35c21d3d3ae188b90afb453/transformed/firebase-installations-interop-17.1.0/AndroidManifest.xml:15:1-22:12
+MERGED from [com.google.android.gms:play-services-tasks:18.0.1] /Users/lauragavilanfernandez/.gradle/caches/transforms-3/f6b3173059272010d7a432b27fbb75f4/transformed/play-services-tasks-18.0.1/AndroidManifest.xml:2:1-6:12
+MERGED from [com.google.android.gms:play-services-measurement:21.2.0] /Users/lauragavilanfernandez/.gradle/caches/transforms-3/bfd6cea21695863e78221e007eb2751f/transformed/play-services-measurement-21.2.0/AndroidManifest.xml:17:1-46:12
+MERGED from [com.google.android.gms:play-services-measurement-sdk:21.2.0] /Users/lauragavilanfernandez/.gradle/caches/transforms-3/c7b6bdfb825c4ae91d0f821009357ae6/transformed/play-services-measurement-sdk-21.2.0/AndroidManifest.xml:17:1-25:12
+MERGED from [com.google.android.gms:play-services-measurement-impl:21.2.0] /Users/lauragavilanfernandez/.gradle/caches/transforms-3/f06873c475a718e91c8ca7aea042498e/transformed/play-services-measurement-impl-21.2.0/AndroidManifest.xml:17:1-32:12
+MERGED from [com.google.android.gms:play-services-ads-identifier:18.0.0] /Users/lauragavilanfernandez/.gradle/caches/transforms-3/5f3b9c1805083fcefcd1277751cdf3d9/transformed/play-services-ads-identifier-18.0.0/AndroidManifest.xml:17:1-27:12
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:21.2.0] /Users/lauragavilanfernandez/.gradle/caches/transforms-3/d17b9fbf31a71adb16126d0bfa7b4e51/transformed/play-services-measurement-sdk-api-21.2.0/AndroidManifest.xml:17:1-28:12
+MERGED from [com.google.android.gms:play-services-measurement-base:21.2.0] /Users/lauragavilanfernandez/.gradle/caches/transforms-3/986cabb3960c16a8931d4016c7531c27/transformed/play-services-measurement-base-21.2.0/AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.android.gms:play-services-stats:17.0.2] /Users/lauragavilanfernandez/.gradle/caches/transforms-3/2a2c12898c873fe831eefad93b44340f/transformed/play-services-stats-17.0.2/AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.firebase:firebase-measurement-connector:19.0.0] /Users/lauragavilanfernandez/.gradle/caches/transforms-3/41fdfcb9b37bd268c5a22cf88cb9d72f/transformed/firebase-measurement-connector-19.0.0/AndroidManifest.xml:17:1-25:12
+MERGED from [com.google.android.gms:play-services-basement:18.1.0] /Users/lauragavilanfernandez/.gradle/caches/transforms-3/42922169dc0e4f801d77ff461a9a180a/transformed/play-services-basement-18.1.0/AndroidManifest.xml:16:1-26:12
+MERGED from [androidx.fragment:fragment:1.3.6] /Users/lauragavilanfernandez/.gradle/caches/transforms-3/3c9fd24286e1652e64c7e8bd2ea43bd3/transformed/fragment-1.3.6/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.activity:activity:1.5.1] /Users/lauragavilanfernandez/.gradle/caches/transforms-3/da28521b87646e318d1a2e130445eabc/transformed/activity-1.5.1/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.dynamicanimation:dynamicanimation:1.0.0] /Users/lauragavilanfernandez/.gradle/caches/transforms-3/0e48834e9b7b2ccc336e73817554d53c/transformed/dynamicanimation-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] /Users/lauragavilanfernandez/.gradle/caches/transforms-3/a54bf401a2874b3a335734395ad4729a/transformed/legacy-support-core-ui-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /Users/lauragavilanfernandez/.gradle/caches/transforms-3/59f54297932a214ee850e53638a20b06/transformed/legacy-support-core-utils-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.loader:loader:1.0.0] /Users/lauragavilanfernandez/.gradle/caches/transforms-3/7cfc92fd8e95ddbf6f1e7067124d03ec/transformed/loader-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.5.1] /Users/lauragavilanfernandez/.gradle/caches/transforms-3/41e8ba5efd3982eaff28175b22d411d5/transformed/lifecycle-viewmodel-2.5.1/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.5.1] /Users/lauragavilanfernandez/.gradle/caches/transforms-3/30f9ea2efdf9fde09531d1ac2e7c48d0/transformed/lifecycle-viewmodel-savedstate-2.5.1/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.core:core-ktx:1.8.0] /Users/lauragavilanfernandez/.gradle/caches/transforms-3/d11c491093c68f6c9e2626883a4083e9/transformed/core-ktx-1.8.0/AndroidManifest.xml:2:1-9:12
+MERGED from [androidx.emoji2:emoji2-views-helper:1.2.0] /Users/lauragavilanfernandez/.gradle/caches/transforms-3/038decf9f7d6fd199615349c687c443f/transformed/emoji2-views-helper-1.2.0/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.emoji2:emoji2:1.2.0] /Users/lauragavilanfernandez/.gradle/caches/transforms-3/39e3520655ef763a8ff65228d9ba7c89/transformed/emoji2-1.2.0/AndroidManifest.xml:17:1-35:12
+MERGED from [androidx.drawerlayout:drawerlayout:1.1.1] /Users/lauragavilanfernandez/.gradle/caches/transforms-3/d59c74049e7828b22b31990e0e1e013f/transformed/drawerlayout-1.1.1/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] /Users/lauragavilanfernandez/.gradle/caches/transforms-3/4e37231a648d23c44a1b1737bbd86fce/transformed/coordinatorlayout-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.transition:transition:1.2.0] /Users/lauragavilanfernandez/.gradle/caches/transforms-3/dd65f8e2bd64364de9b729f8f1213eef/transformed/transition-1.2.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /Users/lauragavilanfernandez/.gradle/caches/transforms-3/8931afa8f4e31e342edb8afb99427a7a/transformed/vectordrawable-animated-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /Users/lauragavilanfernandez/.gradle/caches/transforms-3/4b23897bc806fd520413c2642180651f/transformed/vectordrawable-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.browser:browser:1.4.0] /Users/lauragavilanfernandez/.gradle/caches/transforms-3/bd13c11927bd36333c5f15f4f7de2b96/transformed/browser-1.4.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.media:media:1.0.0] /Users/lauragavilanfernandez/.gradle/caches/transforms-3/b882a095343bda3a33e689120f4e8c1f/transformed/media-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/lauragavilanfernandez/.gradle/caches/transforms-3/69673876aff666ead9a23b0bc2002e6c/transformed/viewpager-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.recyclerview:recyclerview:1.1.0] /Users/lauragavilanfernandez/.gradle/caches/transforms-3/f31ffdf4a9cc56bcc7ecd1833abc7a42/transformed/recyclerview-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] /Users/lauragavilanfernandez/.gradle/caches/transforms-3/4cfffd3043998677a008e3a58efb1c53/transformed/slidingpanelayout-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.customview:customview:1.1.0] /Users/lauragavilanfernandez/.gradle/caches/transforms-3/822f7c7e04bb796cc8b61e2240f80086/transformed/customview-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] /Users/lauragavilanfernandez/.gradle/caches/transforms-3/e0abc9b114f60043ef5d4ffb88b367b2/transformed/swiperefreshlayout-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] /Users/lauragavilanfernandez/.gradle/caches/transforms-3/d91fb1d2c1785055d7622fc4575babf6/transformed/asynclayoutinflater-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.core:core:1.8.0] /Users/lauragavilanfernandez/.gradle/caches/transforms-3/ca18492abc4e717cba0e2f1b8c3a4c89/transformed/core-1.8.0/AndroidManifest.xml:17:1-26:12
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /Users/lauragavilanfernandez/.gradle/caches/transforms-3/0e15e8f3c1ff462f49004462c9cd5824/transformed/cursoradapter-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-service:2.2.0] /Users/lauragavilanfernandez/.gradle/caches/transforms-3/36d5e50828c1d54eab143269aef847e6/transformed/lifecycle-service-2.2.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-process:2.4.1] /Users/lauragavilanfernandez/.gradle/caches/transforms-3/ee189f7a444f9d3aa467ea05a84d6234/transformed/lifecycle-process-2.4.1/AndroidManifest.xml:17:1-37:12
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.5.1] /Users/lauragavilanfernandez/.gradle/caches/transforms-3/f20bf684d1214e41bbef7074b78aef30/transformed/lifecycle-runtime-2.5.1/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.savedstate:savedstate:1.2.0] /Users/lauragavilanfernandez/.gradle/caches/transforms-3/049037cd645c713d793975a987d15a30/transformed/savedstate-1.2.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /Users/lauragavilanfernandez/.gradle/caches/transforms-3/55cebf1a87adda636b726c2e3dfc40fe/transformed/localbroadcastmanager-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [com.google.firebase:firebase-components:17.0.1] /Users/lauragavilanfernandez/.gradle/caches/transforms-3/ee396881bc9afc6f90b03a7a981bfe0f/transformed/firebase-components-17.0.1/AndroidManifest.xml:15:1-23:12
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.2.0] /Users/lauragavilanfernandez/.gradle/caches/transforms-3/ff2f75ad78580017d90bdeaaaa54e77d/transformed/lifecycle-livedata-2.2.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.5.1] /Users/lauragavilanfernandez/.gradle/caches/transforms-3/c891b668513966b8d13e5cc6cfb0fcf7/transformed/lifecycle-livedata-core-2.5.1/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.arch.core:core-runtime:2.1.0] /Users/lauragavilanfernandez/.gradle/caches/transforms-3/39e6f5a6cc217d0cb1591e2ea0dd4b8c/transformed/core-runtime-2.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.startup:startup-runtime:1.1.1] /Users/lauragavilanfernandez/.gradle/caches/transforms-3/c91e470d572d85dd71fb46a679b49a8f/transformed/startup-runtime-1.1.1/AndroidManifest.xml:17:1-33:12
+MERGED from [androidx.tracing:tracing:1.0.0] /Users/lauragavilanfernandez/.gradle/caches/transforms-3/af265758e6ed0dc986bbfd2aeb34c855/transformed/tracing-1.0.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/lauragavilanfernandez/.gradle/caches/transforms-3/ab4f43c9207ed0bb793a658f332b710d/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:17:1-27:12
+MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/lauragavilanfernandez/.gradle/caches/transforms-3/49abe5e94402d0f03684343a01d6f72a/transformed/interpolator-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.documentfile:documentfile:1.0.0] /Users/lauragavilanfernandez/.gradle/caches/transforms-3/87d5f5516b00add6388399b02ce7e77f/transformed/documentfile-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.print:print:1.0.0] /Users/lauragavilanfernandez/.gradle/caches/transforms-3/afbdcaa71b5b681fc9d27c7af2114821/transformed/print-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.annotation:annotation-experimental:1.1.0] /Users/lauragavilanfernandez/.gradle/caches/transforms-3/ab5698bad39dbc208029448f01629cc0/transformed/annotation-experimental-1.1.0/AndroidManifest.xml:17:1-24:12
+INJECTED from /Users/lauragavilanfernandez/Desktop/IoT_G11/app/src/main/AndroidManifest.xml:2:1-32:12
+INJECTED from /Users/lauragavilanfernandez/Desktop/IoT_G11/app/src/main/AndroidManifest.xml:2:1-32:12
+INJECTED from /Users/lauragavilanfernandez/Desktop/IoT_G11/app/src/main/AndroidManifest.xml:2:1-32:12
+	package
+		ADDED from /Users/lauragavilanfernandez/Desktop/IoT_G11/app/src/main/AndroidManifest.xml:4:5-35
+		INJECTED from /Users/lauragavilanfernandez/Desktop/IoT_G11/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/lauragavilanfernandez/Desktop/IoT_G11/app/src/main/AndroidManifest.xml
+	android:versionName
+		INJECTED from /Users/lauragavilanfernandez/Desktop/IoT_G11/app/src/main/AndroidManifest.xml
+		ADDED from /Users/lauragavilanfernandez/Desktop/IoT_G11/app/src/main/AndroidManifest.xml:2:1-32:12
+		INJECTED from /Users/lauragavilanfernandez/Desktop/IoT_G11/app/src/main/AndroidManifest.xml
+	xmlns:tools
+		ADDED from /Users/lauragavilanfernandez/Desktop/IoT_G11/app/src/main/AndroidManifest.xml:3:5-51
+	android:versionCode
+		INJECTED from /Users/lauragavilanfernandez/Desktop/IoT_G11/app/src/main/AndroidManifest.xml
+		ADDED from /Users/lauragavilanfernandez/Desktop/IoT_G11/app/src/main/AndroidManifest.xml:2:1-32:12
+		INJECTED from /Users/lauragavilanfernandez/Desktop/IoT_G11/app/src/main/AndroidManifest.xml
+	xmlns:android
+		ADDED from /Users/lauragavilanfernandez/Desktop/IoT_G11/app/src/main/AndroidManifest.xml:2:11-69
+application
+ADDED from /Users/lauragavilanfernandez/Desktop/IoT_G11/app/src/main/AndroidManifest.xml:6:5-30:19
+MERGED from [com.firebaseui:firebase-ui-auth:7.1.1] /Users/lauragavilanfernandez/.gradle/caches/transforms-3/9d9fb59aceb523c913c0885801ab7929/transformed/firebase-ui-auth-7.1.1/AndroidManifest.xml:15:5-107:19
+MERGED from [com.firebaseui:firebase-ui-auth:7.1.1] /Users/lauragavilanfernandez/.gradle/caches/transforms-3/9d9fb59aceb523c913c0885801ab7929/transformed/firebase-ui-auth-7.1.1/AndroidManifest.xml:15:5-107:19
+MERGED from [com.google.android.material:material:1.6.1] /Users/lauragavilanfernandez/.gradle/caches/transforms-3/75297023975bdd76dc810ed23ff29bbf/transformed/material-1.6.1/AndroidManifest.xml:24:5-20
+MERGED from [com.google.android.material:material:1.6.1] /Users/lauragavilanfernandez/.gradle/caches/transforms-3/75297023975bdd76dc810ed23ff29bbf/transformed/material-1.6.1/AndroidManifest.xml:24:5-20
+MERGED from [androidx.constraintlayout:constraintlayout:2.1.4] /Users/lauragavilanfernandez/.gradle/caches/transforms-3/4b099e9383f288a93a1c224aa6e4f6ea/transformed/constraintlayout-2.1.4/AndroidManifest.xml:9:5-20
+MERGED from [androidx.constraintlayout:constraintlayout:2.1.4] /Users/lauragavilanfernandez/.gradle/caches/transforms-3/4b099e9383f288a93a1c224aa6e4f6ea/transformed/constraintlayout-2.1.4/AndroidManifest.xml:9:5-20
+MERGED from [com.google.firebase:firebase-auth:21.1.0] /Users/lauragavilanfernandez/.gradle/caches/transforms-3/1aeae38695591b5982ad501f0dcd82d1/transformed/firebase-auth-21.1.0/AndroidManifest.xml:26:5-71:19
+MERGED from [com.google.firebase:firebase-auth:21.1.0] /Users/lauragavilanfernandez/.gradle/caches/transforms-3/1aeae38695591b5982ad501f0dcd82d1/transformed/firebase-auth-21.1.0/AndroidManifest.xml:26:5-71:19
+MERGED from [com.google.firebase:firebase-analytics:21.2.0] /Users/lauragavilanfernandez/.gradle/caches/transforms-3/95b495ecc168dd9e8aaab6105afe5b4d/transformed/firebase-analytics-21.2.0/AndroidManifest.xml:7:5-20
+MERGED from [com.google.firebase:firebase-analytics:21.2.0] /Users/lauragavilanfernandez/.gradle/caches/transforms-3/95b495ecc168dd9e8aaab6105afe5b4d/transformed/firebase-analytics-21.2.0/AndroidManifest.xml:7:5-20
+MERGED from [com.google.firebase:firebase-auth-interop:20.0.0] /Users/lauragavilanfernandez/.gradle/caches/transforms-3/c2fe606d6c5ee3319fc6e7f4908f33e8/transformed/firebase-auth-interop-20.0.0/AndroidManifest.xml:7:5-8:19
+MERGED from [com.google.firebase:firebase-auth-interop:20.0.0] /Users/lauragavilanfernandez/.gradle/caches/transforms-3/c2fe606d6c5ee3319fc6e7f4908f33e8/transformed/firebase-auth-interop-20.0.0/AndroidManifest.xml:7:5-8:19
+MERGED from [com.google.android.gms:play-services-measurement-api:21.2.0] /Users/lauragavilanfernandez/.gradle/caches/transforms-3/c0f30181d9cd5e3d606ad78973556466/transformed/play-services-measurement-api-21.2.0/AndroidManifest.xml:27:5-35:19
+MERGED from [com.google.android.gms:play-services-measurement-api:21.2.0] /Users/lauragavilanfernandez/.gradle/caches/transforms-3/c0f30181d9cd5e3d606ad78973556466/transformed/play-services-measurement-api-21.2.0/AndroidManifest.xml:27:5-35:19
+MERGED from [com.google.firebase:firebase-installations:17.1.0] /Users/lauragavilanfernandez/.gradle/caches/transforms-3/2688d1466ddf905fe792150b8a685bcc/transformed/firebase-installations-17.1.0/AndroidManifest.xml:13:5-21:19
+MERGED from [com.google.firebase:firebase-installations:17.1.0] /Users/lauragavilanfernandez/.gradle/caches/transforms-3/2688d1466ddf905fe792150b8a685bcc/transformed/firebase-installations-17.1.0/AndroidManifest.xml:13:5-21:19
+MERGED from [com.google.firebase:firebase-common:20.2.0] /Users/lauragavilanfernandez/.gradle/caches/transforms-3/43ecb9fe4a41b74bf6ca0512832e7f27/transformed/firebase-common-20.2.0/AndroidManifest.xml:24:5-37:19
+MERGED from [com.google.firebase:firebase-common:20.2.0] /Users/lauragavilanfernandez/.gradle/caches/transforms-3/43ecb9fe4a41b74bf6ca0512832e7f27/transformed/firebase-common-20.2.0/AndroidManifest.xml:24:5-37:19
+MERGED from [androidx.lifecycle:lifecycle-extensions:2.2.0] /Users/lauragavilanfernandez/.gradle/caches/transforms-3/764a54d97c0709389e2737f45778a79d/transformed/lifecycle-extensions-2.2.0/AndroidManifest.xml:24:5-25:19
+MERGED from [androidx.lifecycle:lifecycle-extensions:2.2.0] /Users/lauragavilanfernandez/.gradle/caches/transforms-3/764a54d97c0709389e2737f45778a79d/transformed/lifecycle-extensions-2.2.0/AndroidManifest.xml:24:5-25:19
+MERGED from [com.google.android.gms:play-services-auth:19.0.0] /Users/lauragavilanfernandez/.gradle/caches/transforms-3/3523441c2bd8fe817ff287dfe2f810c9/transformed/play-services-auth-19.0.0/AndroidManifest.xml:22:5-38:19
+MERGED from [com.google.android.gms:play-services-auth:19.0.0] /Users/lauragavilanfernandez/.gradle/caches/transforms-3/3523441c2bd8fe817ff287dfe2f810c9/transformed/play-services-auth-19.0.0/AndroidManifest.xml:22:5-38:19
+MERGED from [com.google.android.gms:play-services-safetynet:17.0.0] /Users/lauragavilanfernandez/.gradle/caches/transforms-3/049f3a5154f91dddc65db0535a02f0ba/transformed/play-services-safetynet-17.0.0/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-safetynet:17.0.0] /Users/lauragavilanfernandez/.gradle/caches/transforms-3/049f3a5154f91dddc65db0535a02f0ba/transformed/play-services-safetynet-17.0.0/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-base:17.1.0] /Users/lauragavilanfernandez/.gradle/caches/transforms-3/bde6a4ee1157c82698da5ca081113751/transformed/play-services-base-17.1.0/AndroidManifest.xml:22:5-27:19
+MERGED from [com.google.android.gms:play-services-base:17.1.0] /Users/lauragavilanfernandez/.gradle/caches/transforms-3/bde6a4ee1157c82698da5ca081113751/transformed/play-services-base-17.1.0/AndroidManifest.xml:22:5-27:19
+MERGED from [com.google.android.gms:play-services-tasks:18.0.1] /Users/lauragavilanfernandez/.gradle/caches/transforms-3/f6b3173059272010d7a432b27fbb75f4/transformed/play-services-tasks-18.0.1/AndroidManifest.xml:5:5-20
+MERGED from [com.google.android.gms:play-services-tasks:18.0.1] /Users/lauragavilanfernandez/.gradle/caches/transforms-3/f6b3173059272010d7a432b27fbb75f4/transformed/play-services-tasks-18.0.1/AndroidManifest.xml:5:5-20
+MERGED from [com.google.android.gms:play-services-measurement:21.2.0] /Users/lauragavilanfernandez/.gradle/caches/transforms-3/bfd6cea21695863e78221e007eb2751f/transformed/play-services-measurement-21.2.0/AndroidManifest.xml:28:5-44:19
+MERGED from [com.google.android.gms:play-services-measurement:21.2.0] /Users/lauragavilanfernandez/.gradle/caches/transforms-3/bfd6cea21695863e78221e007eb2751f/transformed/play-services-measurement-21.2.0/AndroidManifest.xml:28:5-44:19
+MERGED from [com.google.android.gms:play-services-measurement-sdk:21.2.0] /Users/lauragavilanfernandez/.gradle/caches/transforms-3/c7b6bdfb825c4ae91d0f821009357ae6/transformed/play-services-measurement-sdk-21.2.0/AndroidManifest.xml:22:5-23:19
+MERGED from [com.google.android.gms:play-services-measurement-sdk:21.2.0] /Users/lauragavilanfernandez/.gradle/caches/transforms-3/c7b6bdfb825c4ae91d0f821009357ae6/transformed/play-services-measurement-sdk-21.2.0/AndroidManifest.xml:22:5-23:19
+MERGED from [com.google.android.gms:play-services-measurement-impl:21.2.0] /Users/lauragavilanfernandez/.gradle/caches/transforms-3/f06873c475a718e91c8ca7aea042498e/transformed/play-services-measurement-impl-21.2.0/AndroidManifest.xml:29:5-30:19
+MERGED from [com.google.android.gms:play-services-measurement-impl:21.2.0] /Users/lauragavilanfernandez/.gradle/caches/transforms-3/f06873c475a718e91c8ca7aea042498e/transformed/play-services-measurement-impl-21.2.0/AndroidManifest.xml:29:5-30:19
+MERGED from [com.google.android.gms:play-services-ads-identifier:18.0.0] /Users/lauragavilanfernandez/.gradle/caches/transforms-3/5f3b9c1805083fcefcd1277751cdf3d9/transformed/play-services-ads-identifier-18.0.0/AndroidManifest.xml:25:5-20
+MERGED from [com.google.android.gms:play-services-ads-identifier:18.0.0] /Users/lauragavilanfernandez/.gradle/caches/transforms-3/5f3b9c1805083fcefcd1277751cdf3d9/transformed/play-services-ads-identifier-18.0.0/AndroidManifest.xml:25:5-20
+MERGED from [com.google.android.gms:play-services-measurement-base:21.2.0] /Users/lauragavilanfernandez/.gradle/caches/transforms-3/986cabb3960c16a8931d4016c7531c27/transformed/play-services-measurement-base-21.2.0/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-measurement-base:21.2.0] /Users/lauragavilanfernandez/.gradle/caches/transforms-3/986cabb3960c16a8931d4016c7531c27/transformed/play-services-measurement-base-21.2.0/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-stats:17.0.2] /Users/lauragavilanfernandez/.gradle/caches/transforms-3/2a2c12898c873fe831eefad93b44340f/transformed/play-services-stats-17.0.2/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-stats:17.0.2] /Users/lauragavilanfernandez/.gradle/caches/transforms-3/2a2c12898c873fe831eefad93b44340f/transformed/play-services-stats-17.0.2/AndroidManifest.xml:7:5-20
+MERGED from [com.google.firebase:firebase-measurement-connector:19.0.0] /Users/lauragavilanfernandez/.gradle/caches/transforms-3/41fdfcb9b37bd268c5a22cf88cb9d72f/transformed/firebase-measurement-connector-19.0.0/AndroidManifest.xml:22:5-23:19
+MERGED from [com.google.firebase:firebase-measurement-connector:19.0.0] /Users/lauragavilanfernandez/.gradle/caches/transforms-3/41fdfcb9b37bd268c5a22cf88cb9d72f/transformed/firebase-measurement-connector-19.0.0/AndroidManifest.xml:22:5-23:19
+MERGED from [com.google.android.gms:play-services-basement:18.1.0] /Users/lauragavilanfernandez/.gradle/caches/transforms-3/42922169dc0e4f801d77ff461a9a180a/transformed/play-services-basement-18.1.0/AndroidManifest.xml:20:5-24:19
+MERGED from [com.google.android.gms:play-services-basement:18.1.0] /Users/lauragavilanfernandez/.gradle/caches/transforms-3/42922169dc0e4f801d77ff461a9a180a/transformed/play-services-basement-18.1.0/AndroidManifest.xml:20:5-24:19
+MERGED from [androidx.emoji2:emoji2:1.2.0] /Users/lauragavilanfernandez/.gradle/caches/transforms-3/39e3520655ef763a8ff65228d9ba7c89/transformed/emoji2-1.2.0/AndroidManifest.xml:23:5-33:19
+MERGED from [androidx.emoji2:emoji2:1.2.0] /Users/lauragavilanfernandez/.gradle/caches/transforms-3/39e3520655ef763a8ff65228d9ba7c89/transformed/emoji2-1.2.0/AndroidManifest.xml:23:5-33:19
+MERGED from [androidx.core:core:1.8.0] /Users/lauragavilanfernandez/.gradle/caches/transforms-3/ca18492abc4e717cba0e2f1b8c3a4c89/transformed/core-1.8.0/AndroidManifest.xml:24:5-89
+MERGED from [androidx.core:core:1.8.0] /Users/lauragavilanfernandez/.gradle/caches/transforms-3/ca18492abc4e717cba0e2f1b8c3a4c89/transformed/core-1.8.0/AndroidManifest.xml:24:5-89
+MERGED from [androidx.lifecycle:lifecycle-process:2.4.1] /Users/lauragavilanfernandez/.gradle/caches/transforms-3/ee189f7a444f9d3aa467ea05a84d6234/transformed/lifecycle-process-2.4.1/AndroidManifest.xml:25:5-35:19
+MERGED from [androidx.lifecycle:lifecycle-process:2.4.1] /Users/lauragavilanfernandez/.gradle/caches/transforms-3/ee189f7a444f9d3aa467ea05a84d6234/transformed/lifecycle-process-2.4.1/AndroidManifest.xml:25:5-35:19
+MERGED from [androidx.startup:startup-runtime:1.1.1] /Users/lauragavilanfernandez/.gradle/caches/transforms-3/c91e470d572d85dd71fb46a679b49a8f/transformed/startup-runtime-1.1.1/AndroidManifest.xml:25:5-31:19
+MERGED from [androidx.startup:startup-runtime:1.1.1] /Users/lauragavilanfernandez/.gradle/caches/transforms-3/c91e470d572d85dd71fb46a679b49a8f/transformed/startup-runtime-1.1.1/AndroidManifest.xml:25:5-31:19
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/lauragavilanfernandez/.gradle/caches/transforms-3/ab4f43c9207ed0bb793a658f332b710d/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:24:5-25:19
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/lauragavilanfernandez/.gradle/caches/transforms-3/ab4f43c9207ed0bb793a658f332b710d/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:24:5-25:19
+	android:appComponentFactory
+		ADDED from [androidx.core:core:1.8.0] /Users/lauragavilanfernandez/.gradle/caches/transforms-3/ca18492abc4e717cba0e2f1b8c3a4c89/transformed/core-1.8.0/AndroidManifest.xml:24:18-86
+	android:supportsRtl
+		ADDED from /Users/lauragavilanfernandez/Desktop/IoT_G11/app/src/main/AndroidManifest.xml:13:9-35
+	android:label
+		ADDED from /Users/lauragavilanfernandez/Desktop/IoT_G11/app/src/main/AndroidManifest.xml:11:9-41
+	android:fullBackupContent
+		ADDED from /Users/lauragavilanfernandez/Desktop/IoT_G11/app/src/main/AndroidManifest.xml:9:9-54
+	android:roundIcon
+		ADDED from /Users/lauragavilanfernandez/Desktop/IoT_G11/app/src/main/AndroidManifest.xml:12:9-54
+	tools:targetApi
+		ADDED from /Users/lauragavilanfernandez/Desktop/IoT_G11/app/src/main/AndroidManifest.xml:15:9-29
+	android:icon
+		ADDED from /Users/lauragavilanfernandez/Desktop/IoT_G11/app/src/main/AndroidManifest.xml:10:9-43
+	android:allowBackup
+		ADDED from /Users/lauragavilanfernandez/Desktop/IoT_G11/app/src/main/AndroidManifest.xml:7:9-35
+	android:theme
+		ADDED from /Users/lauragavilanfernandez/Desktop/IoT_G11/app/src/main/AndroidManifest.xml:14:9-45
+	android:dataExtractionRules
+		ADDED from /Users/lauragavilanfernandez/Desktop/IoT_G11/app/src/main/AndroidManifest.xml:8:9-65
+activity#es.upv.epsg.iot_g1_1.MainActivity
+ADDED from /Users/lauragavilanfernandez/Desktop/IoT_G11/app/src/main/AndroidManifest.xml:16:9-20:64
+	android:label
+		ADDED from /Users/lauragavilanfernandez/Desktop/IoT_G11/app/src/main/AndroidManifest.xml:19:13-56
+	android:exported
+		ADDED from /Users/lauragavilanfernandez/Desktop/IoT_G11/app/src/main/AndroidManifest.xml:18:13-37
+	android:theme
+		ADDED from /Users/lauragavilanfernandez/Desktop/IoT_G11/app/src/main/AndroidManifest.xml:20:13-61
+	android:name
+		ADDED from /Users/lauragavilanfernandez/Desktop/IoT_G11/app/src/main/AndroidManifest.xml:17:13-41
+activity#es.upv.epsg.iot_g1_1.LoginActivity
+ADDED from /Users/lauragavilanfernandez/Desktop/IoT_G11/app/src/main/AndroidManifest.xml:21:9-29:20
+	android:exported
+		ADDED from /Users/lauragavilanfernandez/Desktop/IoT_G11/app/src/main/AndroidManifest.xml:23:13-36
+	android:name
+		ADDED from /Users/lauragavilanfernandez/Desktop/IoT_G11/app/src/main/AndroidManifest.xml:22:13-42
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from /Users/lauragavilanfernandez/Desktop/IoT_G11/app/src/main/AndroidManifest.xml:24:13-28:29
+action#android.intent.action.MAIN
+ADDED from /Users/lauragavilanfernandez/Desktop/IoT_G11/app/src/main/AndroidManifest.xml:25:17-69
+	android:name
+		ADDED from /Users/lauragavilanfernandez/Desktop/IoT_G11/app/src/main/AndroidManifest.xml:25:25-66
+category#android.intent.category.LAUNCHER
+ADDED from /Users/lauragavilanfernandez/Desktop/IoT_G11/app/src/main/AndroidManifest.xml:27:17-77
+	android:name
+		ADDED from /Users/lauragavilanfernandez/Desktop/IoT_G11/app/src/main/AndroidManifest.xml:27:27-74
+uses-sdk
+INJECTED from /Users/lauragavilanfernandez/Desktop/IoT_G11/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from /Users/lauragavilanfernandez/Desktop/IoT_G11/app/src/main/AndroidManifest.xml
+INJECTED from /Users/lauragavilanfernandez/Desktop/IoT_G11/app/src/main/AndroidManifest.xml
+MERGED from [androidx.databinding:viewbinding:7.2.2] /Users/lauragavilanfernandez/.gradle/caches/transforms-3/29fabfbd8c8466e95de343c503c26e27/transformed/viewbinding-7.2.2/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.databinding:viewbinding:7.2.2] /Users/lauragavilanfernandez/.gradle/caches/transforms-3/29fabfbd8c8466e95de343c503c26e27/transformed/viewbinding-7.2.2/AndroidManifest.xml:20:5-22:41
+MERGED from [com.firebaseui:firebase-ui-auth:7.1.1] /Users/lauragavilanfernandez/.gradle/caches/transforms-3/9d9fb59aceb523c913c0885801ab7929/transformed/firebase-ui-auth-7.1.1/AndroidManifest.xml:8:5-10:41
+MERGED from [com.firebaseui:firebase-ui-auth:7.1.1] /Users/lauragavilanfernandez/.gradle/caches/transforms-3/9d9fb59aceb523c913c0885801ab7929/transformed/firebase-ui-auth-7.1.1/AndroidManifest.xml:8:5-10:41
+MERGED from [com.google.android.material:material:1.6.1] /Users/lauragavilanfernandez/.gradle/caches/transforms-3/75297023975bdd76dc810ed23ff29bbf/transformed/material-1.6.1/AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.android.material:material:1.6.1] /Users/lauragavilanfernandez/.gradle/caches/transforms-3/75297023975bdd76dc810ed23ff29bbf/transformed/material-1.6.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.constraintlayout:constraintlayout:2.1.4] /Users/lauragavilanfernandez/.gradle/caches/transforms-3/4b099e9383f288a93a1c224aa6e4f6ea/transformed/constraintlayout-2.1.4/AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.constraintlayout:constraintlayout:2.1.4] /Users/lauragavilanfernandez/.gradle/caches/transforms-3/4b099e9383f288a93a1c224aa6e4f6ea/transformed/constraintlayout-2.1.4/AndroidManifest.xml:5:5-7:41
+MERGED from [me.zhanghai.android.materialprogressbar:library:1.6.1] /Users/lauragavilanfernandez/.gradle/caches/transforms-3/5b70b770c252fb05ba53aaddd51bfd11/transformed/library-1.6.1/AndroidManifest.xml:11:5-13:41
+MERGED from [me.zhanghai.android.materialprogressbar:library:1.6.1] /Users/lauragavilanfernandez/.gradle/caches/transforms-3/5b70b770c252fb05ba53aaddd51bfd11/transformed/library-1.6.1/AndroidManifest.xml:11:5-13:41
+MERGED from [androidx.appcompat:appcompat-resources:1.5.1] /Users/lauragavilanfernandez/.gradle/caches/transforms-3/cb1b70b4dfc72cecdbaf106b333bce91/transformed/appcompat-resources-1.5.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.appcompat:appcompat-resources:1.5.1] /Users/lauragavilanfernandez/.gradle/caches/transforms-3/cb1b70b4dfc72cecdbaf106b333bce91/transformed/appcompat-resources-1.5.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.appcompat:appcompat:1.5.1] /Users/lauragavilanfernandez/.gradle/caches/transforms-3/372d00aa2f4d7211b45d55920b368f40/transformed/appcompat-1.5.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.appcompat:appcompat:1.5.1] /Users/lauragavilanfernandez/.gradle/caches/transforms-3/372d00aa2f4d7211b45d55920b368f40/transformed/appcompat-1.5.1/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-auth:21.1.0] /Users/lauragavilanfernandez/.gradle/caches/transforms-3/1aeae38695591b5982ad501f0dcd82d1/transformed/firebase-auth-21.1.0/AndroidManifest.xml:21:5-44
+MERGED from [com.google.firebase:firebase-auth:21.1.0] /Users/lauragavilanfernandez/.gradle/caches/transforms-3/1aeae38695591b5982ad501f0dcd82d1/transformed/firebase-auth-21.1.0/AndroidManifest.xml:21:5-44
+MERGED from [com.google.firebase:firebase-analytics:21.2.0] /Users/lauragavilanfernandez/.gradle/caches/transforms-3/95b495ecc168dd9e8aaab6105afe5b4d/transformed/firebase-analytics-21.2.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-analytics:21.2.0] /Users/lauragavilanfernandez/.gradle/caches/transforms-3/95b495ecc168dd9e8aaab6105afe5b4d/transformed/firebase-analytics-21.2.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-auth-interop:20.0.0] /Users/lauragavilanfernandez/.gradle/caches/transforms-3/c2fe606d6c5ee3319fc6e7f4908f33e8/transformed/firebase-auth-interop-20.0.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-auth-interop:20.0.0] /Users/lauragavilanfernandez/.gradle/caches/transforms-3/c2fe606d6c5ee3319fc6e7f4908f33e8/transformed/firebase-auth-interop-20.0.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-measurement-api:21.2.0] /Users/lauragavilanfernandez/.gradle/caches/transforms-3/c0f30181d9cd5e3d606ad78973556466/transformed/play-services-measurement-api-21.2.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement-api:21.2.0] /Users/lauragavilanfernandez/.gradle/caches/transforms-3/c0f30181d9cd5e3d606ad78973556466/transformed/play-services-measurement-api-21.2.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-installations:17.1.0] /Users/lauragavilanfernandez/.gradle/caches/transforms-3/2688d1466ddf905fe792150b8a685bcc/transformed/firebase-installations-17.1.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.google.firebase:firebase-installations:17.1.0] /Users/lauragavilanfernandez/.gradle/caches/transforms-3/2688d1466ddf905fe792150b8a685bcc/transformed/firebase-installations-17.1.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.google.firebase:firebase-common:20.2.0] /Users/lauragavilanfernandez/.gradle/caches/transforms-3/43ecb9fe4a41b74bf6ca0512832e7f27/transformed/firebase-common-20.2.0/AndroidManifest.xml:19:5-21:41
+MERGED from [com.google.firebase:firebase-common:20.2.0] /Users/lauragavilanfernandez/.gradle/caches/transforms-3/43ecb9fe4a41b74bf6ca0512832e7f27/transformed/firebase-common-20.2.0/AndroidManifest.xml:19:5-21:41
+MERGED from [androidx.cardview:cardview:1.0.0] /Users/lauragavilanfernandez/.gradle/caches/transforms-3/0cf294ef09e8d5c5a111e8beb5037aef/transformed/cardview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.cardview:cardview:1.0.0] /Users/lauragavilanfernandez/.gradle/caches/transforms-3/0cf294ef09e8d5c5a111e8beb5037aef/transformed/cardview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-extensions:2.2.0] /Users/lauragavilanfernandez/.gradle/caches/transforms-3/764a54d97c0709389e2737f45778a79d/transformed/lifecycle-extensions-2.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-extensions:2.2.0] /Users/lauragavilanfernandez/.gradle/caches/transforms-3/764a54d97c0709389e2737f45778a79d/transformed/lifecycle-extensions-2.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.legacy:legacy-support-v4:1.0.0] /Users/lauragavilanfernandez/.gradle/caches/transforms-3/bbc762f72e7199023079430c2209830e/transformed/legacy-support-v4-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-v4:1.0.0] /Users/lauragavilanfernandez/.gradle/caches/transforms-3/bbc762f72e7199023079430c2209830e/transformed/legacy-support-v4-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-auth:19.0.0] /Users/lauragavilanfernandez/.gradle/caches/transforms-3/3523441c2bd8fe817ff287dfe2f810c9/transformed/play-services-auth-19.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-auth:19.0.0] /Users/lauragavilanfernandez/.gradle/caches/transforms-3/3523441c2bd8fe817ff287dfe2f810c9/transformed/play-services-auth-19.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager2:viewpager2:1.0.0] /Users/lauragavilanfernandez/.gradle/caches/transforms-3/4651e669afa4edff4d1b2aaae9b101d1/transformed/viewpager2-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.viewpager2:viewpager2:1.0.0] /Users/lauragavilanfernandez/.gradle/caches/transforms-3/4651e669afa4edff4d1b2aaae9b101d1/transformed/viewpager2-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.android.gms:play-services-auth-api-phone:17.4.0] /Users/lauragavilanfernandez/.gradle/caches/transforms-3/a9bd77bf317bc8f2fc0be0af188778f7/transformed/play-services-auth-api-phone-17.4.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-auth-api-phone:17.4.0] /Users/lauragavilanfernandez/.gradle/caches/transforms-3/a9bd77bf317bc8f2fc0be0af188778f7/transformed/play-services-auth-api-phone-17.4.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-safetynet:17.0.0] /Users/lauragavilanfernandez/.gradle/caches/transforms-3/049f3a5154f91dddc65db0535a02f0ba/transformed/play-services-safetynet-17.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-safetynet:17.0.0] /Users/lauragavilanfernandez/.gradle/caches/transforms-3/049f3a5154f91dddc65db0535a02f0ba/transformed/play-services-safetynet-17.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-auth-base:17.0.0] /Users/lauragavilanfernandez/.gradle/caches/transforms-3/a17e8f7aca637ee2b5e87abce20080f1/transformed/play-services-auth-base-17.0.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-auth-base:17.0.0] /Users/lauragavilanfernandez/.gradle/caches/transforms-3/a17e8f7aca637ee2b5e87abce20080f1/transformed/play-services-auth-base-17.0.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-base:17.1.0] /Users/lauragavilanfernandez/.gradle/caches/transforms-3/bde6a4ee1157c82698da5ca081113751/transformed/play-services-base-17.1.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-base:17.1.0] /Users/lauragavilanfernandez/.gradle/caches/transforms-3/bde6a4ee1157c82698da5ca081113751/transformed/play-services-base-17.1.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-installations-interop:17.1.0] /Users/lauragavilanfernandez/.gradle/caches/transforms-3/32f0a3a3c35c21d3d3ae188b90afb453/transformed/firebase-installations-interop-17.1.0/AndroidManifest.xml:18:5-20:41
+MERGED from [com.google.firebase:firebase-installations-interop:17.1.0] /Users/lauragavilanfernandez/.gradle/caches/transforms-3/32f0a3a3c35c21d3d3ae188b90afb453/transformed/firebase-installations-interop-17.1.0/AndroidManifest.xml:18:5-20:41
+MERGED from [com.google.android.gms:play-services-tasks:18.0.1] /Users/lauragavilanfernandez/.gradle/caches/transforms-3/f6b3173059272010d7a432b27fbb75f4/transformed/play-services-tasks-18.0.1/AndroidManifest.xml:4:5-43
+MERGED from [com.google.android.gms:play-services-tasks:18.0.1] /Users/lauragavilanfernandez/.gradle/caches/transforms-3/f6b3173059272010d7a432b27fbb75f4/transformed/play-services-tasks-18.0.1/AndroidManifest.xml:4:5-43
+MERGED from [com.google.android.gms:play-services-measurement:21.2.0] /Users/lauragavilanfernandez/.gradle/caches/transforms-3/bfd6cea21695863e78221e007eb2751f/transformed/play-services-measurement-21.2.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement:21.2.0] /Users/lauragavilanfernandez/.gradle/caches/transforms-3/bfd6cea21695863e78221e007eb2751f/transformed/play-services-measurement-21.2.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement-sdk:21.2.0] /Users/lauragavilanfernandez/.gradle/caches/transforms-3/c7b6bdfb825c4ae91d0f821009357ae6/transformed/play-services-measurement-sdk-21.2.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement-sdk:21.2.0] /Users/lauragavilanfernandez/.gradle/caches/transforms-3/c7b6bdfb825c4ae91d0f821009357ae6/transformed/play-services-measurement-sdk-21.2.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement-impl:21.2.0] /Users/lauragavilanfernandez/.gradle/caches/transforms-3/f06873c475a718e91c8ca7aea042498e/transformed/play-services-measurement-impl-21.2.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement-impl:21.2.0] /Users/lauragavilanfernandez/.gradle/caches/transforms-3/f06873c475a718e91c8ca7aea042498e/transformed/play-services-measurement-impl-21.2.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-ads-identifier:18.0.0] /Users/lauragavilanfernandez/.gradle/caches/transforms-3/5f3b9c1805083fcefcd1277751cdf3d9/transformed/play-services-ads-identifier-18.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-ads-identifier:18.0.0] /Users/lauragavilanfernandez/.gradle/caches/transforms-3/5f3b9c1805083fcefcd1277751cdf3d9/transformed/play-services-ads-identifier-18.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:21.2.0] /Users/lauragavilanfernandez/.gradle/caches/transforms-3/d17b9fbf31a71adb16126d0bfa7b4e51/transformed/play-services-measurement-sdk-api-21.2.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:21.2.0] /Users/lauragavilanfernandez/.gradle/caches/transforms-3/d17b9fbf31a71adb16126d0bfa7b4e51/transformed/play-services-measurement-sdk-api-21.2.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement-base:21.2.0] /Users/lauragavilanfernandez/.gradle/caches/transforms-3/986cabb3960c16a8931d4016c7531c27/transformed/play-services-measurement-base-21.2.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-measurement-base:21.2.0] /Users/lauragavilanfernandez/.gradle/caches/transforms-3/986cabb3960c16a8931d4016c7531c27/transformed/play-services-measurement-base-21.2.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-stats:17.0.2] /Users/lauragavilanfernandez/.gradle/caches/transforms-3/2a2c12898c873fe831eefad93b44340f/transformed/play-services-stats-17.0.2/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-stats:17.0.2] /Users/lauragavilanfernandez/.gradle/caches/transforms-3/2a2c12898c873fe831eefad93b44340f/transformed/play-services-stats-17.0.2/AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-measurement-connector:19.0.0] /Users/lauragavilanfernandez/.gradle/caches/transforms-3/41fdfcb9b37bd268c5a22cf88cb9d72f/transformed/firebase-measurement-connector-19.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-measurement-connector:19.0.0] /Users/lauragavilanfernandez/.gradle/caches/transforms-3/41fdfcb9b37bd268c5a22cf88cb9d72f/transformed/firebase-measurement-connector-19.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-basement:18.1.0] /Users/lauragavilanfernandez/.gradle/caches/transforms-3/42922169dc0e4f801d77ff461a9a180a/transformed/play-services-basement-18.1.0/AndroidManifest.xml:18:5-43
+MERGED from [com.google.android.gms:play-services-basement:18.1.0] /Users/lauragavilanfernandez/.gradle/caches/transforms-3/42922169dc0e4f801d77ff461a9a180a/transformed/play-services-basement-18.1.0/AndroidManifest.xml:18:5-43
+MERGED from [androidx.fragment:fragment:1.3.6] /Users/lauragavilanfernandez/.gradle/caches/transforms-3/3c9fd24286e1652e64c7e8bd2ea43bd3/transformed/fragment-1.3.6/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.fragment:fragment:1.3.6] /Users/lauragavilanfernandez/.gradle/caches/transforms-3/3c9fd24286e1652e64c7e8bd2ea43bd3/transformed/fragment-1.3.6/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.activity:activity:1.5.1] /Users/lauragavilanfernandez/.gradle/caches/transforms-3/da28521b87646e318d1a2e130445eabc/transformed/activity-1.5.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.activity:activity:1.5.1] /Users/lauragavilanfernandez/.gradle/caches/transforms-3/da28521b87646e318d1a2e130445eabc/transformed/activity-1.5.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.dynamicanimation:dynamicanimation:1.0.0] /Users/lauragavilanfernandez/.gradle/caches/transforms-3/0e48834e9b7b2ccc336e73817554d53c/transformed/dynamicanimation-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.dynamicanimation:dynamicanimation:1.0.0] /Users/lauragavilanfernandez/.gradle/caches/transforms-3/0e48834e9b7b2ccc336e73817554d53c/transformed/dynamicanimation-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] /Users/lauragavilanfernandez/.gradle/caches/transforms-3/a54bf401a2874b3a335734395ad4729a/transformed/legacy-support-core-ui-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] /Users/lauragavilanfernandez/.gradle/caches/transforms-3/a54bf401a2874b3a335734395ad4729a/transformed/legacy-support-core-ui-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /Users/lauragavilanfernandez/.gradle/caches/transforms-3/59f54297932a214ee850e53638a20b06/transformed/legacy-support-core-utils-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /Users/lauragavilanfernandez/.gradle/caches/transforms-3/59f54297932a214ee850e53638a20b06/transformed/legacy-support-core-utils-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] /Users/lauragavilanfernandez/.gradle/caches/transforms-3/7cfc92fd8e95ddbf6f1e7067124d03ec/transformed/loader-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] /Users/lauragavilanfernandez/.gradle/caches/transforms-3/7cfc92fd8e95ddbf6f1e7067124d03ec/transformed/loader-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.5.1] /Users/lauragavilanfernandez/.gradle/caches/transforms-3/41e8ba5efd3982eaff28175b22d411d5/transformed/lifecycle-viewmodel-2.5.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.5.1] /Users/lauragavilanfernandez/.gradle/caches/transforms-3/41e8ba5efd3982eaff28175b22d411d5/transformed/lifecycle-viewmodel-2.5.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.5.1] /Users/lauragavilanfernandez/.gradle/caches/transforms-3/30f9ea2efdf9fde09531d1ac2e7c48d0/transformed/lifecycle-viewmodel-savedstate-2.5.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.5.1] /Users/lauragavilanfernandez/.gradle/caches/transforms-3/30f9ea2efdf9fde09531d1ac2e7c48d0/transformed/lifecycle-viewmodel-savedstate-2.5.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.core:core-ktx:1.8.0] /Users/lauragavilanfernandez/.gradle/caches/transforms-3/d11c491093c68f6c9e2626883a4083e9/transformed/core-ktx-1.8.0/AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.core:core-ktx:1.8.0] /Users/lauragavilanfernandez/.gradle/caches/transforms-3/d11c491093c68f6c9e2626883a4083e9/transformed/core-ktx-1.8.0/AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.emoji2:emoji2-views-helper:1.2.0] /Users/lauragavilanfernandez/.gradle/caches/transforms-3/038decf9f7d6fd199615349c687c443f/transformed/emoji2-views-helper-1.2.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.emoji2:emoji2-views-helper:1.2.0] /Users/lauragavilanfernandez/.gradle/caches/transforms-3/038decf9f7d6fd199615349c687c443f/transformed/emoji2-views-helper-1.2.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.emoji2:emoji2:1.2.0] /Users/lauragavilanfernandez/.gradle/caches/transforms-3/39e3520655ef763a8ff65228d9ba7c89/transformed/emoji2-1.2.0/AndroidManifest.xml:21:5-44
+MERGED from [androidx.emoji2:emoji2:1.2.0] /Users/lauragavilanfernandez/.gradle/caches/transforms-3/39e3520655ef763a8ff65228d9ba7c89/transformed/emoji2-1.2.0/AndroidManifest.xml:21:5-44
+MERGED from [androidx.drawerlayout:drawerlayout:1.1.1] /Users/lauragavilanfernandez/.gradle/caches/transforms-3/d59c74049e7828b22b31990e0e1e013f/transformed/drawerlayout-1.1.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.drawerlayout:drawerlayout:1.1.1] /Users/lauragavilanfernandez/.gradle/caches/transforms-3/d59c74049e7828b22b31990e0e1e013f/transformed/drawerlayout-1.1.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] /Users/lauragavilanfernandez/.gradle/caches/transforms-3/4e37231a648d23c44a1b1737bbd86fce/transformed/coordinatorlayout-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] /Users/lauragavilanfernandez/.gradle/caches/transforms-3/4e37231a648d23c44a1b1737bbd86fce/transformed/coordinatorlayout-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.transition:transition:1.2.0] /Users/lauragavilanfernandez/.gradle/caches/transforms-3/dd65f8e2bd64364de9b729f8f1213eef/transformed/transition-1.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.transition:transition:1.2.0] /Users/lauragavilanfernandez/.gradle/caches/transforms-3/dd65f8e2bd64364de9b729f8f1213eef/transformed/transition-1.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /Users/lauragavilanfernandez/.gradle/caches/transforms-3/8931afa8f4e31e342edb8afb99427a7a/transformed/vectordrawable-animated-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /Users/lauragavilanfernandez/.gradle/caches/transforms-3/8931afa8f4e31e342edb8afb99427a7a/transformed/vectordrawable-animated-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /Users/lauragavilanfernandez/.gradle/caches/transforms-3/4b23897bc806fd520413c2642180651f/transformed/vectordrawable-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /Users/lauragavilanfernandez/.gradle/caches/transforms-3/4b23897bc806fd520413c2642180651f/transformed/vectordrawable-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.browser:browser:1.4.0] /Users/lauragavilanfernandez/.gradle/caches/transforms-3/bd13c11927bd36333c5f15f4f7de2b96/transformed/browser-1.4.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.browser:browser:1.4.0] /Users/lauragavilanfernandez/.gradle/caches/transforms-3/bd13c11927bd36333c5f15f4f7de2b96/transformed/browser-1.4.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.media:media:1.0.0] /Users/lauragavilanfernandez/.gradle/caches/transforms-3/b882a095343bda3a33e689120f4e8c1f/transformed/media-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.media:media:1.0.0] /Users/lauragavilanfernandez/.gradle/caches/transforms-3/b882a095343bda3a33e689120f4e8c1f/transformed/media-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/lauragavilanfernandez/.gradle/caches/transforms-3/69673876aff666ead9a23b0bc2002e6c/transformed/viewpager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/lauragavilanfernandez/.gradle/caches/transforms-3/69673876aff666ead9a23b0bc2002e6c/transformed/viewpager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.recyclerview:recyclerview:1.1.0] /Users/lauragavilanfernandez/.gradle/caches/transforms-3/f31ffdf4a9cc56bcc7ecd1833abc7a42/transformed/recyclerview-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.recyclerview:recyclerview:1.1.0] /Users/lauragavilanfernandez/.gradle/caches/transforms-3/f31ffdf4a9cc56bcc7ecd1833abc7a42/transformed/recyclerview-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] /Users/lauragavilanfernandez/.gradle/caches/transforms-3/4cfffd3043998677a008e3a58efb1c53/transformed/slidingpanelayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] /Users/lauragavilanfernandez/.gradle/caches/transforms-3/4cfffd3043998677a008e3a58efb1c53/transformed/slidingpanelayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview:1.1.0] /Users/lauragavilanfernandez/.gradle/caches/transforms-3/822f7c7e04bb796cc8b61e2240f80086/transformed/customview-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.customview:customview:1.1.0] /Users/lauragavilanfernandez/.gradle/caches/transforms-3/822f7c7e04bb796cc8b61e2240f80086/transformed/customview-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] /Users/lauragavilanfernandez/.gradle/caches/transforms-3/e0abc9b114f60043ef5d4ffb88b367b2/transformed/swiperefreshlayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] /Users/lauragavilanfernandez/.gradle/caches/transforms-3/e0abc9b114f60043ef5d4ffb88b367b2/transformed/swiperefreshlayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] /Users/lauragavilanfernandez/.gradle/caches/transforms-3/d91fb1d2c1785055d7622fc4575babf6/transformed/asynclayoutinflater-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] /Users/lauragavilanfernandez/.gradle/caches/transforms-3/d91fb1d2c1785055d7622fc4575babf6/transformed/asynclayoutinflater-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.core:core:1.8.0] /Users/lauragavilanfernandez/.gradle/caches/transforms-3/ca18492abc4e717cba0e2f1b8c3a4c89/transformed/core-1.8.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.core:core:1.8.0] /Users/lauragavilanfernandez/.gradle/caches/transforms-3/ca18492abc4e717cba0e2f1b8c3a4c89/transformed/core-1.8.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /Users/lauragavilanfernandez/.gradle/caches/transforms-3/0e15e8f3c1ff462f49004462c9cd5824/transformed/cursoradapter-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /Users/lauragavilanfernandez/.gradle/caches/transforms-3/0e15e8f3c1ff462f49004462c9cd5824/transformed/cursoradapter-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-service:2.2.0] /Users/lauragavilanfernandez/.gradle/caches/transforms-3/36d5e50828c1d54eab143269aef847e6/transformed/lifecycle-service-2.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-service:2.2.0] /Users/lauragavilanfernandez/.gradle/caches/transforms-3/36d5e50828c1d54eab143269aef847e6/transformed/lifecycle-service-2.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-process:2.4.1] /Users/lauragavilanfernandez/.gradle/caches/transforms-3/ee189f7a444f9d3aa467ea05a84d6234/transformed/lifecycle-process-2.4.1/AndroidManifest.xml:21:5-23:41
+MERGED from [androidx.lifecycle:lifecycle-process:2.4.1] /Users/lauragavilanfernandez/.gradle/caches/transforms-3/ee189f7a444f9d3aa467ea05a84d6234/transformed/lifecycle-process-2.4.1/AndroidManifest.xml:21:5-23:41
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.5.1] /Users/lauragavilanfernandez/.gradle/caches/transforms-3/f20bf684d1214e41bbef7074b78aef30/transformed/lifecycle-runtime-2.5.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.5.1] /Users/lauragavilanfernandez/.gradle/caches/transforms-3/f20bf684d1214e41bbef7074b78aef30/transformed/lifecycle-runtime-2.5.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.savedstate:savedstate:1.2.0] /Users/lauragavilanfernandez/.gradle/caches/transforms-3/049037cd645c713d793975a987d15a30/transformed/savedstate-1.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.savedstate:savedstate:1.2.0] /Users/lauragavilanfernandez/.gradle/caches/transforms-3/049037cd645c713d793975a987d15a30/transformed/savedstate-1.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /Users/lauragavilanfernandez/.gradle/caches/transforms-3/55cebf1a87adda636b726c2e3dfc40fe/transformed/localbroadcastmanager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /Users/lauragavilanfernandez/.gradle/caches/transforms-3/55cebf1a87adda636b726c2e3dfc40fe/transformed/localbroadcastmanager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-components:17.0.1] /Users/lauragavilanfernandez/.gradle/caches/transforms-3/ee396881bc9afc6f90b03a7a981bfe0f/transformed/firebase-components-17.0.1/AndroidManifest.xml:19:5-21:41
+MERGED from [com.google.firebase:firebase-components:17.0.1] /Users/lauragavilanfernandez/.gradle/caches/transforms-3/ee396881bc9afc6f90b03a7a981bfe0f/transformed/firebase-components-17.0.1/AndroidManifest.xml:19:5-21:41
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.2.0] /Users/lauragavilanfernandez/.gradle/caches/transforms-3/ff2f75ad78580017d90bdeaaaa54e77d/transformed/lifecycle-livedata-2.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.2.0] /Users/lauragavilanfernandez/.gradle/caches/transforms-3/ff2f75ad78580017d90bdeaaaa54e77d/transformed/lifecycle-livedata-2.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.5.1] /Users/lauragavilanfernandez/.gradle/caches/transforms-3/c891b668513966b8d13e5cc6cfb0fcf7/transformed/lifecycle-livedata-core-2.5.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.5.1] /Users/lauragavilanfernandez/.gradle/caches/transforms-3/c891b668513966b8d13e5cc6cfb0fcf7/transformed/lifecycle-livedata-core-2.5.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.arch.core:core-runtime:2.1.0] /Users/lauragavilanfernandez/.gradle/caches/transforms-3/39e6f5a6cc217d0cb1591e2ea0dd4b8c/transformed/core-runtime-2.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.arch.core:core-runtime:2.1.0] /Users/lauragavilanfernandez/.gradle/caches/transforms-3/39e6f5a6cc217d0cb1591e2ea0dd4b8c/transformed/core-runtime-2.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.startup:startup-runtime:1.1.1] /Users/lauragavilanfernandez/.gradle/caches/transforms-3/c91e470d572d85dd71fb46a679b49a8f/transformed/startup-runtime-1.1.1/AndroidManifest.xml:21:5-23:41
+MERGED from [androidx.startup:startup-runtime:1.1.1] /Users/lauragavilanfernandez/.gradle/caches/transforms-3/c91e470d572d85dd71fb46a679b49a8f/transformed/startup-runtime-1.1.1/AndroidManifest.xml:21:5-23:41
+MERGED from [androidx.tracing:tracing:1.0.0] /Users/lauragavilanfernandez/.gradle/caches/transforms-3/af265758e6ed0dc986bbfd2aeb34c855/transformed/tracing-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.tracing:tracing:1.0.0] /Users/lauragavilanfernandez/.gradle/caches/transforms-3/af265758e6ed0dc986bbfd2aeb34c855/transformed/tracing-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/lauragavilanfernandez/.gradle/caches/transforms-3/ab4f43c9207ed0bb793a658f332b710d/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/lauragavilanfernandez/.gradle/caches/transforms-3/ab4f43c9207ed0bb793a658f332b710d/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/lauragavilanfernandez/.gradle/caches/transforms-3/49abe5e94402d0f03684343a01d6f72a/transformed/interpolator-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/lauragavilanfernandez/.gradle/caches/transforms-3/49abe5e94402d0f03684343a01d6f72a/transformed/interpolator-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.documentfile:documentfile:1.0.0] /Users/lauragavilanfernandez/.gradle/caches/transforms-3/87d5f5516b00add6388399b02ce7e77f/transformed/documentfile-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.documentfile:documentfile:1.0.0] /Users/lauragavilanfernandez/.gradle/caches/transforms-3/87d5f5516b00add6388399b02ce7e77f/transformed/documentfile-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] /Users/lauragavilanfernandez/.gradle/caches/transforms-3/afbdcaa71b5b681fc9d27c7af2114821/transformed/print-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] /Users/lauragavilanfernandez/.gradle/caches/transforms-3/afbdcaa71b5b681fc9d27c7af2114821/transformed/print-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.annotation:annotation-experimental:1.1.0] /Users/lauragavilanfernandez/.gradle/caches/transforms-3/ab5698bad39dbc208029448f01629cc0/transformed/annotation-experimental-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.annotation:annotation-experimental:1.1.0] /Users/lauragavilanfernandez/.gradle/caches/transforms-3/ab5698bad39dbc208029448f01629cc0/transformed/annotation-experimental-1.1.0/AndroidManifest.xml:20:5-22:41
+INJECTED from /Users/lauragavilanfernandez/Desktop/IoT_G11/app/src/main/AndroidManifest.xml
+INJECTED from /Users/lauragavilanfernandez/Desktop/IoT_G11/app/src/main/AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from /Users/lauragavilanfernandez/Desktop/IoT_G11/app/src/main/AndroidManifest.xml
+		ADDED from /Users/lauragavilanfernandez/Desktop/IoT_G11/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/lauragavilanfernandez/Desktop/IoT_G11/app/src/main/AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from /Users/lauragavilanfernandez/Desktop/IoT_G11/app/src/main/AndroidManifest.xml
+		ADDED from /Users/lauragavilanfernandez/Desktop/IoT_G11/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/lauragavilanfernandez/Desktop/IoT_G11/app/src/main/AndroidManifest.xml
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from [com.firebaseui:firebase-ui-auth:7.1.1] /Users/lauragavilanfernandez/.gradle/caches/transforms-3/9d9fb59aceb523c913c0885801ab7929/transformed/firebase-ui-auth-7.1.1/AndroidManifest.xml:12:5-79
+MERGED from [com.google.firebase:firebase-auth:21.1.0] /Users/lauragavilanfernandez/.gradle/caches/transforms-3/1aeae38695591b5982ad501f0dcd82d1/transformed/firebase-auth-21.1.0/AndroidManifest.xml:24:5-79
+MERGED from [com.google.firebase:firebase-auth:21.1.0] /Users/lauragavilanfernandez/.gradle/caches/transforms-3/1aeae38695591b5982ad501f0dcd82d1/transformed/firebase-auth-21.1.0/AndroidManifest.xml:24:5-79
+MERGED from [com.google.android.gms:play-services-measurement-api:21.2.0] /Users/lauragavilanfernandez/.gradle/caches/transforms-3/c0f30181d9cd5e3d606ad78973556466/transformed/play-services-measurement-api-21.2.0/AndroidManifest.xml:23:5-79
+MERGED from [com.google.android.gms:play-services-measurement-api:21.2.0] /Users/lauragavilanfernandez/.gradle/caches/transforms-3/c0f30181d9cd5e3d606ad78973556466/transformed/play-services-measurement-api-21.2.0/AndroidManifest.xml:23:5-79
+MERGED from [com.google.firebase:firebase-installations:17.1.0] /Users/lauragavilanfernandez/.gradle/caches/transforms-3/2688d1466ddf905fe792150b8a685bcc/transformed/firebase-installations-17.1.0/AndroidManifest.xml:9:5-79
+MERGED from [com.google.firebase:firebase-installations:17.1.0] /Users/lauragavilanfernandez/.gradle/caches/transforms-3/2688d1466ddf905fe792150b8a685bcc/transformed/firebase-installations-17.1.0/AndroidManifest.xml:9:5-79
+MERGED from [com.google.android.gms:play-services-measurement:21.2.0] /Users/lauragavilanfernandez/.gradle/caches/transforms-3/bfd6cea21695863e78221e007eb2751f/transformed/play-services-measurement-21.2.0/AndroidManifest.xml:24:5-79
+MERGED from [com.google.android.gms:play-services-measurement:21.2.0] /Users/lauragavilanfernandez/.gradle/caches/transforms-3/bfd6cea21695863e78221e007eb2751f/transformed/play-services-measurement-21.2.0/AndroidManifest.xml:24:5-79
+MERGED from [com.google.android.gms:play-services-measurement-impl:21.2.0] /Users/lauragavilanfernandez/.gradle/caches/transforms-3/f06873c475a718e91c8ca7aea042498e/transformed/play-services-measurement-impl-21.2.0/AndroidManifest.xml:24:5-79
+MERGED from [com.google.android.gms:play-services-measurement-impl:21.2.0] /Users/lauragavilanfernandez/.gradle/caches/transforms-3/f06873c475a718e91c8ca7aea042498e/transformed/play-services-measurement-impl-21.2.0/AndroidManifest.xml:24:5-79
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:21.2.0] /Users/lauragavilanfernandez/.gradle/caches/transforms-3/d17b9fbf31a71adb16126d0bfa7b4e51/transformed/play-services-measurement-sdk-api-21.2.0/AndroidManifest.xml:24:5-79
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:21.2.0] /Users/lauragavilanfernandez/.gradle/caches/transforms-3/d17b9fbf31a71adb16126d0bfa7b4e51/transformed/play-services-measurement-sdk-api-21.2.0/AndroidManifest.xml:24:5-79
+	android:name
+		ADDED from [com.firebaseui:firebase-ui-auth:7.1.1] /Users/lauragavilanfernandez/.gradle/caches/transforms-3/9d9fb59aceb523c913c0885801ab7929/transformed/firebase-ui-auth-7.1.1/AndroidManifest.xml:12:22-76
+uses-permission#android.permission.INTERNET
+ADDED from [com.firebaseui:firebase-ui-auth:7.1.1] /Users/lauragavilanfernandez/.gradle/caches/transforms-3/9d9fb59aceb523c913c0885801ab7929/transformed/firebase-ui-auth-7.1.1/AndroidManifest.xml:13:5-67
+MERGED from [com.google.firebase:firebase-auth:21.1.0] /Users/lauragavilanfernandez/.gradle/caches/transforms-3/1aeae38695591b5982ad501f0dcd82d1/transformed/firebase-auth-21.1.0/AndroidManifest.xml:23:5-67
+MERGED from [com.google.firebase:firebase-auth:21.1.0] /Users/lauragavilanfernandez/.gradle/caches/transforms-3/1aeae38695591b5982ad501f0dcd82d1/transformed/firebase-auth-21.1.0/AndroidManifest.xml:23:5-67
+MERGED from [com.google.android.gms:play-services-measurement-api:21.2.0] /Users/lauragavilanfernandez/.gradle/caches/transforms-3/c0f30181d9cd5e3d606ad78973556466/transformed/play-services-measurement-api-21.2.0/AndroidManifest.xml:22:5-67
+MERGED from [com.google.android.gms:play-services-measurement-api:21.2.0] /Users/lauragavilanfernandez/.gradle/caches/transforms-3/c0f30181d9cd5e3d606ad78973556466/transformed/play-services-measurement-api-21.2.0/AndroidManifest.xml:22:5-67
+MERGED from [com.google.firebase:firebase-installations:17.1.0] /Users/lauragavilanfernandez/.gradle/caches/transforms-3/2688d1466ddf905fe792150b8a685bcc/transformed/firebase-installations-17.1.0/AndroidManifest.xml:10:5-67
+MERGED from [com.google.firebase:firebase-installations:17.1.0] /Users/lauragavilanfernandez/.gradle/caches/transforms-3/2688d1466ddf905fe792150b8a685bcc/transformed/firebase-installations-17.1.0/AndroidManifest.xml:10:5-67
+MERGED from [com.google.android.gms:play-services-measurement:21.2.0] /Users/lauragavilanfernandez/.gradle/caches/transforms-3/bfd6cea21695863e78221e007eb2751f/transformed/play-services-measurement-21.2.0/AndroidManifest.xml:23:5-67
+MERGED from [com.google.android.gms:play-services-measurement:21.2.0] /Users/lauragavilanfernandez/.gradle/caches/transforms-3/bfd6cea21695863e78221e007eb2751f/transformed/play-services-measurement-21.2.0/AndroidManifest.xml:23:5-67
+MERGED from [com.google.android.gms:play-services-measurement-impl:21.2.0] /Users/lauragavilanfernandez/.gradle/caches/transforms-3/f06873c475a718e91c8ca7aea042498e/transformed/play-services-measurement-impl-21.2.0/AndroidManifest.xml:23:5-67
+MERGED from [com.google.android.gms:play-services-measurement-impl:21.2.0] /Users/lauragavilanfernandez/.gradle/caches/transforms-3/f06873c475a718e91c8ca7aea042498e/transformed/play-services-measurement-impl-21.2.0/AndroidManifest.xml:23:5-67
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:21.2.0] /Users/lauragavilanfernandez/.gradle/caches/transforms-3/d17b9fbf31a71adb16126d0bfa7b4e51/transformed/play-services-measurement-sdk-api-21.2.0/AndroidManifest.xml:23:5-67
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:21.2.0] /Users/lauragavilanfernandez/.gradle/caches/transforms-3/d17b9fbf31a71adb16126d0bfa7b4e51/transformed/play-services-measurement-sdk-api-21.2.0/AndroidManifest.xml:23:5-67
+	android:name
+		ADDED from [com.firebaseui:firebase-ui-auth:7.1.1] /Users/lauragavilanfernandez/.gradle/caches/transforms-3/9d9fb59aceb523c913c0885801ab7929/transformed/firebase-ui-auth-7.1.1/AndroidManifest.xml:13:22-64
+meta-data#com.google.android.gms.version
+ADDED from [com.firebaseui:firebase-ui-auth:7.1.1] /Users/lauragavilanfernandez/.gradle/caches/transforms-3/9d9fb59aceb523c913c0885801ab7929/transformed/firebase-ui-auth-7.1.1/AndroidManifest.xml:16:9-18:69
+MERGED from [com.google.android.gms:play-services-basement:18.1.0] /Users/lauragavilanfernandez/.gradle/caches/transforms-3/42922169dc0e4f801d77ff461a9a180a/transformed/play-services-basement-18.1.0/AndroidManifest.xml:21:9-23:69
+MERGED from [com.google.android.gms:play-services-basement:18.1.0] /Users/lauragavilanfernandez/.gradle/caches/transforms-3/42922169dc0e4f801d77ff461a9a180a/transformed/play-services-basement-18.1.0/AndroidManifest.xml:21:9-23:69
+	android:value
+		ADDED from [com.firebaseui:firebase-ui-auth:7.1.1] /Users/lauragavilanfernandez/.gradle/caches/transforms-3/9d9fb59aceb523c913c0885801ab7929/transformed/firebase-ui-auth-7.1.1/AndroidManifest.xml:18:13-66
+	android:name
+		ADDED from [com.firebaseui:firebase-ui-auth:7.1.1] /Users/lauragavilanfernandez/.gradle/caches/transforms-3/9d9fb59aceb523c913c0885801ab7929/transformed/firebase-ui-auth-7.1.1/AndroidManifest.xml:17:13-58
+meta-data#com.facebook.sdk.ApplicationId
+ADDED from [com.firebaseui:firebase-ui-auth:7.1.1] /Users/lauragavilanfernandez/.gradle/caches/transforms-3/9d9fb59aceb523c913c0885801ab7929/transformed/firebase-ui-auth-7.1.1/AndroidManifest.xml:19:9-21:63
+	android:value
+		ADDED from [com.firebaseui:firebase-ui-auth:7.1.1] /Users/lauragavilanfernandez/.gradle/caches/transforms-3/9d9fb59aceb523c913c0885801ab7929/transformed/firebase-ui-auth-7.1.1/AndroidManifest.xml:21:13-60
+	android:name
+		ADDED from [com.firebaseui:firebase-ui-auth:7.1.1] /Users/lauragavilanfernandez/.gradle/caches/transforms-3/9d9fb59aceb523c913c0885801ab7929/transformed/firebase-ui-auth-7.1.1/AndroidManifest.xml:20:13-58
+activity#com.firebase.ui.auth.KickoffActivity
+ADDED from [com.firebaseui:firebase-ui-auth:7.1.1] /Users/lauragavilanfernandez/.gradle/caches/transforms-3/9d9fb59aceb523c913c0885801ab7929/transformed/firebase-ui-auth-7.1.1/AndroidManifest.xml:23:9-27:61
+	android:label
+		ADDED from [com.firebaseui:firebase-ui-auth:7.1.1] /Users/lauragavilanfernandez/.gradle/caches/transforms-3/9d9fb59aceb523c913c0885801ab7929/transformed/firebase-ui-auth-7.1.1/AndroidManifest.xml:26:13-29
+	android:exported
+		ADDED from [com.firebaseui:firebase-ui-auth:7.1.1] /Users/lauragavilanfernandez/.gradle/caches/transforms-3/9d9fb59aceb523c913c0885801ab7929/transformed/firebase-ui-auth-7.1.1/AndroidManifest.xml:25:13-37
+	android:theme
+		ADDED from [com.firebaseui:firebase-ui-auth:7.1.1] /Users/lauragavilanfernandez/.gradle/caches/transforms-3/9d9fb59aceb523c913c0885801ab7929/transformed/firebase-ui-auth-7.1.1/AndroidManifest.xml:27:13-58
+	android:name
+		ADDED from [com.firebaseui:firebase-ui-auth:7.1.1] /Users/lauragavilanfernandez/.gradle/caches/transforms-3/9d9fb59aceb523c913c0885801ab7929/transformed/firebase-ui-auth-7.1.1/AndroidManifest.xml:24:13-64
+activity#com.firebase.ui.auth.ui.idp.SingleSignInActivity
+ADDED from [com.firebaseui:firebase-ui-auth:7.1.1] /Users/lauragavilanfernandez/.gradle/caches/transforms-3/9d9fb59aceb523c913c0885801ab7929/transformed/firebase-ui-auth-7.1.1/AndroidManifest.xml:28:9-32:61
+	android:label
+		ADDED from [com.firebaseui:firebase-ui-auth:7.1.1] /Users/lauragavilanfernandez/.gradle/caches/transforms-3/9d9fb59aceb523c913c0885801ab7929/transformed/firebase-ui-auth-7.1.1/AndroidManifest.xml:31:13-29
+	android:exported
+		ADDED from [com.firebaseui:firebase-ui-auth:7.1.1] /Users/lauragavilanfernandez/.gradle/caches/transforms-3/9d9fb59aceb523c913c0885801ab7929/transformed/firebase-ui-auth-7.1.1/AndroidManifest.xml:30:13-37
+	android:theme
+		ADDED from [com.firebaseui:firebase-ui-auth:7.1.1] /Users/lauragavilanfernandez/.gradle/caches/transforms-3/9d9fb59aceb523c913c0885801ab7929/transformed/firebase-ui-auth-7.1.1/AndroidManifest.xml:32:13-58
+	android:name
+		ADDED from [com.firebaseui:firebase-ui-auth:7.1.1] /Users/lauragavilanfernandez/.gradle/caches/transforms-3/9d9fb59aceb523c913c0885801ab7929/transformed/firebase-ui-auth-7.1.1/AndroidManifest.xml:29:13-76
+activity#com.firebase.ui.auth.ui.credentials.CredentialSaveActivity
+ADDED from [com.firebaseui:firebase-ui-auth:7.1.1] /Users/lauragavilanfernandez/.gradle/caches/transforms-3/9d9fb59aceb523c913c0885801ab7929/transformed/firebase-ui-auth-7.1.1/AndroidManifest.xml:33:9-37:61
+	android:label
+		ADDED from [com.firebaseui:firebase-ui-auth:7.1.1] /Users/lauragavilanfernandez/.gradle/caches/transforms-3/9d9fb59aceb523c913c0885801ab7929/transformed/firebase-ui-auth-7.1.1/AndroidManifest.xml:36:13-29
+	android:exported
+		ADDED from [com.firebaseui:firebase-ui-auth:7.1.1] /Users/lauragavilanfernandez/.gradle/caches/transforms-3/9d9fb59aceb523c913c0885801ab7929/transformed/firebase-ui-auth-7.1.1/AndroidManifest.xml:35:13-37
+	android:theme
+		ADDED from [com.firebaseui:firebase-ui-auth:7.1.1] /Users/lauragavilanfernandez/.gradle/caches/transforms-3/9d9fb59aceb523c913c0885801ab7929/transformed/firebase-ui-auth-7.1.1/AndroidManifest.xml:37:13-58
+	android:name
+		ADDED from [com.firebaseui:firebase-ui-auth:7.1.1] /Users/lauragavilanfernandez/.gradle/caches/transforms-3/9d9fb59aceb523c913c0885801ab7929/transformed/firebase-ui-auth-7.1.1/AndroidManifest.xml:34:13-86
+activity#com.firebase.ui.auth.ui.email.RecoverPasswordActivity
+ADDED from [com.firebaseui:firebase-ui-auth:7.1.1] /Users/lauragavilanfernandez/.gradle/caches/transforms-3/9d9fb59aceb523c913c0885801ab7929/transformed/firebase-ui-auth-7.1.1/AndroidManifest.xml:38:9-42:58
+	android:label
+		ADDED from [com.firebaseui:firebase-ui-auth:7.1.1] /Users/lauragavilanfernandez/.gradle/caches/transforms-3/9d9fb59aceb523c913c0885801ab7929/transformed/firebase-ui-auth-7.1.1/AndroidManifest.xml:41:13-72
+	android:windowSoftInputMode
+		ADDED from [com.firebaseui:firebase-ui-auth:7.1.1] /Users/lauragavilanfernandez/.gradle/caches/transforms-3/9d9fb59aceb523c913c0885801ab7929/transformed/firebase-ui-auth-7.1.1/AndroidManifest.xml:42:13-55
+	android:exported
+		ADDED from [com.firebaseui:firebase-ui-auth:7.1.1] /Users/lauragavilanfernandez/.gradle/caches/transforms-3/9d9fb59aceb523c913c0885801ab7929/transformed/firebase-ui-auth-7.1.1/AndroidManifest.xml:40:13-37
+	android:name
+		ADDED from [com.firebaseui:firebase-ui-auth:7.1.1] /Users/lauragavilanfernandez/.gradle/caches/transforms-3/9d9fb59aceb523c913c0885801ab7929/transformed/firebase-ui-auth-7.1.1/AndroidManifest.xml:39:13-81
+activity#com.firebase.ui.auth.ui.email.EmailActivity
+ADDED from [com.firebaseui:firebase-ui-auth:7.1.1] /Users/lauragavilanfernandez/.gradle/caches/transforms-3/9d9fb59aceb523c913c0885801ab7929/transformed/firebase-ui-auth-7.1.1/AndroidManifest.xml:43:9-47:58
+	android:label
+		ADDED from [com.firebaseui:firebase-ui-auth:7.1.1] /Users/lauragavilanfernandez/.gradle/caches/transforms-3/9d9fb59aceb523c913c0885801ab7929/transformed/firebase-ui-auth-7.1.1/AndroidManifest.xml:46:13-56
+	android:windowSoftInputMode
+		ADDED from [com.firebaseui:firebase-ui-auth:7.1.1] /Users/lauragavilanfernandez/.gradle/caches/transforms-3/9d9fb59aceb523c913c0885801ab7929/transformed/firebase-ui-auth-7.1.1/AndroidManifest.xml:47:13-55
+	android:exported
+		ADDED from [com.firebaseui:firebase-ui-auth:7.1.1] /Users/lauragavilanfernandez/.gradle/caches/transforms-3/9d9fb59aceb523c913c0885801ab7929/transformed/firebase-ui-auth-7.1.1/AndroidManifest.xml:45:13-37
+	android:name
+		ADDED from [com.firebaseui:firebase-ui-auth:7.1.1] /Users/lauragavilanfernandez/.gradle/caches/transforms-3/9d9fb59aceb523c913c0885801ab7929/transformed/firebase-ui-auth-7.1.1/AndroidManifest.xml:44:13-71
+activity#com.firebase.ui.auth.ui.phone.PhoneActivity
+ADDED from [com.firebaseui:firebase-ui-auth:7.1.1] /Users/lauragavilanfernandez/.gradle/caches/transforms-3/9d9fb59aceb523c913c0885801ab7929/transformed/firebase-ui-auth-7.1.1/AndroidManifest.xml:48:9-52:77
+	android:label
+		ADDED from [com.firebaseui:firebase-ui-auth:7.1.1] /Users/lauragavilanfernandez/.gradle/caches/transforms-3/9d9fb59aceb523c913c0885801ab7929/transformed/firebase-ui-auth-7.1.1/AndroidManifest.xml:51:13-66
+	android:windowSoftInputMode
+		ADDED from [com.firebaseui:firebase-ui-auth:7.1.1] /Users/lauragavilanfernandez/.gradle/caches/transforms-3/9d9fb59aceb523c913c0885801ab7929/transformed/firebase-ui-auth-7.1.1/AndroidManifest.xml:52:13-74
+	android:exported
+		ADDED from [com.firebaseui:firebase-ui-auth:7.1.1] /Users/lauragavilanfernandez/.gradle/caches/transforms-3/9d9fb59aceb523c913c0885801ab7929/transformed/firebase-ui-auth-7.1.1/AndroidManifest.xml:50:13-37
+	android:name
+		ADDED from [com.firebaseui:firebase-ui-auth:7.1.1] /Users/lauragavilanfernandez/.gradle/caches/transforms-3/9d9fb59aceb523c913c0885801ab7929/transformed/firebase-ui-auth-7.1.1/AndroidManifest.xml:49:13-71
+activity#com.firebase.ui.auth.ui.idp.WelcomeBackIdpPrompt
+ADDED from [com.firebaseui:firebase-ui-auth:7.1.1] /Users/lauragavilanfernandez/.gradle/caches/transforms-3/9d9fb59aceb523c913c0885801ab7929/transformed/firebase-ui-auth-7.1.1/AndroidManifest.xml:53:9-57:58
+	android:label
+		ADDED from [com.firebaseui:firebase-ui-auth:7.1.1] /Users/lauragavilanfernandez/.gradle/caches/transforms-3/9d9fb59aceb523c913c0885801ab7929/transformed/firebase-ui-auth-7.1.1/AndroidManifest.xml:56:13-70
+	android:windowSoftInputMode
+		ADDED from [com.firebaseui:firebase-ui-auth:7.1.1] /Users/lauragavilanfernandez/.gradle/caches/transforms-3/9d9fb59aceb523c913c0885801ab7929/transformed/firebase-ui-auth-7.1.1/AndroidManifest.xml:57:13-55
+	android:exported
+		ADDED from [com.firebaseui:firebase-ui-auth:7.1.1] /Users/lauragavilanfernandez/.gradle/caches/transforms-3/9d9fb59aceb523c913c0885801ab7929/transformed/firebase-ui-auth-7.1.1/AndroidManifest.xml:55:13-37
+	android:name
+		ADDED from [com.firebaseui:firebase-ui-auth:7.1.1] /Users/lauragavilanfernandez/.gradle/caches/transforms-3/9d9fb59aceb523c913c0885801ab7929/transformed/firebase-ui-auth-7.1.1/AndroidManifest.xml:54:13-76
+activity#com.firebase.ui.auth.ui.email.WelcomeBackPasswordPrompt
+ADDED from [com.firebaseui:firebase-ui-auth:7.1.1] /Users/lauragavilanfernandez/.gradle/caches/transforms-3/9d9fb59aceb523c913c0885801ab7929/transformed/firebase-ui-auth-7.1.1/AndroidManifest.xml:58:9-62:58
+	android:label
+		ADDED from [com.firebaseui:firebase-ui-auth:7.1.1] /Users/lauragavilanfernandez/.gradle/caches/transforms-3/9d9fb59aceb523c913c0885801ab7929/transformed/firebase-ui-auth-7.1.1/AndroidManifest.xml:61:13-75
+	android:windowSoftInputMode
+		ADDED from [com.firebaseui:firebase-ui-auth:7.1.1] /Users/lauragavilanfernandez/.gradle/caches/transforms-3/9d9fb59aceb523c913c0885801ab7929/transformed/firebase-ui-auth-7.1.1/AndroidManifest.xml:62:13-55
+	android:exported
+		ADDED from [com.firebaseui:firebase-ui-auth:7.1.1] /Users/lauragavilanfernandez/.gradle/caches/transforms-3/9d9fb59aceb523c913c0885801ab7929/transformed/firebase-ui-auth-7.1.1/AndroidManifest.xml:60:13-37
+	android:name
+		ADDED from [com.firebaseui:firebase-ui-auth:7.1.1] /Users/lauragavilanfernandez/.gradle/caches/transforms-3/9d9fb59aceb523c913c0885801ab7929/transformed/firebase-ui-auth-7.1.1/AndroidManifest.xml:59:13-83
+activity#com.firebase.ui.auth.ui.email.WelcomeBackEmailLinkPrompt
+ADDED from [com.firebaseui:firebase-ui-auth:7.1.1] /Users/lauragavilanfernandez/.gradle/caches/transforms-3/9d9fb59aceb523c913c0885801ab7929/transformed/firebase-ui-auth-7.1.1/AndroidManifest.xml:63:9-67:58
+	android:label
+		ADDED from [com.firebaseui:firebase-ui-auth:7.1.1] /Users/lauragavilanfernandez/.gradle/caches/transforms-3/9d9fb59aceb523c913c0885801ab7929/transformed/firebase-ui-auth-7.1.1/AndroidManifest.xml:66:13-75
+	android:windowSoftInputMode
+		ADDED from [com.firebaseui:firebase-ui-auth:7.1.1] /Users/lauragavilanfernandez/.gradle/caches/transforms-3/9d9fb59aceb523c913c0885801ab7929/transformed/firebase-ui-auth-7.1.1/AndroidManifest.xml:67:13-55
+	android:exported
+		ADDED from [com.firebaseui:firebase-ui-auth:7.1.1] /Users/lauragavilanfernandez/.gradle/caches/transforms-3/9d9fb59aceb523c913c0885801ab7929/transformed/firebase-ui-auth-7.1.1/AndroidManifest.xml:65:13-37
+	android:name
+		ADDED from [com.firebaseui:firebase-ui-auth:7.1.1] /Users/lauragavilanfernandez/.gradle/caches/transforms-3/9d9fb59aceb523c913c0885801ab7929/transformed/firebase-ui-auth-7.1.1/AndroidManifest.xml:64:13-84
+activity#com.firebase.ui.auth.ui.email.EmailLinkCatcherActivity
+ADDED from [com.firebaseui:firebase-ui-auth:7.1.1] /Users/lauragavilanfernandez/.gradle/caches/transforms-3/9d9fb59aceb523c913c0885801ab7929/transformed/firebase-ui-auth-7.1.1/AndroidManifest.xml:68:9-73:58
+	android:label
+		ADDED from [com.firebaseui:firebase-ui-auth:7.1.1] /Users/lauragavilanfernandez/.gradle/caches/transforms-3/9d9fb59aceb523c913c0885801ab7929/transformed/firebase-ui-auth-7.1.1/AndroidManifest.xml:71:13-29
+	android:windowSoftInputMode
+		ADDED from [com.firebaseui:firebase-ui-auth:7.1.1] /Users/lauragavilanfernandez/.gradle/caches/transforms-3/9d9fb59aceb523c913c0885801ab7929/transformed/firebase-ui-auth-7.1.1/AndroidManifest.xml:73:13-55
+	android:exported
+		ADDED from [com.firebaseui:firebase-ui-auth:7.1.1] /Users/lauragavilanfernandez/.gradle/caches/transforms-3/9d9fb59aceb523c913c0885801ab7929/transformed/firebase-ui-auth-7.1.1/AndroidManifest.xml:70:13-37
+	android:theme
+		ADDED from [com.firebaseui:firebase-ui-auth:7.1.1] /Users/lauragavilanfernandez/.gradle/caches/transforms-3/9d9fb59aceb523c913c0885801ab7929/transformed/firebase-ui-auth-7.1.1/AndroidManifest.xml:72:13-58
+	android:name
+		ADDED from [com.firebaseui:firebase-ui-auth:7.1.1] /Users/lauragavilanfernandez/.gradle/caches/transforms-3/9d9fb59aceb523c913c0885801ab7929/transformed/firebase-ui-auth-7.1.1/AndroidManifest.xml:69:13-82
+activity#com.firebase.ui.auth.ui.email.EmailLinkErrorRecoveryActivity
+ADDED from [com.firebaseui:firebase-ui-auth:7.1.1] /Users/lauragavilanfernandez/.gradle/caches/transforms-3/9d9fb59aceb523c913c0885801ab7929/transformed/firebase-ui-auth-7.1.1/AndroidManifest.xml:74:9-78:58
+	android:label
+		ADDED from [com.firebaseui:firebase-ui-auth:7.1.1] /Users/lauragavilanfernandez/.gradle/caches/transforms-3/9d9fb59aceb523c913c0885801ab7929/transformed/firebase-ui-auth-7.1.1/AndroidManifest.xml:77:13-56
+	android:windowSoftInputMode
+		ADDED from [com.firebaseui:firebase-ui-auth:7.1.1] /Users/lauragavilanfernandez/.gradle/caches/transforms-3/9d9fb59aceb523c913c0885801ab7929/transformed/firebase-ui-auth-7.1.1/AndroidManifest.xml:78:13-55
+	android:exported
+		ADDED from [com.firebaseui:firebase-ui-auth:7.1.1] /Users/lauragavilanfernandez/.gradle/caches/transforms-3/9d9fb59aceb523c913c0885801ab7929/transformed/firebase-ui-auth-7.1.1/AndroidManifest.xml:76:13-37
+	android:name
+		ADDED from [com.firebaseui:firebase-ui-auth:7.1.1] /Users/lauragavilanfernandez/.gradle/caches/transforms-3/9d9fb59aceb523c913c0885801ab7929/transformed/firebase-ui-auth-7.1.1/AndroidManifest.xml:75:13-88
+activity#com.firebase.ui.auth.ui.idp.AuthMethodPickerActivity
+ADDED from [com.firebaseui:firebase-ui-auth:7.1.1] /Users/lauragavilanfernandez/.gradle/caches/transforms-3/9d9fb59aceb523c913c0885801ab7929/transformed/firebase-ui-auth-7.1.1/AndroidManifest.xml:79:9-82:65
+	android:label
+		ADDED from [com.firebaseui:firebase-ui-auth:7.1.1] /Users/lauragavilanfernandez/.gradle/caches/transforms-3/9d9fb59aceb523c913c0885801ab7929/transformed/firebase-ui-auth-7.1.1/AndroidManifest.xml:82:13-62
+	android:exported
+		ADDED from [com.firebaseui:firebase-ui-auth:7.1.1] /Users/lauragavilanfernandez/.gradle/caches/transforms-3/9d9fb59aceb523c913c0885801ab7929/transformed/firebase-ui-auth-7.1.1/AndroidManifest.xml:81:13-37
+	android:name
+		ADDED from [com.firebaseui:firebase-ui-auth:7.1.1] /Users/lauragavilanfernandez/.gradle/caches/transforms-3/9d9fb59aceb523c913c0885801ab7929/transformed/firebase-ui-auth-7.1.1/AndroidManifest.xml:80:13-80
+activity#com.facebook.FacebookActivity
+ADDED from [com.firebaseui:firebase-ui-auth:7.1.1] /Users/lauragavilanfernandez/.gradle/caches/transforms-3/9d9fb59aceb523c913c0885801ab7929/transformed/firebase-ui-auth-7.1.1/AndroidManifest.xml:83:9-87:48
+	android:label
+		ADDED from [com.firebaseui:firebase-ui-auth:7.1.1] /Users/lauragavilanfernandez/.gradle/caches/transforms-3/9d9fb59aceb523c913c0885801ab7929/transformed/firebase-ui-auth-7.1.1/AndroidManifest.xml:86:13-45
+	tools:ignore
+		ADDED from [com.firebaseui:firebase-ui-auth:7.1.1] /Users/lauragavilanfernandez/.gradle/caches/transforms-3/9d9fb59aceb523c913c0885801ab7929/transformed/firebase-ui-auth-7.1.1/AndroidManifest.xml:87:13-45
+	android:configChanges
+		ADDED from [com.firebaseui:firebase-ui-auth:7.1.1] /Users/lauragavilanfernandez/.gradle/caches/transforms-3/9d9fb59aceb523c913c0885801ab7929/transformed/firebase-ui-auth-7.1.1/AndroidManifest.xml:85:13-96
+	android:name
+		ADDED from [com.firebaseui:firebase-ui-auth:7.1.1] /Users/lauragavilanfernandez/.gradle/caches/transforms-3/9d9fb59aceb523c913c0885801ab7929/transformed/firebase-ui-auth-7.1.1/AndroidManifest.xml:84:13-57
+activity#com.facebook.CustomTabActivity
+ADDED from [com.firebaseui:firebase-ui-auth:7.1.1] /Users/lauragavilanfernandez/.gradle/caches/transforms-3/9d9fb59aceb523c913c0885801ab7929/transformed/firebase-ui-auth-7.1.1/AndroidManifest.xml:88:9-100:20
+	android:exported
+		ADDED from [com.firebaseui:firebase-ui-auth:7.1.1] /Users/lauragavilanfernandez/.gradle/caches/transforms-3/9d9fb59aceb523c913c0885801ab7929/transformed/firebase-ui-auth-7.1.1/AndroidManifest.xml:90:13-36
+	tools:ignore
+		ADDED from [com.firebaseui:firebase-ui-auth:7.1.1] /Users/lauragavilanfernandez/.gradle/caches/transforms-3/9d9fb59aceb523c913c0885801ab7929/transformed/firebase-ui-auth-7.1.1/AndroidManifest.xml:91:13-45
+	android:name
+		ADDED from [com.firebaseui:firebase-ui-auth:7.1.1] /Users/lauragavilanfernandez/.gradle/caches/transforms-3/9d9fb59aceb523c913c0885801ab7929/transformed/firebase-ui-auth-7.1.1/AndroidManifest.xml:89:13-58
+intent-filter#action:name:android.intent.action.VIEW+category:name:android.intent.category.BROWSABLE+category:name:android.intent.category.DEFAULT+data:scheme:@string/facebook_login_protocol_scheme
+ADDED from [com.firebaseui:firebase-ui-auth:7.1.1] /Users/lauragavilanfernandez/.gradle/caches/transforms-3/9d9fb59aceb523c913c0885801ab7929/transformed/firebase-ui-auth-7.1.1/AndroidManifest.xml:92:13-99:29
+action#android.intent.action.VIEW
+ADDED from [com.firebaseui:firebase-ui-auth:7.1.1] /Users/lauragavilanfernandez/.gradle/caches/transforms-3/9d9fb59aceb523c913c0885801ab7929/transformed/firebase-ui-auth-7.1.1/AndroidManifest.xml:93:17-69
+	android:name
+		ADDED from [com.firebaseui:firebase-ui-auth:7.1.1] /Users/lauragavilanfernandez/.gradle/caches/transforms-3/9d9fb59aceb523c913c0885801ab7929/transformed/firebase-ui-auth-7.1.1/AndroidManifest.xml:93:25-66
+category#android.intent.category.DEFAULT
+ADDED from [com.firebaseui:firebase-ui-auth:7.1.1] /Users/lauragavilanfernandez/.gradle/caches/transforms-3/9d9fb59aceb523c913c0885801ab7929/transformed/firebase-ui-auth-7.1.1/AndroidManifest.xml:95:17-76
+	android:name
+		ADDED from [com.firebaseui:firebase-ui-auth:7.1.1] /Users/lauragavilanfernandez/.gradle/caches/transforms-3/9d9fb59aceb523c913c0885801ab7929/transformed/firebase-ui-auth-7.1.1/AndroidManifest.xml:95:27-73
+category#android.intent.category.BROWSABLE
+ADDED from [com.firebaseui:firebase-ui-auth:7.1.1] /Users/lauragavilanfernandez/.gradle/caches/transforms-3/9d9fb59aceb523c913c0885801ab7929/transformed/firebase-ui-auth-7.1.1/AndroidManifest.xml:96:17-78
+	android:name
+		ADDED from [com.firebaseui:firebase-ui-auth:7.1.1] /Users/lauragavilanfernandez/.gradle/caches/transforms-3/9d9fb59aceb523c913c0885801ab7929/transformed/firebase-ui-auth-7.1.1/AndroidManifest.xml:96:27-75
+data
+ADDED from [com.firebaseui:firebase-ui-auth:7.1.1] /Users/lauragavilanfernandez/.gradle/caches/transforms-3/9d9fb59aceb523c913c0885801ab7929/transformed/firebase-ui-auth-7.1.1/AndroidManifest.xml:98:17-81
+	android:scheme
+		ADDED from [com.firebaseui:firebase-ui-auth:7.1.1] /Users/lauragavilanfernandez/.gradle/caches/transforms-3/9d9fb59aceb523c913c0885801ab7929/transformed/firebase-ui-auth-7.1.1/AndroidManifest.xml:98:23-78
+provider#com.firebase.ui.auth.data.client.AuthUiInitProvider
+ADDED from [com.firebaseui:firebase-ui-auth:7.1.1] /Users/lauragavilanfernandez/.gradle/caches/transforms-3/9d9fb59aceb523c913c0885801ab7929/transformed/firebase-ui-auth-7.1.1/AndroidManifest.xml:102:9-106:38
+	android:authorities
+		ADDED from [com.firebaseui:firebase-ui-auth:7.1.1] /Users/lauragavilanfernandez/.gradle/caches/transforms-3/9d9fb59aceb523c913c0885801ab7929/transformed/firebase-ui-auth-7.1.1/AndroidManifest.xml:104:13-70
+	android:exported
+		ADDED from [com.firebaseui:firebase-ui-auth:7.1.1] /Users/lauragavilanfernandez/.gradle/caches/transforms-3/9d9fb59aceb523c913c0885801ab7929/transformed/firebase-ui-auth-7.1.1/AndroidManifest.xml:105:13-37
+	android:initOrder
+		ADDED from [com.firebaseui:firebase-ui-auth:7.1.1] /Users/lauragavilanfernandez/.gradle/caches/transforms-3/9d9fb59aceb523c913c0885801ab7929/transformed/firebase-ui-auth-7.1.1/AndroidManifest.xml:106:13-35
+	android:name
+		ADDED from [com.firebaseui:firebase-ui-auth:7.1.1] /Users/lauragavilanfernandez/.gradle/caches/transforms-3/9d9fb59aceb523c913c0885801ab7929/transformed/firebase-ui-auth-7.1.1/AndroidManifest.xml:103:13-79
+activity#com.google.firebase.auth.internal.GenericIdpActivity
+ADDED from [com.google.firebase:firebase-auth:21.1.0] /Users/lauragavilanfernandez/.gradle/caches/transforms-3/1aeae38695591b5982ad501f0dcd82d1/transformed/firebase-auth-21.1.0/AndroidManifest.xml:27:9-44:20
+	android:excludeFromRecents
+		ADDED from [com.google.firebase:firebase-auth:21.1.0] /Users/lauragavilanfernandez/.gradle/caches/transforms-3/1aeae38695591b5982ad501f0dcd82d1/transformed/firebase-auth-21.1.0/AndroidManifest.xml:29:13-46
+	android:launchMode
+		ADDED from [com.google.firebase:firebase-auth:21.1.0] /Users/lauragavilanfernandez/.gradle/caches/transforms-3/1aeae38695591b5982ad501f0dcd82d1/transformed/firebase-auth-21.1.0/AndroidManifest.xml:31:13-44
+	android:exported
+		ADDED from [com.google.firebase:firebase-auth:21.1.0] /Users/lauragavilanfernandez/.gradle/caches/transforms-3/1aeae38695591b5982ad501f0dcd82d1/transformed/firebase-auth-21.1.0/AndroidManifest.xml:30:13-36
+	android:theme
+		ADDED from [com.google.firebase:firebase-auth:21.1.0] /Users/lauragavilanfernandez/.gradle/caches/transforms-3/1aeae38695591b5982ad501f0dcd82d1/transformed/firebase-auth-21.1.0/AndroidManifest.xml:32:13-72
+	android:name
+		ADDED from [com.google.firebase:firebase-auth:21.1.0] /Users/lauragavilanfernandez/.gradle/caches/transforms-3/1aeae38695591b5982ad501f0dcd82d1/transformed/firebase-auth-21.1.0/AndroidManifest.xml:28:13-80
+intent-filter#action:name:android.intent.action.VIEW+category:name:android.intent.category.BROWSABLE+category:name:android.intent.category.DEFAULT+data:host:firebase.auth+data:path:/+data:scheme:genericidp
+ADDED from [com.google.firebase:firebase-auth:21.1.0] /Users/lauragavilanfernandez/.gradle/caches/transforms-3/1aeae38695591b5982ad501f0dcd82d1/transformed/firebase-auth-21.1.0/AndroidManifest.xml:33:13-43:29
+activity#com.google.firebase.auth.internal.RecaptchaActivity
+ADDED from [com.google.firebase:firebase-auth:21.1.0] /Users/lauragavilanfernandez/.gradle/caches/transforms-3/1aeae38695591b5982ad501f0dcd82d1/transformed/firebase-auth-21.1.0/AndroidManifest.xml:45:9-62:20
+	android:excludeFromRecents
+		ADDED from [com.google.firebase:firebase-auth:21.1.0] /Users/lauragavilanfernandez/.gradle/caches/transforms-3/1aeae38695591b5982ad501f0dcd82d1/transformed/firebase-auth-21.1.0/AndroidManifest.xml:47:13-46
+	android:launchMode
+		ADDED from [com.google.firebase:firebase-auth:21.1.0] /Users/lauragavilanfernandez/.gradle/caches/transforms-3/1aeae38695591b5982ad501f0dcd82d1/transformed/firebase-auth-21.1.0/AndroidManifest.xml:49:13-44
+	android:exported
+		ADDED from [com.google.firebase:firebase-auth:21.1.0] /Users/lauragavilanfernandez/.gradle/caches/transforms-3/1aeae38695591b5982ad501f0dcd82d1/transformed/firebase-auth-21.1.0/AndroidManifest.xml:48:13-36
+	android:theme
+		ADDED from [com.google.firebase:firebase-auth:21.1.0] /Users/lauragavilanfernandez/.gradle/caches/transforms-3/1aeae38695591b5982ad501f0dcd82d1/transformed/firebase-auth-21.1.0/AndroidManifest.xml:50:13-72
+	android:name
+		ADDED from [com.google.firebase:firebase-auth:21.1.0] /Users/lauragavilanfernandez/.gradle/caches/transforms-3/1aeae38695591b5982ad501f0dcd82d1/transformed/firebase-auth-21.1.0/AndroidManifest.xml:46:13-79
+intent-filter#action:name:android.intent.action.VIEW+category:name:android.intent.category.BROWSABLE+category:name:android.intent.category.DEFAULT+data:host:firebase.auth+data:path:/+data:scheme:recaptcha
+ADDED from [com.google.firebase:firebase-auth:21.1.0] /Users/lauragavilanfernandez/.gradle/caches/transforms-3/1aeae38695591b5982ad501f0dcd82d1/transformed/firebase-auth-21.1.0/AndroidManifest.xml:51:13-61:29
+service#com.google.firebase.components.ComponentDiscoveryService
+ADDED from [com.google.firebase:firebase-auth:21.1.0] /Users/lauragavilanfernandez/.gradle/caches/transforms-3/1aeae38695591b5982ad501f0dcd82d1/transformed/firebase-auth-21.1.0/AndroidManifest.xml:64:9-70:19
+MERGED from [com.google.android.gms:play-services-measurement-api:21.2.0] /Users/lauragavilanfernandez/.gradle/caches/transforms-3/c0f30181d9cd5e3d606ad78973556466/transformed/play-services-measurement-api-21.2.0/AndroidManifest.xml:28:9-34:19
+MERGED from [com.google.android.gms:play-services-measurement-api:21.2.0] /Users/lauragavilanfernandez/.gradle/caches/transforms-3/c0f30181d9cd5e3d606ad78973556466/transformed/play-services-measurement-api-21.2.0/AndroidManifest.xml:28:9-34:19
+MERGED from [com.google.firebase:firebase-installations:17.1.0] /Users/lauragavilanfernandez/.gradle/caches/transforms-3/2688d1466ddf905fe792150b8a685bcc/transformed/firebase-installations-17.1.0/AndroidManifest.xml:14:9-20:19
+MERGED from [com.google.firebase:firebase-installations:17.1.0] /Users/lauragavilanfernandez/.gradle/caches/transforms-3/2688d1466ddf905fe792150b8a685bcc/transformed/firebase-installations-17.1.0/AndroidManifest.xml:14:9-20:19
+MERGED from [com.google.firebase:firebase-common:20.2.0] /Users/lauragavilanfernandez/.gradle/caches/transforms-3/43ecb9fe4a41b74bf6ca0512832e7f27/transformed/firebase-common-20.2.0/AndroidManifest.xml:32:9-36:35
+MERGED from [com.google.firebase:firebase-common:20.2.0] /Users/lauragavilanfernandez/.gradle/caches/transforms-3/43ecb9fe4a41b74bf6ca0512832e7f27/transformed/firebase-common-20.2.0/AndroidManifest.xml:32:9-36:35
+	android:exported
+		ADDED from [com.google.firebase:firebase-auth:21.1.0] /Users/lauragavilanfernandez/.gradle/caches/transforms-3/1aeae38695591b5982ad501f0dcd82d1/transformed/firebase-auth-21.1.0/AndroidManifest.xml:66:13-37
+	tools:targetApi
+		ADDED from [com.google.firebase:firebase-common:20.2.0] /Users/lauragavilanfernandez/.gradle/caches/transforms-3/43ecb9fe4a41b74bf6ca0512832e7f27/transformed/firebase-common-20.2.0/AndroidManifest.xml:36:13-32
+	android:directBootAware
+		ADDED from [com.google.firebase:firebase-common:20.2.0] /Users/lauragavilanfernandez/.gradle/caches/transforms-3/43ecb9fe4a41b74bf6ca0512832e7f27/transformed/firebase-common-20.2.0/AndroidManifest.xml:34:13-43
+	android:name
+		ADDED from [com.google.firebase:firebase-auth:21.1.0] /Users/lauragavilanfernandez/.gradle/caches/transforms-3/1aeae38695591b5982ad501f0dcd82d1/transformed/firebase-auth-21.1.0/AndroidManifest.xml:65:13-84
+meta-data#com.google.firebase.components:com.google.firebase.auth.FirebaseAuthRegistrar
+ADDED from [com.google.firebase:firebase-auth:21.1.0] /Users/lauragavilanfernandez/.gradle/caches/transforms-3/1aeae38695591b5982ad501f0dcd82d1/transformed/firebase-auth-21.1.0/AndroidManifest.xml:67:13-69:85
+	android:value
+		ADDED from [com.google.firebase:firebase-auth:21.1.0] /Users/lauragavilanfernandez/.gradle/caches/transforms-3/1aeae38695591b5982ad501f0dcd82d1/transformed/firebase-auth-21.1.0/AndroidManifest.xml:69:17-82
+	android:name
+		ADDED from [com.google.firebase:firebase-auth:21.1.0] /Users/lauragavilanfernandez/.gradle/caches/transforms-3/1aeae38695591b5982ad501f0dcd82d1/transformed/firebase-auth-21.1.0/AndroidManifest.xml:68:17-109
+uses-permission#android.permission.WAKE_LOCK
+ADDED from [com.google.android.gms:play-services-measurement-api:21.2.0] /Users/lauragavilanfernandez/.gradle/caches/transforms-3/c0f30181d9cd5e3d606ad78973556466/transformed/play-services-measurement-api-21.2.0/AndroidManifest.xml:24:5-68
+MERGED from [com.google.android.gms:play-services-measurement:21.2.0] /Users/lauragavilanfernandez/.gradle/caches/transforms-3/bfd6cea21695863e78221e007eb2751f/transformed/play-services-measurement-21.2.0/AndroidManifest.xml:25:5-68
+MERGED from [com.google.android.gms:play-services-measurement:21.2.0] /Users/lauragavilanfernandez/.gradle/caches/transforms-3/bfd6cea21695863e78221e007eb2751f/transformed/play-services-measurement-21.2.0/AndroidManifest.xml:25:5-68
+MERGED from [com.google.android.gms:play-services-measurement-impl:21.2.0] /Users/lauragavilanfernandez/.gradle/caches/transforms-3/f06873c475a718e91c8ca7aea042498e/transformed/play-services-measurement-impl-21.2.0/AndroidManifest.xml:25:5-68
+MERGED from [com.google.android.gms:play-services-measurement-impl:21.2.0] /Users/lauragavilanfernandez/.gradle/caches/transforms-3/f06873c475a718e91c8ca7aea042498e/transformed/play-services-measurement-impl-21.2.0/AndroidManifest.xml:25:5-68
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:21.2.0] /Users/lauragavilanfernandez/.gradle/caches/transforms-3/d17b9fbf31a71adb16126d0bfa7b4e51/transformed/play-services-measurement-sdk-api-21.2.0/AndroidManifest.xml:25:5-68
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:21.2.0] /Users/lauragavilanfernandez/.gradle/caches/transforms-3/d17b9fbf31a71adb16126d0bfa7b4e51/transformed/play-services-measurement-sdk-api-21.2.0/AndroidManifest.xml:25:5-68
+	android:name
+		ADDED from [com.google.android.gms:play-services-measurement-api:21.2.0] /Users/lauragavilanfernandez/.gradle/caches/transforms-3/c0f30181d9cd5e3d606ad78973556466/transformed/play-services-measurement-api-21.2.0/AndroidManifest.xml:24:22-65
+uses-permission#com.google.android.gms.permission.AD_ID
+ADDED from [com.google.android.gms:play-services-measurement-api:21.2.0] /Users/lauragavilanfernandez/.gradle/caches/transforms-3/c0f30181d9cd5e3d606ad78973556466/transformed/play-services-measurement-api-21.2.0/AndroidManifest.xml:25:5-79
+MERGED from [com.google.android.gms:play-services-measurement-impl:21.2.0] /Users/lauragavilanfernandez/.gradle/caches/transforms-3/f06873c475a718e91c8ca7aea042498e/transformed/play-services-measurement-impl-21.2.0/AndroidManifest.xml:27:5-79
+MERGED from [com.google.android.gms:play-services-measurement-impl:21.2.0] /Users/lauragavilanfernandez/.gradle/caches/transforms-3/f06873c475a718e91c8ca7aea042498e/transformed/play-services-measurement-impl-21.2.0/AndroidManifest.xml:27:5-79
+MERGED from [com.google.android.gms:play-services-ads-identifier:18.0.0] /Users/lauragavilanfernandez/.gradle/caches/transforms-3/5f3b9c1805083fcefcd1277751cdf3d9/transformed/play-services-ads-identifier-18.0.0/AndroidManifest.xml:23:5-79
+MERGED from [com.google.android.gms:play-services-ads-identifier:18.0.0] /Users/lauragavilanfernandez/.gradle/caches/transforms-3/5f3b9c1805083fcefcd1277751cdf3d9/transformed/play-services-ads-identifier-18.0.0/AndroidManifest.xml:23:5-79
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:21.2.0] /Users/lauragavilanfernandez/.gradle/caches/transforms-3/d17b9fbf31a71adb16126d0bfa7b4e51/transformed/play-services-measurement-sdk-api-21.2.0/AndroidManifest.xml:26:5-79
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:21.2.0] /Users/lauragavilanfernandez/.gradle/caches/transforms-3/d17b9fbf31a71adb16126d0bfa7b4e51/transformed/play-services-measurement-sdk-api-21.2.0/AndroidManifest.xml:26:5-79
+	android:name
+		ADDED from [com.google.android.gms:play-services-measurement-api:21.2.0] /Users/lauragavilanfernandez/.gradle/caches/transforms-3/c0f30181d9cd5e3d606ad78973556466/transformed/play-services-measurement-api-21.2.0/AndroidManifest.xml:25:22-76
+meta-data#com.google.firebase.components:com.google.firebase.analytics.connector.internal.AnalyticsConnectorRegistrar
+ADDED from [com.google.android.gms:play-services-measurement-api:21.2.0] /Users/lauragavilanfernandez/.gradle/caches/transforms-3/c0f30181d9cd5e3d606ad78973556466/transformed/play-services-measurement-api-21.2.0/AndroidManifest.xml:31:13-33:85
+	android:value
+		ADDED from [com.google.android.gms:play-services-measurement-api:21.2.0] /Users/lauragavilanfernandez/.gradle/caches/transforms-3/c0f30181d9cd5e3d606ad78973556466/transformed/play-services-measurement-api-21.2.0/AndroidManifest.xml:33:17-82
+	android:name
+		ADDED from [com.google.android.gms:play-services-measurement-api:21.2.0] /Users/lauragavilanfernandez/.gradle/caches/transforms-3/c0f30181d9cd5e3d606ad78973556466/transformed/play-services-measurement-api-21.2.0/AndroidManifest.xml:32:17-139
+meta-data#com.google.firebase.components:com.google.firebase.installations.FirebaseInstallationsRegistrar
+ADDED from [com.google.firebase:firebase-installations:17.1.0] /Users/lauragavilanfernandez/.gradle/caches/transforms-3/2688d1466ddf905fe792150b8a685bcc/transformed/firebase-installations-17.1.0/AndroidManifest.xml:17:13-19:85
+	android:value
+		ADDED from [com.google.firebase:firebase-installations:17.1.0] /Users/lauragavilanfernandez/.gradle/caches/transforms-3/2688d1466ddf905fe792150b8a685bcc/transformed/firebase-installations-17.1.0/AndroidManifest.xml:19:17-82
+	android:name
+		ADDED from [com.google.firebase:firebase-installations:17.1.0] /Users/lauragavilanfernandez/.gradle/caches/transforms-3/2688d1466ddf905fe792150b8a685bcc/transformed/firebase-installations-17.1.0/AndroidManifest.xml:18:17-127
+provider#com.google.firebase.provider.FirebaseInitProvider
+ADDED from [com.google.firebase:firebase-common:20.2.0] /Users/lauragavilanfernandez/.gradle/caches/transforms-3/43ecb9fe4a41b74bf6ca0512832e7f27/transformed/firebase-common-20.2.0/AndroidManifest.xml:25:9-30:39
+	android:authorities
+		ADDED from [com.google.firebase:firebase-common:20.2.0] /Users/lauragavilanfernandez/.gradle/caches/transforms-3/43ecb9fe4a41b74bf6ca0512832e7f27/transformed/firebase-common-20.2.0/AndroidManifest.xml:27:13-72
+	android:exported
+		ADDED from [com.google.firebase:firebase-common:20.2.0] /Users/lauragavilanfernandez/.gradle/caches/transforms-3/43ecb9fe4a41b74bf6ca0512832e7f27/transformed/firebase-common-20.2.0/AndroidManifest.xml:29:13-37
+	android:directBootAware
+		ADDED from [com.google.firebase:firebase-common:20.2.0] /Users/lauragavilanfernandez/.gradle/caches/transforms-3/43ecb9fe4a41b74bf6ca0512832e7f27/transformed/firebase-common-20.2.0/AndroidManifest.xml:28:13-43
+	android:initOrder
+		ADDED from [com.google.firebase:firebase-common:20.2.0] /Users/lauragavilanfernandez/.gradle/caches/transforms-3/43ecb9fe4a41b74bf6ca0512832e7f27/transformed/firebase-common-20.2.0/AndroidManifest.xml:30:13-36
+	android:name
+		ADDED from [com.google.firebase:firebase-common:20.2.0] /Users/lauragavilanfernandez/.gradle/caches/transforms-3/43ecb9fe4a41b74bf6ca0512832e7f27/transformed/firebase-common-20.2.0/AndroidManifest.xml:26:13-77
+activity#com.google.android.gms.auth.api.signin.internal.SignInHubActivity
+ADDED from [com.google.android.gms:play-services-auth:19.0.0] /Users/lauragavilanfernandez/.gradle/caches/transforms-3/3523441c2bd8fe817ff287dfe2f810c9/transformed/play-services-auth-19.0.0/AndroidManifest.xml:23:9-27:75
+	android:excludeFromRecents
+		ADDED from [com.google.android.gms:play-services-auth:19.0.0] /Users/lauragavilanfernandez/.gradle/caches/transforms-3/3523441c2bd8fe817ff287dfe2f810c9/transformed/play-services-auth-19.0.0/AndroidManifest.xml:25:13-46
+	android:exported
+		ADDED from [com.google.android.gms:play-services-auth:19.0.0] /Users/lauragavilanfernandez/.gradle/caches/transforms-3/3523441c2bd8fe817ff287dfe2f810c9/transformed/play-services-auth-19.0.0/AndroidManifest.xml:26:13-37
+	android:theme
+		ADDED from [com.google.android.gms:play-services-auth:19.0.0] /Users/lauragavilanfernandez/.gradle/caches/transforms-3/3523441c2bd8fe817ff287dfe2f810c9/transformed/play-services-auth-19.0.0/AndroidManifest.xml:27:13-72
+	android:name
+		ADDED from [com.google.android.gms:play-services-auth:19.0.0] /Users/lauragavilanfernandez/.gradle/caches/transforms-3/3523441c2bd8fe817ff287dfe2f810c9/transformed/play-services-auth-19.0.0/AndroidManifest.xml:24:13-93
+service#com.google.android.gms.auth.api.signin.RevocationBoundService
+ADDED from [com.google.android.gms:play-services-auth:19.0.0] /Users/lauragavilanfernandez/.gradle/caches/transforms-3/3523441c2bd8fe817ff287dfe2f810c9/transformed/play-services-auth-19.0.0/AndroidManifest.xml:33:9-37:51
+	android:exported
+		ADDED from [com.google.android.gms:play-services-auth:19.0.0] /Users/lauragavilanfernandez/.gradle/caches/transforms-3/3523441c2bd8fe817ff287dfe2f810c9/transformed/play-services-auth-19.0.0/AndroidManifest.xml:35:13-36
+	android:visibleToInstantApps
+		ADDED from [com.google.android.gms:play-services-auth:19.0.0] /Users/lauragavilanfernandez/.gradle/caches/transforms-3/3523441c2bd8fe817ff287dfe2f810c9/transformed/play-services-auth-19.0.0/AndroidManifest.xml:37:13-48
+	android:permission
+		ADDED from [com.google.android.gms:play-services-auth:19.0.0] /Users/lauragavilanfernandez/.gradle/caches/transforms-3/3523441c2bd8fe817ff287dfe2f810c9/transformed/play-services-auth-19.0.0/AndroidManifest.xml:36:13-107
+	android:name
+		ADDED from [com.google.android.gms:play-services-auth:19.0.0] /Users/lauragavilanfernandez/.gradle/caches/transforms-3/3523441c2bd8fe817ff287dfe2f810c9/transformed/play-services-auth-19.0.0/AndroidManifest.xml:34:13-89
+activity#com.google.android.gms.common.api.GoogleApiActivity
+ADDED from [com.google.android.gms:play-services-base:17.1.0] /Users/lauragavilanfernandez/.gradle/caches/transforms-3/bde6a4ee1157c82698da5ca081113751/transformed/play-services-base-17.1.0/AndroidManifest.xml:23:9-26:75
+	android:exported
+		ADDED from [com.google.android.gms:play-services-base:17.1.0] /Users/lauragavilanfernandez/.gradle/caches/transforms-3/bde6a4ee1157c82698da5ca081113751/transformed/play-services-base-17.1.0/AndroidManifest.xml:25:13-37
+	android:theme
+		ADDED from [com.google.android.gms:play-services-base:17.1.0] /Users/lauragavilanfernandez/.gradle/caches/transforms-3/bde6a4ee1157c82698da5ca081113751/transformed/play-services-base-17.1.0/AndroidManifest.xml:26:13-72
+	android:name
+		ADDED from [com.google.android.gms:play-services-base:17.1.0] /Users/lauragavilanfernandez/.gradle/caches/transforms-3/bde6a4ee1157c82698da5ca081113751/transformed/play-services-base-17.1.0/AndroidManifest.xml:24:13-79
+uses-permission#com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE
+ADDED from [com.google.android.gms:play-services-measurement:21.2.0] /Users/lauragavilanfernandez/.gradle/caches/transforms-3/bfd6cea21695863e78221e007eb2751f/transformed/play-services-measurement-21.2.0/AndroidManifest.xml:26:5-110
+MERGED from [com.google.android.gms:play-services-measurement-impl:21.2.0] /Users/lauragavilanfernandez/.gradle/caches/transforms-3/f06873c475a718e91c8ca7aea042498e/transformed/play-services-measurement-impl-21.2.0/AndroidManifest.xml:26:5-110
+MERGED from [com.google.android.gms:play-services-measurement-impl:21.2.0] /Users/lauragavilanfernandez/.gradle/caches/transforms-3/f06873c475a718e91c8ca7aea042498e/transformed/play-services-measurement-impl-21.2.0/AndroidManifest.xml:26:5-110
+	android:name
+		ADDED from [com.google.android.gms:play-services-measurement:21.2.0] /Users/lauragavilanfernandez/.gradle/caches/transforms-3/bfd6cea21695863e78221e007eb2751f/transformed/play-services-measurement-21.2.0/AndroidManifest.xml:26:22-107
+receiver#com.google.android.gms.measurement.AppMeasurementReceiver
+ADDED from [com.google.android.gms:play-services-measurement:21.2.0] /Users/lauragavilanfernandez/.gradle/caches/transforms-3/bfd6cea21695863e78221e007eb2751f/transformed/play-services-measurement-21.2.0/AndroidManifest.xml:29:9-33:20
+	android:enabled
+		ADDED from [com.google.android.gms:play-services-measurement:21.2.0] /Users/lauragavilanfernandez/.gradle/caches/transforms-3/bfd6cea21695863e78221e007eb2751f/transformed/play-services-measurement-21.2.0/AndroidManifest.xml:31:13-35
+	android:exported
+		ADDED from [com.google.android.gms:play-services-measurement:21.2.0] /Users/lauragavilanfernandez/.gradle/caches/transforms-3/bfd6cea21695863e78221e007eb2751f/transformed/play-services-measurement-21.2.0/AndroidManifest.xml:32:13-37
+	android:name
+		ADDED from [com.google.android.gms:play-services-measurement:21.2.0] /Users/lauragavilanfernandez/.gradle/caches/transforms-3/bfd6cea21695863e78221e007eb2751f/transformed/play-services-measurement-21.2.0/AndroidManifest.xml:30:13-85
+service#com.google.android.gms.measurement.AppMeasurementService
+ADDED from [com.google.android.gms:play-services-measurement:21.2.0] /Users/lauragavilanfernandez/.gradle/caches/transforms-3/bfd6cea21695863e78221e007eb2751f/transformed/play-services-measurement-21.2.0/AndroidManifest.xml:35:9-38:40
+	android:enabled
+		ADDED from [com.google.android.gms:play-services-measurement:21.2.0] /Users/lauragavilanfernandez/.gradle/caches/transforms-3/bfd6cea21695863e78221e007eb2751f/transformed/play-services-measurement-21.2.0/AndroidManifest.xml:37:13-35
+	android:exported
+		ADDED from [com.google.android.gms:play-services-measurement:21.2.0] /Users/lauragavilanfernandez/.gradle/caches/transforms-3/bfd6cea21695863e78221e007eb2751f/transformed/play-services-measurement-21.2.0/AndroidManifest.xml:38:13-37
+	android:name
+		ADDED from [com.google.android.gms:play-services-measurement:21.2.0] /Users/lauragavilanfernandez/.gradle/caches/transforms-3/bfd6cea21695863e78221e007eb2751f/transformed/play-services-measurement-21.2.0/AndroidManifest.xml:36:13-84
+service#com.google.android.gms.measurement.AppMeasurementJobService
+ADDED from [com.google.android.gms:play-services-measurement:21.2.0] /Users/lauragavilanfernandez/.gradle/caches/transforms-3/bfd6cea21695863e78221e007eb2751f/transformed/play-services-measurement-21.2.0/AndroidManifest.xml:39:9-43:72
+	android:enabled
+		ADDED from [com.google.android.gms:play-services-measurement:21.2.0] /Users/lauragavilanfernandez/.gradle/caches/transforms-3/bfd6cea21695863e78221e007eb2751f/transformed/play-services-measurement-21.2.0/AndroidManifest.xml:41:13-35
+	android:exported
+		ADDED from [com.google.android.gms:play-services-measurement:21.2.0] /Users/lauragavilanfernandez/.gradle/caches/transforms-3/bfd6cea21695863e78221e007eb2751f/transformed/play-services-measurement-21.2.0/AndroidManifest.xml:42:13-37
+	android:permission
+		ADDED from [com.google.android.gms:play-services-measurement:21.2.0] /Users/lauragavilanfernandez/.gradle/caches/transforms-3/bfd6cea21695863e78221e007eb2751f/transformed/play-services-measurement-21.2.0/AndroidManifest.xml:43:13-69
+	android:name
+		ADDED from [com.google.android.gms:play-services-measurement:21.2.0] /Users/lauragavilanfernandez/.gradle/caches/transforms-3/bfd6cea21695863e78221e007eb2751f/transformed/play-services-measurement-21.2.0/AndroidManifest.xml:40:13-87
+provider#androidx.startup.InitializationProvider
+ADDED from [androidx.emoji2:emoji2:1.2.0] /Users/lauragavilanfernandez/.gradle/caches/transforms-3/39e3520655ef763a8ff65228d9ba7c89/transformed/emoji2-1.2.0/AndroidManifest.xml:24:9-32:20
+MERGED from [androidx.lifecycle:lifecycle-process:2.4.1] /Users/lauragavilanfernandez/.gradle/caches/transforms-3/ee189f7a444f9d3aa467ea05a84d6234/transformed/lifecycle-process-2.4.1/AndroidManifest.xml:26:9-34:20
+MERGED from [androidx.lifecycle:lifecycle-process:2.4.1] /Users/lauragavilanfernandez/.gradle/caches/transforms-3/ee189f7a444f9d3aa467ea05a84d6234/transformed/lifecycle-process-2.4.1/AndroidManifest.xml:26:9-34:20
+MERGED from [androidx.startup:startup-runtime:1.1.1] /Users/lauragavilanfernandez/.gradle/caches/transforms-3/c91e470d572d85dd71fb46a679b49a8f/transformed/startup-runtime-1.1.1/AndroidManifest.xml:26:9-30:34
+MERGED from [androidx.startup:startup-runtime:1.1.1] /Users/lauragavilanfernandez/.gradle/caches/transforms-3/c91e470d572d85dd71fb46a679b49a8f/transformed/startup-runtime-1.1.1/AndroidManifest.xml:26:9-30:34
+	tools:node
+		ADDED from [androidx.emoji2:emoji2:1.2.0] /Users/lauragavilanfernandez/.gradle/caches/transforms-3/39e3520655ef763a8ff65228d9ba7c89/transformed/emoji2-1.2.0/AndroidManifest.xml:28:13-31
+	android:authorities
+		ADDED from [androidx.emoji2:emoji2:1.2.0] /Users/lauragavilanfernandez/.gradle/caches/transforms-3/39e3520655ef763a8ff65228d9ba7c89/transformed/emoji2-1.2.0/AndroidManifest.xml:26:13-68
+	android:exported
+		ADDED from [androidx.emoji2:emoji2:1.2.0] /Users/lauragavilanfernandez/.gradle/caches/transforms-3/39e3520655ef763a8ff65228d9ba7c89/transformed/emoji2-1.2.0/AndroidManifest.xml:27:13-37
+	android:name
+		ADDED from [androidx.emoji2:emoji2:1.2.0] /Users/lauragavilanfernandez/.gradle/caches/transforms-3/39e3520655ef763a8ff65228d9ba7c89/transformed/emoji2-1.2.0/AndroidManifest.xml:25:13-67
+meta-data#androidx.emoji2.text.EmojiCompatInitializer
+ADDED from [androidx.emoji2:emoji2:1.2.0] /Users/lauragavilanfernandez/.gradle/caches/transforms-3/39e3520655ef763a8ff65228d9ba7c89/transformed/emoji2-1.2.0/AndroidManifest.xml:29:13-31:52
+	android:value
+		ADDED from [androidx.emoji2:emoji2:1.2.0] /Users/lauragavilanfernandez/.gradle/caches/transforms-3/39e3520655ef763a8ff65228d9ba7c89/transformed/emoji2-1.2.0/AndroidManifest.xml:31:17-49
+	android:name
+		ADDED from [androidx.emoji2:emoji2:1.2.0] /Users/lauragavilanfernandez/.gradle/caches/transforms-3/39e3520655ef763a8ff65228d9ba7c89/transformed/emoji2-1.2.0/AndroidManifest.xml:30:17-75
+meta-data#androidx.lifecycle.ProcessLifecycleInitializer
+ADDED from [androidx.lifecycle:lifecycle-process:2.4.1] /Users/lauragavilanfernandez/.gradle/caches/transforms-3/ee189f7a444f9d3aa467ea05a84d6234/transformed/lifecycle-process-2.4.1/AndroidManifest.xml:31:13-33:52
+	android:value
+		ADDED from [androidx.lifecycle:lifecycle-process:2.4.1] /Users/lauragavilanfernandez/.gradle/caches/transforms-3/ee189f7a444f9d3aa467ea05a84d6234/transformed/lifecycle-process-2.4.1/AndroidManifest.xml:33:17-49
+	android:name
+		ADDED from [androidx.lifecycle:lifecycle-process:2.4.1] /Users/lauragavilanfernandez/.gradle/caches/transforms-3/ee189f7a444f9d3aa467ea05a84d6234/transformed/lifecycle-process-2.4.1/AndroidManifest.xml:32:17-78

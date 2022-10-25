@@ -1,0 +1,30 @@
+[
+    {
+        "merged": "C:\\android-projects\\Firebase\\.gradle\\daemon\\7.3.3\\es.upv.epsg.iot_g1_1.app-mergeDebugResources-37:\\layout\\activity_login.xml",
+        "source": "C:\\android-projects\\Firebase\\.gradle\\daemon\\7.3.3\\es.upv.epsg.iot_g1_1.app-main-40:\\layout\\activity_login.xml"
+    },
+    {
+        "merged": "C:\\android-projects\\Firebase\\.gradle\\daemon\\7.3.3\\es.upv.epsg.iot_g1_1.app-mergeDebugResources-37:\\layout\\activity_cambiodatos.xml",
+        "source": "C:\\android-projects\\Firebase\\.gradle\\daemon\\7.3.3\\es.upv.epsg.iot_g1_1.app-main-40:\\layout\\activity_cambiodatos.xml"
+    },
+    {
+        "merged": "C:\\android-projects\\Firebase\\.gradle\\daemon\\7.3.3\\es.upv.epsg.iot_g1_1.app-mergeDebugResources-37:\\layout\\activity_usuario.xml",
+        "source": "C:\\android-projects\\Firebase\\.gradle\\daemon\\7.3.3\\es.upv.epsg.iot_g1_1.app-main-40:\\layout\\activity_usuario.xml"
+    },
+    {
+        "merged": "C:\\android-projects\\Firebase\\.gradle\\daemon\\7.3.3\\es.upv.epsg.iot_g1_1.app-mergeDebugResources-37:\\layout\\acercade.xml",
+        "source": "C:\\android-projects\\Firebase\\.gradle\\daemon\\7.3.3\\es.upv.epsg.iot_g1_1.app-main-40:\\layout\\acercade.xml"
+    },
+    {
+        "merged": "C:\\android-projects\\Firebase\\.gradle\\daemon\\7.3.3\\es.upv.epsg.iot_g1_1.app-mergeDebugResources-37:\\layout\\content_scrolling.xml",
+        "source": "C:\\android-projects\\Firebase\\.gradle\\daemon\\7.3.3\\es.upv.epsg.iot_g1_1.app-main-40:\\layout\\content_scrolling.xml"
+    },
+    {
+        "merged": "C:\\android-projects\\Firebase\\.gradle\\daemon\\7.3.3\\es.upv.epsg.iot_g1_1.app-mergeDebugResources-37:\\layout\\activity_main.xml",
+        "source": "C:\\android-projects\\Firebase\\.gradle\\daemon\\7.3.3\\es.upv.epsg.iot_g1_1.app-main-40:\\layout\\activity_main.xml"
+    },
+    {
+        "merged": "es.upv.epsg.iot_g1_1.app-mergeDebugResources-37:/layout/activity_cambiodatos.xml",
+        "source": "es.upv.epsg.iot_g1_1.app-main-40:/layout/activity_cambiodatos.xml"
+    }
+]

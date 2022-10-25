@@ -1,0 +1,39 @@
+{
+    "logs": [
+        {
+            "outputFile": "es.upv.epsg.iot_g1_1.app-mergeDebugResources-36:/values-v26/values-v26.xml",
+            "map": [
+                {
+                    "source": "/Users/lauragavilanfernandez/.gradle/caches/transforms-3/9d9fb59aceb523c913c0885801ab7929/transformed/firebase-ui-auth-7.1.1/res/values-v26/values-v26.xml",
+                    "from": {
+                        "startLines": "2,6,10,14",
+                        "startColumns": "4,4,4,4",
+                        "startOffsets": "55,253,438,631",
+                        "endLines": "5,9,13,17",
+                        "endColumns": "12,12,12,12",
+                        "endOffsets": "248,433,626,806"
+                    },
+                    "to": {
+                        "startLines": "17,21,25,29",
+                        "startColumns": "4,4,4,4",
+                        "startOffsets": "889,1087,1272,1465",
+                        "endLines": "20,24,28,32",
+                        "endColumns": "12,12,12,12",
+                        "endOffsets": "1082,1267,1460,1640"
+                    }
+                },
+                {
+                    "source": "/Users/lauragavilanfernandez/.gradle/caches/transforms-3/372d00aa2f4d7211b45d55920b368f40/transformed/appcompat-1.5.1/res/values-v26/values-v26.xml",
+                    "from": {
+                        "startLines": "2,3,4,8,12,16",
+                        "startColumns": "4,4,4,4,4,4",
+                        "startOffsets": "55,130,217,381,557,796",
+                        "endLines": "2,3,7,11,15,16",
+                        "endColumns": "74,86,12,12,12,92",
+                        "endOffsets": "125,212,376,552,791,884"
+                    }
+                }
+            ]
+        }
+    ]
+}

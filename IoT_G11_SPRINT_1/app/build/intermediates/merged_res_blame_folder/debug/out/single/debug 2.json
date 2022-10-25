@@ -1,0 +1,130 @@
+[
+    {
+        "merged": "C:\\android-projects\\Firebase\\.gradle\\daemon\\7.3.3\\es.upv.epsg.iot_g1_1.app-merged_res-38:\\mipmap-xxhdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\android-projects\\Firebase\\.gradle\\daemon\\7.3.3\\es.upv.epsg.iot_g1_1.app-main-40:\\mipmap-xxhdpi\\ic_launcher_round.webp"
+    },
+    {
+        "merged": "C:\\android-projects\\Firebase\\.gradle\\daemon\\7.3.3\\es.upv.epsg.iot_g1_1.app-merged_res-38:\\xml_backup_rules.xml.flat",
+        "source": "C:\\android-projects\\Firebase\\.gradle\\daemon\\7.3.3\\es.upv.epsg.iot_g1_1.app-main-40:\\xml\\backup_rules.xml"
+    },
+    {
+        "merged": "C:\\android-projects\\Firebase\\.gradle\\daemon\\7.3.3\\es.upv.epsg.iot_g1_1.app-merged_res-38:\\drawable_textbox.xml.flat",
+        "source": "C:\\android-projects\\Firebase\\.gradle\\daemon\\7.3.3\\es.upv.epsg.iot_g1_1.app-main-40:\\drawable\\textbox.xml"
+    },
+    {
+        "merged": "C:\\android-projects\\Firebase\\.gradle\\daemon\\7.3.3\\es.upv.epsg.iot_g1_1.app-merged_res-38:\\layout_content_scrolling.xml.flat",
+        "source": "C:\\android-projects\\Firebase\\.gradle\\daemon\\7.3.3\\es.upv.epsg.iot_g1_1.app-main-40:\\layout\\content_scrolling.xml"
+    },
+    {
+        "merged": "C:\\android-projects\\Firebase\\.gradle\\daemon\\7.3.3\\es.upv.epsg.iot_g1_1.app-merged_res-38:\\layout_activity_login.xml.flat",
+        "source": "C:\\android-projects\\Firebase\\.gradle\\daemon\\7.3.3\\es.upv.epsg.iot_g1_1.app-main-40:\\layout\\activity_login.xml"
+    },
+    {
+        "merged": "C:\\android-projects\\Firebase\\.gradle\\daemon\\7.3.3\\es.upv.epsg.iot_g1_1.app-merged_res-38:\\drawable-anydpi-v24_ic_launcher_foreground.xml.flat",
+        "source": "C:\\android-projects\\Firebase\\.gradle\\daemon\\7.3.3\\es.upv.epsg.iot_g1_1.app-pngs-33:\\drawable-anydpi-v24\\ic_launcher_foreground.xml"
+    },
+    {
+        "merged": "C:\\android-projects\\Firebase\\.gradle\\daemon\\7.3.3\\es.upv.epsg.iot_g1_1.app-merged_res-38:\\layout-w936dp_content_scrolling.xml.flat",
+        "source": "C:\\android-projects\\Firebase\\.gradle\\daemon\\7.3.3\\es.upv.epsg.iot_g1_1.app-main-40:\\layout-w936dp\\content_scrolling.xml"
+    },
+    {
+        "merged": "C:\\android-projects\\Firebase\\.gradle\\daemon\\7.3.3\\es.upv.epsg.iot_g1_1.app-merged_res-38:\\layout_activity_cambiodatos.xml.flat",
+        "source": "C:\\android-projects\\Firebase\\.gradle\\daemon\\7.3.3\\es.upv.epsg.iot_g1_1.app-main-40:\\layout\\activity_cambiodatos.xml"
+    },
+    {
+        "merged": "C:\\android-projects\\Firebase\\.gradle\\daemon\\7.3.3\\es.upv.epsg.iot_g1_1.app-merged_res-38:\\drawable_base.png.flat",
+        "source": "C:\\android-projects\\Firebase\\.gradle\\daemon\\7.3.3\\es.upv.epsg.iot_g1_1.app-main-40:\\drawable\\base.png"
+    },
+    {
+        "merged": "C:\\android-projects\\Firebase\\.gradle\\daemon\\7.3.3\\es.upv.epsg.iot_g1_1.app-merged_res-38:\\layout_acercade.xml.flat",
+        "source": "C:\\android-projects\\Firebase\\.gradle\\daemon\\7.3.3\\es.upv.epsg.iot_g1_1.app-main-40:\\layout\\acercade.xml"
+    },
+    {
+        "merged": "C:\\android-projects\\Firebase\\.gradle\\daemon\\7.3.3\\es.upv.epsg.iot_g1_1.app-merged_res-38:\\mipmap-mdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\android-projects\\Firebase\\.gradle\\daemon\\7.3.3\\es.upv.epsg.iot_g1_1.app-main-40:\\mipmap-mdpi\\ic_launcher_round.webp"
+    },
+    {
+        "merged": "C:\\android-projects\\Firebase\\.gradle\\daemon\\7.3.3\\es.upv.epsg.iot_g1_1.app-merged_res-38:\\mipmap-mdpi_ic_launcher.webp.flat",
+        "source": "C:\\android-projects\\Firebase\\.gradle\\daemon\\7.3.3\\es.upv.epsg.iot_g1_1.app-main-40:\\mipmap-mdpi\\ic_launcher.webp"
+    },
+    {
+        "merged": "C:\\android-projects\\Firebase\\.gradle\\daemon\\7.3.3\\es.upv.epsg.iot_g1_1.app-merged_res-38:\\mipmap-hdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\android-projects\\Firebase\\.gradle\\daemon\\7.3.3\\es.upv.epsg.iot_g1_1.app-main-40:\\mipmap-hdpi\\ic_launcher_round.webp"
+    },
+    {
+        "merged": "C:\\android-projects\\Firebase\\.gradle\\daemon\\7.3.3\\es.upv.epsg.iot_g1_1.app-merged_res-38:\\layout-w1240dp_content_scrolling.xml.flat",
+        "source": "C:\\android-projects\\Firebase\\.gradle\\daemon\\7.3.3\\es.upv.epsg.iot_g1_1.app-main-40:\\layout-w1240dp\\content_scrolling.xml"
+    },
+    {
+        "merged": "C:\\android-projects\\Firebase\\.gradle\\daemon\\7.3.3\\es.upv.epsg.iot_g1_1.app-merged_res-38:\\mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "C:\\android-projects\\Firebase\\.gradle\\daemon\\7.3.3\\es.upv.epsg.iot_g1_1.app-main-40:\\mipmap-anydpi-v26\\ic_launcher_round.xml"
+    },
+    {
+        "merged": "C:\\android-projects\\Firebase\\.gradle\\daemon\\7.3.3\\es.upv.epsg.iot_g1_1.app-merged_res-38:\\drawable_back.png.flat",
+        "source": "C:\\android-projects\\Firebase\\.gradle\\daemon\\7.3.3\\es.upv.epsg.iot_g1_1.app-main-40:\\drawable\\back.png"
+    },
+    {
+        "merged": "C:\\android-projects\\Firebase\\.gradle\\daemon\\7.3.3\\es.upv.epsg.iot_g1_1.app-merged_res-38:\\drawable_icono_acercade.png.flat",
+        "source": "C:\\android-projects\\Firebase\\.gradle\\daemon\\7.3.3\\es.upv.epsg.iot_g1_1.app-main-40:\\drawable\\icono_acercade.png"
+    },
+    {
+        "merged": "C:\\android-projects\\Firebase\\.gradle\\daemon\\7.3.3\\es.upv.epsg.iot_g1_1.app-merged_res-38:\\mipmap-xxxhdpi_ic_launcher.webp.flat",
+        "source": "C:\\android-projects\\Firebase\\.gradle\\daemon\\7.3.3\\es.upv.epsg.iot_g1_1.app-main-40:\\mipmap-xxxhdpi\\ic_launcher.webp"
+    },
+    {
+        "merged": "C:\\android-projects\\Firebase\\.gradle\\daemon\\7.3.3\\es.upv.epsg.iot_g1_1.app-merged_res-38:\\mipmap-xxxhdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\android-projects\\Firebase\\.gradle\\daemon\\7.3.3\\es.upv.epsg.iot_g1_1.app-main-40:\\mipmap-xxxhdpi\\ic_launcher_round.webp"
+    },
+    {
+        "merged": "C:\\android-projects\\Firebase\\.gradle\\daemon\\7.3.3\\es.upv.epsg.iot_g1_1.app-merged_res-38:\\drawable_fondo_landing_2.png.flat",
+        "source": "C:\\android-projects\\Firebase\\.gradle\\daemon\\7.3.3\\es.upv.epsg.iot_g1_1.app-main-40:\\drawable\\fondo_landing_2.png"
+    },
+    {
+        "merged": "C:\\android-projects\\Firebase\\.gradle\\daemon\\7.3.3\\es.upv.epsg.iot_g1_1.app-merged_res-38:\\mipmap-hdpi_ic_launcher.webp.flat",
+        "source": "C:\\android-projects\\Firebase\\.gradle\\daemon\\7.3.3\\es.upv.epsg.iot_g1_1.app-main-40:\\mipmap-hdpi\\ic_launcher.webp"
+    },
+    {
+        "merged": "C:\\android-projects\\Firebase\\.gradle\\daemon\\7.3.3\\es.upv.epsg.iot_g1_1.app-merged_res-38:\\mipmap-xhdpi_ic_launcher.webp.flat",
+        "source": "C:\\android-projects\\Firebase\\.gradle\\daemon\\7.3.3\\es.upv.epsg.iot_g1_1.app-main-40:\\mipmap-xhdpi\\ic_launcher.webp"
+    },
+    {
+        "merged": "C:\\android-projects\\Firebase\\.gradle\\daemon\\7.3.3\\es.upv.epsg.iot_g1_1.app-merged_res-38:\\drawable_fondo_landing.png.flat",
+        "source": "C:\\android-projects\\Firebase\\.gradle\\daemon\\7.3.3\\es.upv.epsg.iot_g1_1.app-main-40:\\drawable\\fondo_landing.png"
+    },
+    {
+        "merged": "C:\\android-projects\\Firebase\\.gradle\\daemon\\7.3.3\\es.upv.epsg.iot_g1_1.app-merged_res-38:\\layout_activity_usuario.xml.flat",
+        "source": "C:\\android-projects\\Firebase\\.gradle\\daemon\\7.3.3\\es.upv.epsg.iot_g1_1.app-main-40:\\layout\\activity_usuario.xml"
+    },
+    {
+        "merged": "C:\\android-projects\\Firebase\\.gradle\\daemon\\7.3.3\\es.upv.epsg.iot_g1_1.app-merged_res-38:\\mipmap-xxhdpi_ic_launcher.webp.flat",
+        "source": "C:\\android-projects\\Firebase\\.gradle\\daemon\\7.3.3\\es.upv.epsg.iot_g1_1.app-main-40:\\mipmap-xxhdpi\\ic_launcher.webp"
+    },
+    {
+        "merged": "C:\\android-projects\\Firebase\\.gradle\\daemon\\7.3.3\\es.upv.epsg.iot_g1_1.app-merged_res-38:\\layout_activity_main.xml.flat",
+        "source": "C:\\android-projects\\Firebase\\.gradle\\daemon\\7.3.3\\es.upv.epsg.iot_g1_1.app-main-40:\\layout\\activity_main.xml"
+    },
+    {
+        "merged": "C:\\android-projects\\Firebase\\.gradle\\daemon\\7.3.3\\es.upv.epsg.iot_g1_1.app-merged_res-38:\\drawable_ic_launcher_background.xml.flat",
+        "source": "C:\\android-projects\\Firebase\\.gradle\\daemon\\7.3.3\\es.upv.epsg.iot_g1_1.app-main-40:\\drawable\\ic_launcher_background.xml"
+    },
+    {
+        "merged": "C:\\android-projects\\Firebase\\.gradle\\daemon\\7.3.3\\es.upv.epsg.iot_g1_1.app-merged_res-38:\\mipmap-xhdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\android-projects\\Firebase\\.gradle\\daemon\\7.3.3\\es.upv.epsg.iot_g1_1.app-main-40:\\mipmap-xhdpi\\ic_launcher_round.webp"
+    },
+    {
+        "merged": "es.upv.epsg.iot_g1_1.app-merged_res-38:/layout_activity_cambiodatos.xml.flat",
+        "source": "es.upv.epsg.iot_g1_1.app-main-40:/layout/activity_cambiodatos.xml"
+    },
+    {
+        "merged": "C:\\android-projects\\Firebase\\.gradle\\daemon\\7.3.3\\es.upv.epsg.iot_g1_1.app-merged_res-38:\\mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "C:\\android-projects\\Firebase\\.gradle\\daemon\\7.3.3\\es.upv.epsg.iot_g1_1.app-main-40:\\mipmap-anydpi-v26\\ic_launcher.xml"
+    },
+    {
+        "merged": "C:\\android-projects\\Firebase\\.gradle\\daemon\\7.3.3\\es.upv.epsg.iot_g1_1.app-merged_res-38:\\menu_menu_main.xml.flat",
+        "source": "C:\\android-projects\\Firebase\\.gradle\\daemon\\7.3.3\\es.upv.epsg.iot_g1_1.app-main-40:\\menu\\menu_main.xml"
+    },
+    {
+        "merged": "C:\\android-projects\\Firebase\\.gradle\\daemon\\7.3.3\\es.upv.epsg.iot_g1_1.app-merged_res-38:\\xml_data_extraction_rules.xml.flat",
+        "source": "C:\\android-projects\\Firebase\\.gradle\\daemon\\7.3.3\\es.upv.epsg.iot_g1_1.app-main-40:\\xml\\data_extraction_rules.xml"
+    }
+]
