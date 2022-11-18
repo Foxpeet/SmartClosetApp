@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="Talla">
+        <item>Selecciona</item>
+        <item>XS</item>
+        <item>S</item>
+        <item>M</item>
+        <item>L</item>
+        <item>XL</item>
+    </string-array>
+    <string-array name="Color">
+        <item>Selecciona</item>
+        <item>Rojo</item>
+        <item>Azul</item>
+        <item>Verde</item>
+        <item>Amarillo</item>
+        <item>Negro</item>
+    </string-array>
+    <string-array name="calidez">
+        <item>Selecciona</item>
+        <item> muy calido </item>
+        <item> calido </item>
+        <item> frio </item>
+        <item> muy frio </item>
+    </string-array>
+    <string-array name="categoria">
+        <item>Selecciona</item>
+        <item>parte de arriba</item>
+        <item>parte de abajo</item>
+        <item>accesorios</item>
+    </string-array>
+    <string-array name="theme">
+        <item>0</item>
+        <item>1</item>
+    </string-array>
+</resources>

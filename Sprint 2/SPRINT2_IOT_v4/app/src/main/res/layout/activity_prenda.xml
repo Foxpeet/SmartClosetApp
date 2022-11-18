@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/back_int1">
+
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="75dp"
+        android:layout_height="75dp"
+        android:layout_marginEnd="48dp"
+        android:background="@drawable/botoncircular"
+        android:elevation="10dp"
+        android:backgroundTint="@color/purple_int1"
+        android:padding="10dp"
+        app:cornerRadius="25dp"
+        android:paddingTop="20dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/imageView5"
+        app:layout_constraintTop_toBottomOf="@+id/imageView2"
+        app:srcCompat="@drawable/icono_info" />
+
+    <ImageView
+        android:id="@+id/imageView5"
+        android:layout_width="80dp"
+        android:layout_height="78dp"
+        android:layout_marginStart="48dp"
+        android:background="@drawable/botoncircular"
+        android:backgroundTint="@color/purple_int1"
+        android:elevation="10dp"
+        android:padding="10dp"
+        app:cornerRadius="25dp"
+        app:layout_constraintEnd_toStartOf="@+id/imageView4"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintHorizontal_chainStyle="spread_inside"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView2"
+        app:srcCompat="@drawable/d" />
+
+    <ImageView
+        android:id="@+id/copito0"
+        android:layout_width="75dp"
+        android:layout_height="75dp"
+        android:layout_marginTop="64dp"
+        android:background="@drawable/botoncircular"
+        android:elevation="10dp"
+        android:padding="10dp"
+        android:backgroundTint="@color/purple_int1"
+        app:cornerRadius="25dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView2"
+        app:srcCompat="@drawable/copito_cero" />
+    <ImageView
+        android:id="@+id/copito1"
+        android:layout_width="75dp"
+        android:layout_height="75dp"
+        android:layout_marginTop="64dp"
+        android:background="@drawable/botoncircular"
+        android:elevation="10dp"
+        android:padding="10dp"
+        android:backgroundTint="@color/purple_int1"
+        app:cornerRadius="25dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView2"
+        app:srcCompat="@drawable/copito_uno" />
+
+    <ImageView
+        android:id="@+id/copito2"
+        android:layout_width="75dp"
+        android:layout_height="75dp"
+        android:layout_marginTop="64dp"
+        android:background="@drawable/botoncircular"
+        android:elevation="10dp"
+        android:padding="10dp"
+        android:backgroundTint="@color/purple_int1"
+        app:cornerRadius="25dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView2"
+        app:srcCompat="@drawable/copito_two" />
+    <ImageView
+        android:id="@+id/copito3"
+        android:layout_width="75dp"
+        android:layout_height="75dp"
+        android:layout_marginTop="64dp"
+        android:background="@drawable/botoncircular"
+        android:elevation="10dp"
+        android:padding="10dp"
+        android:backgroundTint="@color/purple_int1"
+        app:cornerRadius="25dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView2"
+        app:srcCompat="@drawable/copito_three" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="250dp"
+        android:layout_height="250dp"
+        android:layout_marginTop="16dp"
+        android:background="@drawable/botoncircular"
+        android:elevation="10dp"
+        android:padding="5dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_chainStyle="spread"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView2"
+        app:srcCompat="@drawable/icon_mas" />´
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="48dp"
+        android:text="Camiseta"
+        android:textSize="24sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <!-- <ProgressBar
+        android:id="@+id/progressBar2"
+        style="?android:attr/progressBarStyleHorizontal"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="48dp"
+        android:layout_marginTop="32dp"
+        android:layout_marginEnd="48dp"
+        android:progressDrawable="@drawable/progressbar"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView" /> -->
+
+    <!-- <ImageView
+        android:id="@+id/imageView8"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_marginStart="8dp"
+        app:layout_constraintStart_toEndOf="@+id/progressBar2"
+        app:srcCompat="@drawable/u"
+        tools:layout_editor_absoluteY="607dp" /> -->
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,63 @@
+{
+  "project_info": {
+    "project_number": "937102552053",
+    "project_id": "smartclosset-bbdd",
+    "storage_bucket": "smartclosset-bbdd.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:937102552053:android:a18849f050177503cecebc",
+        "android_client_info": {
+          "package_name": "es.upv.epsg.iot_g1_1"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "937102552053-gubbnhjn7lk1ftn89vanp0dmg1rs7pd2.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "es.upv.epsg.iot_g1_1",
+            "certificate_hash": "d5037b8b1c6f9a73db9ae012ecf6ff056319dccc"
+          }
+        },
+        {
+          "client_id": "937102552053-m354rvfijnv9hng4nq5o49hvg0i75m44.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "es.upv.epsg.iot_g1_1",
+            "certificate_hash": "5cd9457e0586d9771a8b592a3bb06f69b48932aa"
+          }
+        },
+        {
+          "client_id": "937102552053-ouhbs9ob84gvhes5sq6as6kiin9s6mel.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "es.upv.epsg.iot_g1_1",
+            "certificate_hash": "876b92508fe708a5224f23f155444ae2b1ca6f9e"
+          }
+        },
+        {
+          "client_id": "937102552053-3qn93pa8g4id1h61op4kdqbrgj12f0af.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAv5SJJmDdf_XnfWuiOHevM70SReZ89W6s"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "937102552053-3qn93pa8g4id1h61op4kdqbrgj12f0af.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
