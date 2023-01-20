@@ -1,0 +1,353 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <ImageView
+        android:id="@+id/rectanguloCircularPrendas"
+        android:layout_width="406dp"
+        android:layout_height="390dp"
+        android:alpha="1"
+        android:background="@drawable/rectangulo_un_borde"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.4"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <ImageView
+        android:id="@+id/color3Prenda"
+        android:layout_width="35dp"
+        android:layout_height="35dp"
+        android:layout_marginStart="8dp"
+        android:background="@drawable/botones_circulares_degradado"
+        android:elevation="10dp"
+        android:padding="12dp"
+        app:layout_constraintHorizontal_chainStyle="spread"
+        app:layout_constraintStart_toEndOf="@+id/color4Prenda"
+        app:layout_constraintTop_toTopOf="@+id/color1Prenda" />
+
+    <ImageView
+        android:id="@+id/color4Prenda"
+        android:layout_width="35dp"
+        android:layout_height="35dp"
+        android:layout_marginStart="8dp"
+        android:background="@drawable/botones_circulares_degradado"
+        android:elevation="10dp"
+        android:padding="12dp"
+        app:layout_constraintHorizontal_chainStyle="spread"
+        app:layout_constraintStart_toEndOf="@+id/color2Prenda"
+        app:layout_constraintTop_toTopOf="@+id/color1Prenda" />
+
+    <ImageView
+        android:id="@+id/color2Prenda"
+        android:layout_width="35dp"
+        android:layout_height="35dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginBottom="32dp"
+        android:background="@drawable/botones_circulares_degradado"
+        android:elevation="10dp"
+        android:padding="12dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_chainStyle="spread"
+        app:layout_constraintStart_toEndOf="@+id/color1Prenda" />
+
+    <ImageView
+        android:id="@+id/recuadroLavadoras"
+        android:layout_width="55dp"
+        android:layout_height="55dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginBottom="32dp"
+        android:background="@drawable/botones_info_prenda"
+        android:elevation="10dp"
+        android:padding="12dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/recuadrofavoritos"
+        app:layout_constraintHorizontal_chainStyle="spread" />
+
+    <ImageView
+        android:id="@+id/recuadrofavoritos"
+        android:layout_width="55dp"
+        android:layout_height="55dp"
+        android:layout_marginEnd="32dp"
+        android:background="@drawable/botones_info_prenda"
+        android:elevation="10dp"
+        android:onClick="lanzarfavs"
+        android:padding="12dp"
+        app:layout_constraintBottom_toBottomOf="@+id/recuadroLavadoras"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_chainStyle="spread" />
+
+
+    <ImageView
+        android:id="@+id/calidezPrenda"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:background="@drawable/botones_info_prenda"
+        android:elevation="10dp"
+        android:onClick="lanzarInformacion"
+        android:padding="5dp"
+        android:src="@drawable/copito_three"
+        app:layout_constraintEnd_toStartOf="@+id/fechaCompraPrenda"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintHorizontal_chainStyle="spread"
+        app:layout_constraintStart_toEndOf="@+id/tallaPrenda"
+        app:layout_constraintTop_toTopOf="@+id/tallaPrenda" />
+
+    <ImageView
+        android:id="@+id/lavadoraPrenda"
+        android:layout_width="55dp"
+        android:layout_height="55dp"
+        android:elevation="10dp"
+        android:padding="5dp"
+        android:src="@drawable/icono_lavadora"
+        app:layout_constraintBottom_toBottomOf="@+id/recuadroLavadoras"
+        app:layout_constraintEnd_toEndOf="@+id/recuadroLavadoras"
+        app:layout_constraintHorizontal_chainStyle="spread"
+        app:layout_constraintStart_toStartOf="@+id/recuadroLavadoras"
+        app:layout_constraintTop_toTopOf="@+id/recuadroLavadoras" />
+
+    <ImageView
+        android:id="@+id/nofavoritosPrenda"
+        android:layout_width="55dp"
+        android:layout_height="55dp"
+        android:elevation="10dp"
+        android:padding="7dp"
+        android:src="@drawable/icono_favoritos_todasprendas"
+        app:layout_constraintBottom_toBottomOf="@+id/recuadrofavoritos"
+        app:layout_constraintEnd_toEndOf="@+id/recuadrofavoritos"
+        app:layout_constraintHorizontal_chainStyle="spread"
+        app:layout_constraintStart_toStartOf="@+id/recuadrofavoritos"
+        app:layout_constraintTop_toTopOf="@+id/recuadrofavoritos" />
+
+    <ImageView
+        android:id="@+id/favoritosPrendas"
+        android:layout_width="55dp"
+        android:layout_height="55dp"
+        android:elevation="10dp"
+        android:padding="7dp"
+        android:src="@drawable/icono_favoritos_negro"
+        app:layout_constraintBottom_toBottomOf="@+id/recuadrofavoritos"
+        app:layout_constraintEnd_toEndOf="@+id/recuadrofavoritos"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintHorizontal_chainStyle="spread"
+        app:layout_constraintStart_toStartOf="@+id/recuadrofavoritos"
+        app:layout_constraintTop_toTopOf="@+id/recuadrofavoritos"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <ImageView
+        android:id="@+id/colorPrenda"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:layout_marginEnd="24dp"
+        android:background="@drawable/botones_info_prenda"
+        android:elevation="10dp"
+        android:padding="16dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintHorizontal_chainStyle="spread"
+        app:layout_constraintStart_toEndOf="@+id/fechaCompraPrenda"
+        app:layout_constraintTop_toTopOf="@+id/tallaPrenda" />
+
+    <TextView
+        android:id="@+id/combinaPrendas"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="16dp"
+        android:fontFamily="@font/roboto_medium"
+        android:text="Combina con..."
+        android:textAlignment="center"
+        android:textColor="#000000"
+        android:textSize="18dp"
+        app:layout_constraintBottom_toTopOf="@+id/color1Prenda"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/progressBarPrendas" />
+
+    <TextView
+        android:id="@+id/usosSostenibilidadPrenda2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="32dp"
+        android:layout_marginEnd="32dp"
+        android:fontFamily="@font/roboto_medium"
+        android:text=" X usos para convertir tu prenda en sostenible"
+        android:textAlignment="center"
+        android:textColor="#000000"
+        android:textSize="18dp"
+        app:layout_constraintBottom_toTopOf="@+id/progressBarPrendas"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tallaPrenda" />
+
+    <ProgressBar
+        android:id="@+id/progressBarPrendas"
+        style="?android:attr/progressBarStyleHorizontal"
+        android:layout_width="0dp"
+        android:layout_height="15dp"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="32dp"
+        android:alpha="0.8"
+        android:background="@drawable/progressbar"
+        android:elevation="10dp"
+        android:max="30"
+        android:progressDrawable="@drawable/progressbar"
+        app:layout_constraintBottom_toTopOf="@+id/combinaPrendas"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/usosSostenibilidadPrenda2" />
+
+    <TextView
+        android:id="@+id/tallaPrenda"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="24dp"
+        android:background="@drawable/botones_info_prenda"
+        android:elevation="10dp"
+        android:padding="13dp"
+        android:text="@string/Comunes_talla"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:textSize="35dp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/usosSostenibilidadPrenda2"
+        app:layout_constraintEnd_toStartOf="@+id/calidezPrenda"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintHorizontal_chainStyle="spread"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/nombrePrenda" />
+
+    <ImageView
+        android:id="@+id/fechaCompraPrenda"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:background="@drawable/botones_info_prenda"
+        android:elevation="10dp"
+        android:onClick="lanzarInfo2"
+        android:padding="12dp"
+        app:layout_constraintEnd_toStartOf="@+id/colorPrenda"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintHorizontal_chainStyle="spread"
+        app:layout_constraintStart_toEndOf="@+id/calidezPrenda"
+        app:layout_constraintTop_toTopOf="@+id/tallaPrenda" />
+
+    <ImageView
+        android:id="@+id/color1Prenda"
+        android:layout_width="35dp"
+        android:layout_height="35dp"
+        android:layout_marginStart="32dp"
+        android:layout_marginBottom="32dp"
+        android:background="@drawable/botones_circulares_degradado"
+        android:elevation="10dp"
+        android:padding="12dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_chainStyle="spread"
+        app:layout_constraintStart_toStartOf="parent" />
+
+
+    <ImageView
+        android:id="@+id/botonDesplegablePrenda"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginEnd="24dp"
+        android:alpha="0.9"
+        android:background="@drawable/botones_circulares"
+        android:elevation="10dp"
+        android:padding="12dp"
+        android:src="@drawable/flecha"
+        app:layout_constraintBottom_toTopOf="@+id/rectanguloCircularPrendas"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_chainStyle="spread"
+        app:layout_constraintTop_toTopOf="@+id/rectanguloCircularPrendas"
+        app:layout_constraintVertical_chainStyle="packed" />
+
+    <TextView
+        android:id="@+id/nombrePrenda"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="4dp"
+        android:fontFamily="@font/nunito"
+        android:text="@string/PaginaPrenda_titulo"
+        android:textColor="#000000"
+        android:textSize="28dp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/tallaPrenda"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/rectanguloCircularPrendas"
+        app:layout_constraintVertical_chainStyle="packed" />
+
+
+    <TextView
+        android:id="@+id/diaPrenda"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:elevation="40dp"
+        android:fontFamily="@font/roboto_medium"
+        android:text="09"
+        android:letterSpacing="0.19"
+        android:textStyle="bold"
+        android:textColor="#000000"
+        android:textSize="30dp"
+        app:layout_constraintBottom_toBottomOf="@+id/fechaCompraPrenda"
+        app:layout_constraintEnd_toEndOf="@+id/fechaCompraPrenda"
+        app:layout_constraintStart_toStartOf="@+id/fechaCompraPrenda"
+        app:layout_constraintTop_toTopOf="@+id/fechaCompraPrenda"
+        app:layout_constraintVertical_bias="0.543" />
+
+    <TextView
+        android:id="@+id/mesPrenda"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="14dp"
+        android:elevation="40dp"
+        android:fontFamily="@font/roboto_medium"
+        android:letterSpacing="0.2"
+        android:text="FEB"
+        android:textColor="#000000"
+        android:textSize="17dp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/diaPrenda"
+        app:layout_constraintEnd_toEndOf="@+id/fechaCompraPrenda"
+        app:layout_constraintStart_toStartOf="@+id/fechaCompraPrenda"
+        app:layout_constraintTop_toTopOf="@+id/fechaCompraPrenda" />
+
+    <TextView
+        android:id="@+id/anyoPrenda"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="14dp"
+        android:elevation="40dp"
+        android:fontFamily="@font/roboto_medium"
+        android:letterSpacing="0.2"
+        android:text="2023"
+        android:textColor="#000000"
+        android:textSize="13dp"
+        app:layout_constraintBottom_toBottomOf="@+id/fechaCompraPrenda"
+        app:layout_constraintEnd_toEndOf="@+id/fechaCompraPrenda"
+        app:layout_constraintHorizontal_bias="0.45"
+        app:layout_constraintStart_toStartOf="@+id/fechaCompraPrenda"
+        app:layout_constraintTop_toBottomOf="@+id/diaPrenda" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="6dp"
+        android:elevation="40dp"
+        android:letterSpacing="0.2"
+        android:text="Talla"
+        android:textSize="9dp"
+        android:textStyle="normal"
+        app:layout_constraintBottom_toBottomOf="@+id/tallaPrenda"
+        app:layout_constraintEnd_toEndOf="@+id/tallaPrenda"
+        app:layout_constraintStart_toStartOf="@+id/tallaPrenda" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

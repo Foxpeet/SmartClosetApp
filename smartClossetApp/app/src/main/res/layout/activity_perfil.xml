@@ -1,0 +1,264 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:alpha="0.80"
+    android:background="@drawable/fondo_degradado">
+
+    <include
+        android:id="@+id/menu_inferior_main"
+        layout="@layout/menu_inferior"
+        android:elevation="70dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0"
+        tools:layout_editor_absoluteX="0dp" />
+
+    <ImageView
+        android:id="@+id/btnEditarPerfil"
+        android:layout_width="25dp"
+        android:layout_height="25dp"
+        android:alpha="0.95"
+        android:background="@drawable/botones_circulares_degradado"
+        android:enabled="false"
+        android:padding="2dp"
+        android:src="@drawable/icono_editar_negro"
+        app:layout_constraintBottom_toBottomOf="@+id/ajustesPerfil"
+        app:layout_constraintEnd_toEndOf="@+id/ajustesPerfil"
+        app:layout_constraintStart_toStartOf="@+id/ajustesPerfil"
+        app:layout_constraintTop_toTopOf="@+id/ajustesPerfil" />
+
+    <ImageView
+        android:id="@+id/btnCerrarMenuPerfil"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:alpha="0.95"
+        android:background="@drawable/botones_circulares_degradado"
+        android:enabled="false"
+        android:padding="5dp"
+        android:src="@drawable/icono_cancelar"
+        app:layout_constraintBottom_toBottomOf="@+id/ajustesPerfil"
+        app:layout_constraintEnd_toEndOf="@+id/ajustesPerfil"
+        app:layout_constraintStart_toStartOf="@+id/ajustesPerfil"
+        app:layout_constraintTop_toTopOf="@+id/ajustesPerfil" />
+
+    <ImageView
+        android:id="@+id/btncambiarIdiomas"
+        android:layout_width="25dp"
+        android:layout_height="25dp"
+        android:alpha="0.95"
+        android:background="@drawable/botones_circulares_degradado"
+        android:enabled="false"
+        android:padding="3dp"
+        android:src="@drawable/icono_idiomas"
+        app:layout_constraintBottom_toBottomOf="@+id/ajustesPerfil"
+        app:layout_constraintEnd_toEndOf="@+id/ajustesPerfil"
+        app:layout_constraintStart_toStartOf="@+id/ajustesPerfil"
+        app:layout_constraintTop_toTopOf="@+id/ajustesPerfil"
+        app:layout_constraintVertical_bias="0.533" />
+
+    <ImageView
+        android:id="@+id/btnAcercaDePerfil"
+        android:layout_width="25dp"
+        android:layout_height="25dp"
+        android:alpha="0.95"
+        android:background="@drawable/botones_circulares_degradado"
+        android:enabled="false"
+        android:padding="3dp"
+        android:src="@drawable/icono_acerca_de"
+        app:layout_constraintBottom_toBottomOf="@+id/ajustesPerfil"
+        app:layout_constraintEnd_toEndOf="@+id/ajustesPerfil"
+        app:layout_constraintStart_toStartOf="@+id/ajustesPerfil"
+        app:layout_constraintTop_toTopOf="@+id/ajustesPerfil"
+        app:layout_constraintVertical_bias="0.533" />
+
+    <ImageView
+        android:id="@+id/btnCerrarSesion"
+        android:layout_width="25dp"
+        android:layout_height="25dp"
+        android:alpha="0.95"
+        android:background="@drawable/botones_circulares_degradado"
+        android:enabled="false"
+        android:paddingTop="3dp"
+        android:paddingRight="3dp"
+        android:paddingBottom="3dp"
+        android:src="@drawable/icono_cerrar_sesion"
+        app:layout_constraintBottom_toBottomOf="@+id/ajustesPerfil"
+        app:layout_constraintEnd_toEndOf="@+id/ajustesPerfil"
+        app:layout_constraintStart_toStartOf="@+id/ajustesPerfil"
+        app:layout_constraintTop_toTopOf="@+id/ajustesPerfil"
+        app:layout_constraintVertical_bias="0.533" />
+
+    <ImageView
+        android:id="@+id/ajustesPerfil"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="32dp"
+        android:layout_marginEnd="16dp"
+        android:elevation="0dp"
+        android:onClick="abrirMenuPerfil"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_chainStyle="spread_inside"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/icono_ajustes_tres_puntos" />
+
+    <ImageView
+        android:id="@+id/fotoPerfil"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:background="?android:selectableItemBackground"
+        android:elevation="20dp"
+        android:padding="10dp"
+        app:layout_constraintBottom_toBottomOf="@+id/botonImagenPerfil"
+        app:layout_constraintEnd_toEndOf="@+id/botonImagenPerfil"
+        app:layout_constraintHorizontal_chainStyle="spread_inside"
+        app:layout_constraintStart_toStartOf="@+id/botonImagenPerfil"
+        app:layout_constraintTop_toTopOf="@+id/botonImagenPerfil"
+        app:srcCompat="@drawable/icono_user_black" />
+
+    <ImageView
+        android:id="@+id/botonImagenPerfil"
+        android:layout_width="220dp"
+        android:layout_height="220dp"
+        android:layout_marginBottom="32dp"
+        android:alpha="0.8"
+        android:background="@drawable/botones_circulares_degradado"
+        android:elevation="10dp"
+        android:padding="20dp"
+        app:layout_constraintBottom_toTopOf="@+id/textView7"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/BuenosDias" />
+
+    <TextView
+        android:id="@+id/BuenosDias"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        android:fontFamily="@font/nunito_bold"
+        android:text="@string/Perfil_titulo"
+        android:textColor="#000000"
+        android:textSize="28dp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/botonImagenPerfil"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_chainStyle="packed" />
+
+    <TextView
+        android:id="@+id/nombrePerfil"
+        android:layout_width="0dp"
+        android:layout_height="35dp"
+        android:layout_marginStart="40dp"
+        android:layout_marginEnd="40dp"
+        android:layout_marginBottom="16dp"
+        android:alpha="0.9"
+        android:background="@drawable/textbox"
+        android:elevation="10dp"
+        android:ems="10"
+        android:fontFamily="@font/roboto"
+        android:paddingTop="7dp"
+        android:text="@string/Perfil_nombreMostrar"
+        android:textAlignment="center"
+        android:textColor="#000000"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toTopOf="@+id/textView8"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView7" />
+
+    <TextView
+        android:id="@+id/correoPerfil"
+        android:layout_width="0dp"
+        android:layout_height="35dp"
+        android:layout_marginStart="40dp"
+        android:layout_marginEnd="40dp"
+        android:layout_marginBottom="16dp"
+        android:alpha="0.9"
+        android:background="@drawable/textbox"
+        android:elevation="10dp"
+        android:ems="10"
+        android:fontFamily="@font/roboto"
+        android:paddingTop="7dp"
+        android:text="@string/Perfil_correoMostrar"
+        android:textAlignment="center"
+        android:textColor="#000000"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toTopOf="@+id/textView11"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView8" />
+
+    <TextView
+        android:id="@+id/tallaPerfil"
+        android:layout_width="0dp"
+        android:layout_height="35dp"
+        android:layout_marginStart="40dp"
+        android:layout_marginEnd="40dp"
+        android:layout_marginBottom="64dp"
+        android:alpha="0.9"
+        android:background="@drawable/textbox"
+        android:elevation="10dp"
+        android:ems="10"
+        android:fontFamily="@font/roboto"
+        android:paddingTop="7dp"
+        android:text="@string/Comunes_talla"
+        android:textAlignment="center"
+        android:textColor="#000000"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView11" />
+
+    <TextView
+        android:id="@+id/textView7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="4dp"
+        android:fontFamily="@font/roboto"
+        android:text="@string/Perfil_nombreTitulo"
+        android:textColor="#000000"
+        app:layout_constraintBottom_toTopOf="@+id/nombrePerfil"
+        app:layout_constraintStart_toStartOf="@+id/nombrePerfil"
+        app:layout_constraintTop_toBottomOf="@+id/botonImagenPerfil" />
+
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="4dp"
+        android:fontFamily="@font/roboto"
+        android:text="@string/Perfil_correoTitulo"
+        android:textColor="#000000"
+        app:layout_constraintBottom_toTopOf="@+id/correoPerfil"
+        app:layout_constraintStart_toStartOf="@+id/correoPerfil"
+        app:layout_constraintTop_toBottomOf="@+id/nombrePerfil" />
+
+    <TextView
+        android:id="@+id/textView11"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/roboto"
+        android:text="@string/Comunes_talla"
+        android:textColor="#000000"
+        app:layout_constraintBottom_toTopOf="@+id/tallaPerfil"
+        app:layout_constraintStart_toStartOf="@+id/tallaPerfil"
+        app:layout_constraintTop_toBottomOf="@+id/correoPerfil" />
+
+    <ImageView
+        android:layout_width="0dp"
+        android:layout_height="1dp"
+        android:alpha="0.6"
+        android:background="@color/black"
+        tools:layout_editor_absoluteX="67dp"
+        tools:layout_editor_absoluteY="612dp" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

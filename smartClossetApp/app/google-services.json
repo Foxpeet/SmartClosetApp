@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "814260695152",
+    "project_id": "smart-closset-c9008",
+    "storage_bucket": "smart-closset-c9008.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:814260695152:android:8d3d1dfb42e2a25a6984b5",
+        "android_client_info": {
+          "package_name": "com.example.grupo1_1.smartclosset"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "814260695152-avboal9ohj6okm1i09pe5vbs5b2e8q3u.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.grupo1_1.smartclosset",
+            "certificate_hash": "876b92508fe708a5224f23f155444ae2b1ca6f9e"
+          }
+        },
+        {
+          "client_id": "814260695152-52p5kdt6t1ve9s4suml9mf9jj13p3dr4.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAZ3bc0xasNNVPYnCN7v1JXxpDNkjOuOxI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "814260695152-52p5kdt6t1ve9s4suml9mf9jj13p3dr4.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

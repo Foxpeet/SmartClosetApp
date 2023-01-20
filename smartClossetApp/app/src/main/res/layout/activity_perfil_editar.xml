@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:alpha="0.80"
+    android:background="@drawable/fondo_degradado">
+
+    <TextView
+        android:id="@+id/textView9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:fontFamily="@font/roboto"
+        android:onClick="lanzarCambiarContrasenya"
+        android:text="@string/EditarPerfil_cambioContraseña"
+        android:textColor="#000000"
+        android:textSize="18dp"
+        android:textStyle="italic"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/guardarEditarPerfil" />
+
+    <ImageView
+        android:id="@+id/imageView9"
+        android:layout_width="0dp"
+        android:layout_height="1dp"
+        android:alpha="0.6"
+        android:background="@color/black"
+        android:onClick="lanzarCambiarContrasenya"
+        app:layout_constraintBottom_toBottomOf="@+id/textView9"
+        app:layout_constraintEnd_toEndOf="@+id/textView9"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="@+id/textView9" />
+
+    <ImageView
+        android:id="@+id/botonFotoEditarPerfil"
+        android:layout_width="220dp"
+        android:layout_height="220dp"
+        android:layout_marginTop="32dp"
+        android:alpha="0.85"
+        android:background="@drawable/botones_circulares_degradado"
+        android:elevation="10dp"
+        android:padding="20dp"
+        app:srcCompat="@drawable/icono_imagen"
+        app:layout_constraintBottom_toTopOf="@+id/textoNombreEditarPerfil"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editaTuPerfil" />
+
+    <ImageView
+        android:id="@+id/botonEditarFotoPerfil"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:alpha="0.85"
+        android:background="@drawable/botones_circulares"
+        android:elevation="30dp"
+        android:onClick="subirFotoRequest"
+        android:padding="0dp"
+        app:cornerRadius="25dp"
+        app:layout_constraintEnd_toEndOf="@+id/botonFotoEditarPerfil"
+        app:layout_constraintTop_toTopOf="@+id/botonFotoEditarPerfil"
+        app:srcCompat="@drawable/icono_anyadir" />
+
+    <EditText
+        android:id="@+id/nombreEditarPerfil"
+        android:layout_width="0dp"
+        android:layout_height="40dp"
+        android:layout_marginStart="40dp"
+        android:layout_marginEnd="40dp"
+        android:alpha="0.9"
+        android:background="@drawable/textbox"
+        android:elevation="10dp"
+        android:ems="10"
+        android:fontFamily="@font/roboto"
+        android:hint="@string/EditarPerfil_nombreMostrar"
+        android:inputType="textPersonName"
+        android:textAlignment="center"
+        android:textColor="#000000"
+        android:textColorHint="#000000"
+        app:layout_constraintBottom_toTopOf="@+id/textoTallaEditarPerfil"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textoNombreEditarPerfil" />
+
+    <Spinner
+        android:id="@+id/tallaEditarPerfil"
+        android:layout_width="0dp"
+        android:layout_height="40dp"
+        android:layout_marginStart="40dp"
+        android:layout_marginEnd="40dp"
+        android:alpha="0.9"
+        android:background="@drawable/spinner"
+        android:elevation="10dp"
+        android:entries="@array/Talla"
+        android:textAlignment="center"
+        android:textColor="#000000"
+        app:layout_constraintBottom_toTopOf="@+id/guardarEditarPerfil"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textoTallaEditarPerfil" />
+
+    <TextView
+        android:id="@+id/editaTuPerfil"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:fontFamily="@font/nunito_bold"
+        android:text="@string/EditarPerfil_titulo"
+        android:textColor="#000000"
+        android:textSize="28dp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/botonFotoEditarPerfil"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_chainStyle="packed" />
+
+    <Button
+        android:id="@+id/guardarEditarPerfil"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="64dp"
+        android:layout_marginTop="64dp"
+        android:layout_marginEnd="64dp"
+        android:background="@drawable/botones_circulares_degradado"
+        android:elevation="30dp"
+        android:fontFamily="@font/roboto_medium"
+        android:forceDarkAllowed="false"
+        android:onClick="lanzarGuardarEditarPerfil"
+        android:text="@string/Comunes_guardar"
+        android:textColor="#000000"
+        app:layout_constraintBottom_toTopOf="@+id/textView9"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tallaEditarPerfil" />
+
+    <TextView
+        android:id="@+id/textoNombreEditarPerfil"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        android:fontFamily="@font/roboto"
+        android:text="@string/EditarPerfil_nombreTitulo"
+        android:textColor="#000000"
+        app:layout_constraintBottom_toTopOf="@+id/nombreEditarPerfil"
+        app:layout_constraintStart_toStartOf="@+id/nombreEditarPerfil"
+        app:layout_constraintTop_toBottomOf="@+id/botonFotoEditarPerfil" />
+
+    <TextView
+        android:id="@+id/textoTallaEditarPerfil"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:fontFamily="@font/roboto"
+        android:text="@string/Comunes_talla"
+        android:textColor="#000000"
+        app:layout_constraintBottom_toTopOf="@+id/tallaEditarPerfil"
+        app:layout_constraintStart_toStartOf="@+id/tallaEditarPerfil"
+        app:layout_constraintTop_toBottomOf="@+id/nombreEditarPerfil" />
+
+    <TextView
+        android:id="@+id/textoErrorNombrePerfil"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/nunito_bold"
+        android:text="@string/NuevaPrenda_error_nombre"
+        android:textColor="#D10B0B"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="@+id/nombreEditarPerfil"
+        app:layout_constraintTop_toBottomOf="@+id/nombreEditarPerfil" />
+
+    <TextView
+        android:id="@+id/textoErrorTallaPerfil"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/nunito_bold"
+        android:text="@string/EditarPerfil_error_talla"
+        android:textColor="#D10B0B"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="@+id/tallaEditarPerfil"
+        app:layout_constraintTop_toBottomOf="@+id/tallaEditarPerfil" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

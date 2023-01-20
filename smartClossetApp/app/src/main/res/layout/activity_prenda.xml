@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:alpha="0.80"
+    android:background="@drawable/fondo_degradado"
+    android:padding="3dp">
+
+    <ImageView
+        android:id="@+id/fotoPrenda"
+        android:layout_width="300dp"
+        android:layout_height="300dp"
+        android:layout_marginTop="64dp"
+        android:background="?android:selectableItemBackground"
+        android:elevation="0dp"
+        android:padding="10dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.495"
+        app:layout_constraintHorizontal_chainStyle="spread_inside"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/icono_imagen" />
+
+    <ImageView
+        android:id="@+id/btn1menu"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:alpha="0.95"
+        android:background="@drawable/botones_circulares_degradado"
+        android:enabled="false"
+        android:padding="5dp"
+        android:src="@drawable/icono_cancelar_negro"
+        app:layout_constraintBottom_toBottomOf="@+id/ajustesPrenda"
+        app:layout_constraintEnd_toEndOf="@+id/ajustesPrenda"
+        app:layout_constraintStart_toStartOf="@+id/ajustesPrenda"
+        app:layout_constraintTop_toTopOf="@+id/ajustesPrenda" />
+
+
+
+    <ImageView
+        android:id="@+id/btn2menu"
+        android:layout_width="25dp"
+        android:layout_height="25dp"
+        android:alpha="0.95"
+        android:background="@drawable/botones_circulares_degradado"
+        android:enabled="false"
+        android:padding="2dp"
+        android:src="@drawable/icono_editar_negro"
+        app:layout_constraintBottom_toBottomOf="@+id/ajustesPrenda"
+        app:layout_constraintEnd_toEndOf="@+id/ajustesPrenda"
+        app:layout_constraintStart_toStartOf="@+id/ajustesPrenda"
+        app:layout_constraintTop_toTopOf="@+id/ajustesPrenda" />
+
+    <ImageView
+        android:id="@+id/btn3menu"
+        android:layout_width="25dp"
+        android:layout_height="25dp"
+        android:alpha="0.95"
+        android:background="@drawable/botones_circulares_degradado"
+        android:enabled="false"
+        android:padding="3dp"
+        android:src="@drawable/icono_borrar"
+        app:layout_constraintBottom_toBottomOf="@+id/ajustesPrenda"
+        app:layout_constraintEnd_toEndOf="@+id/ajustesPrenda"
+        app:layout_constraintStart_toStartOf="@+id/ajustesPrenda"
+        app:layout_constraintTop_toTopOf="@+id/ajustesPrenda" />
+
+    <ImageView
+        android:id="@+id/ajustesPrenda"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="16dp"
+        android:elevation="0dp"
+        android:onClick="abrirMenuPrenda"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_chainStyle="spread_inside"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/icono_ajustes" />
+
+    <include
+        android:id="@+id/menu_info_prenda"
+        layout="@layout/menu_informacion_prenda"
+        android:elevation="60dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

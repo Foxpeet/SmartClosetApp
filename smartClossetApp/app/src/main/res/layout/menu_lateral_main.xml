@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/fondoBlanco_menuLateral"
+        android:layout_width="100dp"
+        android:layout_height="0dp"
+        android:background="#A1FFFFFF"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <ImageView
+        android:id="@+id/CancelarTab"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:alpha="0.7"
+        android:elevation="20dp"
+        android:padding="15dp"
+        android:src="@drawable/icono_cancelar_negro"
+        app:cornerRadius="25dp"
+        app:layout_constraintBottom_toTopOf="@+id/camisetasTab"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="@+id/fondoBlanco_menuLateral"
+        app:layout_constraintTop_toTopOf="@+id/fondoBlanco_menuLateral" />
+
+    <ImageView
+        android:id="@+id/camisetasTab"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:alpha="0.7"
+        android:onClick="filtroParteDeArriba"
+        android:background="@drawable/botones_info_prenda"
+        android:elevation="20dp"
+        android:padding="7dp"
+        android:src="@drawable/icono_camiseta"
+        app:layout_constraintBottom_toTopOf="@+id/pantalonesTab"
+        app:layout_constraintStart_toStartOf="@+id/CancelarTab"
+        app:layout_constraintTop_toBottomOf="@+id/CancelarTab" />
+
+    <ImageView
+        android:id="@+id/pantalonesTab"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:alpha="0.7"
+        android:onClick="filtroParteDeAbajo"
+        android:background="@drawable/botones_info_prenda"
+        android:elevation="20dp"
+        android:padding="7dp"
+        android:src="@drawable/icono_pantalones"
+        app:layout_constraintBottom_toTopOf="@+id/conjuntosTab"
+        app:layout_constraintStart_toStartOf="@+id/camisetasTab"
+        app:layout_constraintTop_toBottomOf="@+id/camisetasTab" />
+
+    <ImageView
+        android:id="@+id/conjuntosTab"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:alpha="0.7"
+        android:background="@drawable/botones_info_prenda"
+        android:elevation="20dp"
+        android:onClick="mostrarConjuntos"
+        android:padding="7dp"
+        android:src="@drawable/icono_conjuntos"
+        app:layout_constraintBottom_toTopOf="@+id/completosTab"
+        app:layout_constraintStart_toStartOf="@+id/pantalonesTab"
+        app:layout_constraintTop_toBottomOf="@+id/pantalonesTab" />
+
+    <ImageView
+        android:id="@+id/favoritosTab"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:layout_marginBottom="16dp"
+        android:alpha="0.7"
+        android:onClick="filtroFavoritos"
+        android:background="@drawable/botones_info_prenda"
+        android:elevation="20dp"
+        android:padding="7dp"
+        android:src="@drawable/icono_favoritos_todasprendas"
+        app:layout_constraintBottom_toBottomOf="@+id/fondoBlanco_menuLateral"
+        app:layout_constraintStart_toStartOf="@+id/completosTab"
+        app:layout_constraintTop_toBottomOf="@+id/completosTab" />
+
+    <ImageView
+        android:id="@+id/completosTab"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:alpha="0.7"
+        android:onClick="filtroAccesorios"
+        android:background="@drawable/botones_info_prenda"
+        android:elevation="20dp"
+        android:padding="7dp"
+        android:src="@drawable/icono_complementos"
+        app:layout_constraintBottom_toTopOf="@+id/favoritosTab"
+        app:layout_constraintStart_toStartOf="@+id/conjuntosTab"
+        app:layout_constraintTop_toBottomOf="@+id/conjuntosTab" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

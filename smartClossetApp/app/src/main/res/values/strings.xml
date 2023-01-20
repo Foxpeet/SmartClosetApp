@@ -1,0 +1,199 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name" translatable="false">Smart Closset</string>
+
+    <!-- ____ Textos comunes ____ -->
+    <string name="Comunes_guardar">Guardar</string>
+    <string name="Comunes_cancelar">Cancelar</string>
+    <string name="Comunes_fechaCompra">Fecha de compra</string>
+    <string name="Comunes_talla">Talla</string>
+    <string name="Comunes_Categoria">Categoría</string>
+    <string name="Comunes_Calidez">Calidez</string>
+    <string name="Comunes_Color">Color</string>
+
+    <!-- ____ Acerca de ____ -->
+    <string name="acercade_info">Este programa ha  sido desarrollado por el grupo 1–1 de Tecnologías interactivas. Especial agradecimiento a nuestra mano de obra barata</string>
+
+    <!-- ____ Añadir prenda ____ -->
+    <string name="NuevaPrenda_titulo">Añade una prenda</string>
+    <string name="NuevaPrenda_nombre">Añade un nombre</string>
+    <string name="NuevaPrenda_error_nombre">Introduzca un nombre valido</string>
+    <string name="NuevaPrenda_error_letras">Introduzca únicamente letras</string>
+    <string name="NuevaPrenda_error_fecha">Introduzca la fecha</string>
+    <string name="NuevaPrenda_error_talla">Introduzca la talla</string>
+    <string name="NuevaPrenda_error_categoria">Introduzca la categoría</string>
+    <string name="NuevaPrenda_error_calidez">Introduzca la calidez</string>
+    <string name="NuevaPrenda_error_color">Introduzca el color</string>
+    <string name="NuevaPrenda_datosCorrectos">Los datos han sido introducidos correctamente</string>
+
+    <!-- EditarPrenda -->
+    <string name="EditarPrenda_titulo">Edita una prenda</string>
+    <string name="EditarPrenda_nombre">Edita el nombre</string>
+    <string name="EditarPrenda_guardar_titulo">Confirmación de la edición de prenda</string>
+    <string name="EditarPrenda_guardar_mensaje">¿Estás seguro de que quieres guardar los cambios?</string>
+    <string name="EditarPrenda_cancelar_titulo">Cancelar la edición de prenda</string>
+    <string name="EditarPrenda_cancelar_mensaje">¿Estás seguro de que quieres cancelar los cambios?</string>
+    <string name="EditarPrenda_cancelar_seguirEditando">Seguir editando</string>
+    <string name="EditarPrenda_cancelar_salir">Salir</string>
+
+    <!-- spinners -->
+    <string name="NuevaPrenda_spinner_Color_2">Rojo</string>
+    <string name="NuevaPrenda_spinner_Color_3">Azul</string>
+    <string name="NuevaPrenda_spinner_Color_4">Verde</string>
+    <string name="NuevaPrenda_spinner_Color_5">Amarillo</string>
+    <string name="NuevaPrenda_spinner_Color_6">Naranja</string>
+    <string name="NuevaPrenda_spinner_Color_7">Violeta</string>
+    <string name="NuevaPrenda_spinner_Color_8">Gris</string>
+    <string name="NuevaPrenda_spinner_Color_9">Beige</string>
+    <string name="NuevaPrenda_spinner_Color_10">Blanco</string>
+    <string name="NuevaPrenda_spinner_Color_11">Negro</string>
+    <string name="NuevaPrenda_spinner_Calidez_2">" muy cálido "</string>
+    <string name="NuevaPrenda_spinner_Calidez_3">" cálido "</string>
+    <string name="NuevaPrenda_spinner_Calidez_4"> frio </string>
+    <string name="NuevaPrenda_spinner_Calidez_5"> muy frio </string>
+    <string name="NuevaPrenda_spinner_Categoria_2">parte de arriba</string>
+    <string name="NuevaPrenda_spinner_Categoria_3">parte de abajo</string>
+    <string name="NuevaPrenda_spinner_Categoria_4">accesorios</string>
+
+    <!-- ____ Inicio de sesión ____ -->
+    <string name="InicioSesion_email">Email</string>
+    <string name="InicioSesion_contraseña">Contraseña</string>
+    <string name="InicioSesion_registrar">¡Regístrate!</string>
+    <string name="InicioSesion_acceder">Accede</string>
+    <string name="InicioSesion_titulo">Email</string>
+    <string name="InicioSesion_crea">Crea tu cuenta o inicia sesión</string>
+    <string name="InicioSesion_empieza">Empieza a organizar tu armario, de una forma rápida, cómoda y sencilla</string>
+    <string name="InicioSesion_noCuenta">¿No tienes cuenta?</string>
+    <string name="InicioSesion_exito">inicia sesión: </string>
+    <string name="InicioSesion_error_datosIncorrectos">Los datos no coinciden con un usuario existente</string>
+    <string name="InicioSesion_error_usuarioActivo">Ya hay un usuario</string>
+    <string name="InicioSesion_error_camposVacios">Rellena todos los campos</string>
+    <string name="InicioSesion_conTuCuenta">Inicia sesión con tu cuenta</string>
+
+    <!-- ____ LandingPage/LandingDemo ____ -->
+    <string name="landing_nombre">Buenos días,</string>
+    <string name="landing_temperatura">Temperatura</string>
+    <string name="landing_humedad">Humedad</string>
+    <string name="landing_solicitudPermiso">Solicitud de permiso</string>
+    <string name="landing_recomendado">Recomendado para hoy:</string>
+    <string name="landing_sinPrendas">No tienes prendas en el armario ¡añade algunas!</string>
+    <string name="landingDemo_tempYHumedad">Muestra la temperatura y Humedad:</string>
+    <string name="landingDemo_calendario1">Desde aquí puedes acceder a tu calendario</string>
+    <string name="landingDemo_calendario2">Podrás ver que día utilizaste cada prenda</string>
+    <string name="landingDemo_anyadirPrendaConjunto">Añade una prenda o un conjunto</string>
+    <string name="landingDemo_botonLuz">Controla la luz de tu armario</string>
+    <string name="landingDemo_botonPuerta1">Y desde aquí, desbloquea la puerta</string>
+    <string name="landingDemo_botonPuerta2">o bloquéala para mantener tu privacidad</string>
+    <string name="landingDemo_final">¡Ya puedes empezar a organiar tu armario!</string>
+
+    <!-- ____ Perfil ____ -->
+    <string name="Perfil_correoMostrar">Tu correo</string>
+    <string name="Perfil_titulo">Tu Perfil</string>
+    <string name="Perfil_nombreMostrar">Tu nombre</string>
+    <string name="Perfil_nombreTitulo">Nombre</string>
+    <string name="Perfil_correoTitulo">Correo electrónico</string>
+    <string name="Perfil_verAnimacion">¿Quieres volver a ver la animación?</string>
+    <string name="Perfil_cerrarSesion_titulo">Cerrar Sesión</string>
+    <string name="Perfil_cerrarSesion_mensaje">¿Estás seguro de que quieres cerrar sesión?</string>
+    <string name="Perfil_cerrarSesion_cerrar">Cerrar sesión</string>
+
+    <!-- ____ EditarPerfil ____ -->
+    <string name="EditarPerfil_titulo">Edita tu perfil</string>
+    <string name="EditarPerfil_datosActualizados">Se han actualizado los datos</string>
+    <string name="EditarPerfil_cambioContraseña">¿Quieres cambiar tu contraseña?</string>
+    <string name="EditarPerfil_nombreMostrar">Tu nombre</string>
+    <string name="EditarPerfil_nombreTitulo">Nombre de usuario</string>
+    <string name="EditarPerfil_error_talla">Introduzca una talla válidad</string>
+    <string name="EditarPerfil_guardar_titulo">Confirmación del cambio de datos</string>
+    <string name="EditarPerfil_guardar_mensaje">¿Estás seguro de que quieres actualizar los datos?</string>
+    <string name="EditarPerfil_cancelar_titulo">Cancelación del cambio de datos</string>
+    <string name="EditarPerfil_cancelar_mensaje">¿Estás seguro de que quieres cancelar?</string>
+    <string name="EditarPerfil_cancelar_mensaje2">Los cambios no guardados se perderán</string>
+    <string name="EditarPerfil_cancelar_salir">Salir</string>
+    <string name="EditarPerfil_cancelar_seguirEditando">Seguir editando</string>
+
+    <!-- ____ PaginaPrenda ____ -->
+    <string name="PaginaPrenda_titulo">Nombre de la prenda</string>
+    <string name="PaginaPrenda_usosSostenible"> usos para convertir tu prenda en sostenible. ¡ánimo!</string>
+    <string name="PaginaPrenda_colorCombina">Combina con…</string>
+    <string name="PaginaPrenda_cancelar_titulo">Confirmación del borrado de prenda</string>
+    <string name="PaginaPrenda_cancelar_mensaje">¿Estás seguro de que quieres borrar la prenda?</string>
+    <string name="PaginaPrenda_info_titulo">Información de la prenda</string>
+    <string name="PaginaPrenda_info_calidez_mensaje">Este recuadro indica la calidez de tu prenda:</string>
+    <string name="PaginaPrenda_info_fecha_mensaje">Este recuadro indica la fecha de compra de tu prenda</string>
+    <string name="PaginaPrenda_fav_titulo">Favoritos</string>
+    <string name="PaginaPrenda_fav_mensaje_anyadir">¿Estás seguro de que quieres añadir la prenda de favoritos?</string>
+    <string name="PaginaPrenda_fav_mensaje_borrar">¿Estás seguro de que quieres quitar la prenda de favoritos?</string>
+    <string name="PaginaPrenda_aceptar">Aceptar</string>
+    <string name="PaginaPrenda_Rfid_sacar_titulo">Has sacado una prenda del armario</string>
+    <string name="PaginaPrenda_Rfid_sacar_mensaje">¿Quieres marcarla como sucia? Ten en cuenta que, si no lo haces, pensaremos que sigue dentro</string>
+    <string name="PaginaPrenda_Rfid_sacar_confirmar">Sucia</string>
+    <string name="PaginaPrenda_Rfid_sacar_cancelar">Ignorar</string>
+    <string name="PaginaPrenda_Rfid_meter_titulo">Has metido una prenda en el armario</string>
+    <string name="PaginaPrenda_Rfid_meter_mensaje">¿La has lavado? Si no lo has hecho, no lo apuntaremos</string>
+    <string name="PaginaPrenda_Rfid_meter_confirmar">¡Ya la he lavado!</string>
+    <string name="PaginaPrenda_Rfid_meter_cancelar">Sigue sucia</string>
+
+    <!-- ____ PrimeraActivity ____ -->
+    <string name="PrimeraActivity_PreguntaControlPrendas">¿Quieres llevar un mejor control de tus prendas?</string>
+    <string name="PrimeraActivity_PreguntaNombre">¿Cómo quieres que te llamemos?</string>
+    <string name="PrimeraActivity_PreguntaTalla">¿Qué talla utilizas?</string>
+    <string name="PrimeraActivity_FraseGestion">Gestiona toda tu ropa de la forma más fácil y cómoda</string>
+    <string name="PrimeraActivity_FraseOrganiza">Organiza tus conjuntos y sácale el máximo partido a tu armario</string>
+    <string name="PrimeraActivity_FraseEmpecemos">¡Empecemos!</string>
+    <string name="PrimeraActivity_FraseHola_1">¡Hola, </string>
+    <string name="PrimeraActivity_FraseGenial">¡Genial! Vamos a continuar</string>
+    <string name="PrimeraActivity_FraseNombreInvalido">Introduce un nombre válido</string>
+    <string name="PrimeraActivity_IntroducirNombre">Tu nombre</string>
+    <string name="PrimeraActivity_continuemos">Continuemos</string>
+
+    <!-- ____ ConfiguracionIdiomas ____ -->
+    <string name="ConfiguracionIdioma_titulo">Selecciona tu idioma</string>
+    <string name="ConfiguracionIdioma_cancelar_titulo">¿Estás seguro de que quieres cancelar?</string>
+    <string name="ConfiguracionIdioma_cancelar_mensaje">Los cambios no se aplicarán</string>
+    <string name="ConfiguracionIdioma_cancelar_continuar">Continuar</string>
+    <string name="ConfiguracionIdioma_cancelar_salir">Salir</string>
+    <string name="ConfiguracionIdioma_guardar_titulo">¿Estás seguro de que quieres cancelar?</string>
+    <string name="ConfiguracionIdioma_guardar_mensaje">Los cambios se aplicarán</string>
+
+    <!-- ____ CrearConjunto ____ -->
+    <string name="CrearConjunto_titulo">Crea tu conjunto</string>
+    <string name="CrearConjunto_exito">Se ha añadido correctamente el conjunto</string>
+    <string name="CrearConjunto_error_superior">Selecciona una prenda inferior</string>
+    <string name="CrearConjunto_error_inferior">Selecciona una prenda superior</string>
+
+    <!-- ____ Cambiar Contraseña ____ -->
+    <string name="cambiaContrasenya_titulo">Cambiar contraseña</string>
+    <string name="cambiaContrasenya_actual_titulo">Contraseña actual</string>
+    <string name="cambiaContrasenya_actual_editText">Introduzca su contraseña actual</string>
+    <string name="cambiaContrasenya_nueva_titulo">Contraseña nueva</string>
+    <string name="cambiaContrasenya_nueva_editText">Introduzca su nueva contraseña</string>
+    <string name="cambiaContrasenya_confirmar_titulo">Confirme la contraseña nueva</string>
+    <string name="cambiaContrasenya_confirmar_editText">Introduzca su contraseña nueva</string>
+    <string name="cambiaContrasenya_exito">La contraseña ha sido actualizada correctamente</string>
+    <string name="cambiaContrasenya_error_actualizar">Ha habido un fallo al actualizar la contraseña</string>
+    <string name="cambiaContrasenya_error_contrasenyaIncorrecta">Contraseña actual erronea</string>
+    <string name="cambiaContrasenya_error_contrasenyasNoCoinciden">Las contraseñas no coinciden</string>
+    <string name="cambiaContrasenya_error_camposVacios">Rellene todos los campos</string>
+
+    <!-- ____ Registrarse ____ -->
+    <string name="Registrar_titulo">Crea una cuenta</string>
+    <string name="Registrar_email">Email</string>
+    <string name="Registrar_contrasenya">Contraseña</string>
+    <string name="Registrar_confirmarContrasenya">Confirma la contraseña</string>
+    <string name="Registrar_registrar">Regístrate</string>
+    <string name="Registrar_error_conexion">Error al crear la cuenta, vuelve a intentarlo</string>
+    <string name="Registrar_error_usuarioActivo">Usuario incorrecto o existente</string>
+    <string name="Registrar_error_contrasenyasNoCoinciden">Las contraseñas no coinciden</string>
+    <string name="Registrar_error_camposVacios">Rellena todos los campos</string>
+
+    <!-- ____ Mapa ____ -->
+    <string name="Mapa_ubicacionUsuario">Ubicacion actual del usuario</string>
+
+    <!-- ____ Mqtt/Rfid ____ -->
+    <string name="Rfid_titulo">Hemos detectado una nueva ID</string>
+    <string name="Rfid_mensaje">¿Quieres añadir una nueva prenda ahora?</string>
+    <string name="Rfid_continuar">Continuar</string>
+
+    <string name="action_settings" translatable="false">Settings</string>
+</resources>

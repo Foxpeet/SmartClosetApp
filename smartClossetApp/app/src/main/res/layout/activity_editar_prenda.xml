@@ -1,0 +1,288 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:alpha="0.80"
+    android:background="@drawable/fondo_degradado">
+
+    <TextView
+        android:id="@+id/textoErrorNomPrenda2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/nunito_bold"
+        android:text="@string/NuevaPrenda_error_nombre"
+        android:textColor="#D10B0B"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="@+id/nombreEditarPrenda"
+        app:layout_constraintTop_toBottomOf="@+id/nombreEditarPrenda" />
+
+    <TextView
+        android:id="@+id/textoErrorFechPrenda2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/nunito_bold"
+        android:text="@string/NuevaPrenda_error_fecha"
+        android:textColor="#D10B0B"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="@+id/fechaCompraEditarPrenda"
+        app:layout_constraintTop_toBottomOf="@+id/fechaCompraEditarPrenda" />
+
+    <TextView
+        android:id="@+id/textoErrTallaPrenda2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/NuevaPrenda_error_talla"
+        android:textColor="#D10B0B"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="@+id/tallaEditarPrenda"
+        app:layout_constraintTop_toBottomOf="@+id/tallaEditarPrenda" />
+
+    <TextView
+        android:id="@+id/textoErrColPrenda2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/nunito_bold"
+        android:text="@string/NuevaPrenda_error_color"
+        android:textColor="#D10B0B"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="@+id/colorEditarPrenda"
+        app:layout_constraintTop_toBottomOf="@+id/colorEditarPrenda" />
+
+    <TextView
+        android:id="@+id/textoErrCatPrenda2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/nunito_bold"
+        android:text="@string/NuevaPrenda_error_categoria"
+        android:textColor="#D10B0B"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="@+id/tipoEditarPrenda"
+        app:layout_constraintTop_toBottomOf="@+id/tipoEditarPrenda" />
+
+    <TextView
+        android:id="@+id/textoErrCalidezPrenda2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/nunito_bold"
+        android:text="@string/NuevaPrenda_error_calidez"
+        android:textColor="#D10B0B"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="@+id/calidezEditarPrenda"
+        app:layout_constraintTop_toBottomOf="@+id/calidezEditarPrenda" />
+
+    <ImageView
+        android:id="@+id/cancelarEditarPrenda"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:background="?android:selectableItemBackground"
+        android:elevation="10dp"
+        android:padding="10dp"
+        app:cornerRadius="25dp"
+        app:layout_constraintHorizontal_chainStyle="spread_inside"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/icono_cancelar" />
+
+    <ImageView
+        android:id="@+id/fotoEditarprenda"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:background="?android:selectableItemBackground"
+        android:elevation="20dp"
+        android:padding="10dp"
+        app:cornerRadius="25dp"
+        app:layout_constraintBottom_toBottomOf="@+id/botonFotoEditarPrenda"
+        app:layout_constraintEnd_toEndOf="@+id/botonFotoEditarPrenda"
+        app:layout_constraintHorizontal_chainStyle="spread_inside"
+        app:layout_constraintStart_toStartOf="@+id/botonFotoEditarPrenda"
+        app:layout_constraintTop_toTopOf="@+id/botonFotoEditarPrenda"
+        app:srcCompat="@drawable/icono_imagen" />
+
+    <ImageView
+        android:id="@+id/botonFotoEditarPrenda"
+        android:layout_width="260dp"
+        android:layout_height="260dp"
+        android:layout_marginTop="16dp"
+        android:alpha="0.85"
+        android:background="@drawable/botones_circulares_degradado"
+        android:elevation="10dp"
+        android:padding="20dp"
+        app:cornerRadius="25dp"
+        app:layout_constraintBottom_toTopOf="@+id/nombreEditarPrenda"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editaprenda" />
+
+    <ImageView
+        android:id="@+id/EditarEditarPrenda"
+        android:layout_width="55dp"
+        android:layout_height="56dp"
+        android:alpha="0.85"
+        android:background="@drawable/botones_circulares"
+        android:elevation="30dp"
+        android:onClick="abrirGaleriaFotoEditarPrenda"
+        android:padding="0dp"
+        app:cornerRadius="25dp"
+        app:layout_constraintEnd_toEndOf="@+id/botonFotoEditarPrenda"
+        app:layout_constraintTop_toTopOf="@+id/botonFotoEditarPrenda"
+        app:srcCompat="@drawable/icono_anyadir" />
+
+    <EditText
+        android:id="@+id/nombreEditarPrenda"
+        android:layout_width="0dp"
+        android:layout_height="40dp"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="32dp"
+        android:layout_marginEnd="40dp"
+        android:alpha="0.9"
+        android:background="@drawable/textbox"
+        android:elevation="10dp"
+        android:ems="10"
+        android:fontFamily="@font/roboto"
+        android:hint="@string/EditarPrenda_nombre"
+        android:inputType="textPersonName"
+        android:textAlignment="center"
+        android:textColor="#000000"
+        android:textColorHint="#000000"
+        app:layout_constraintBottom_toTopOf="@+id/fechaCompraEditarPrenda"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/botonFotoEditarPrenda" />
+
+    <EditText
+        android:id="@+id/fechaCompraEditarPrenda"
+        android:layout_width="0dp"
+        android:layout_height="40dp"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="24dp"
+        android:layout_marginEnd="40dp"
+        android:alpha="0.9"
+        android:background="@drawable/textbox"
+        android:clickable="true"
+        android:elevation="10dp"
+        android:ems="10"
+        android:focusable="false"
+        android:fontFamily="@font/roboto"
+        android:hint="@string/Comunes_fechaCompra"
+        android:inputType="text"
+        android:textAlignment="center"
+        android:textColor="#000000"
+        android:textColorHint="#000000"
+        app:layout_constraintBottom_toTopOf="@+id/tallaEditarPrenda"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/nombreEditarPrenda" />
+
+    <Spinner
+        android:id="@+id/tallaEditarPrenda"
+        android:layout_width="0dp"
+        android:layout_height="40dp"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="24dp"
+        android:layout_marginEnd="8dp"
+        android:alpha="0.9"
+        android:animationCache="false"
+        android:background="@drawable/spinner"
+        android:elevation="10dp"
+        android:entries="@array/Talla"
+        android:textAlignment="center"
+        android:textColor="#000000"
+        app:layout_constraintBottom_toTopOf="@+id/colorEditarPrenda"
+        app:layout_constraintEnd_toStartOf="@+id/tipoEditarPrenda"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/fechaCompraEditarPrenda" />
+
+    <Spinner
+        android:id="@+id/colorEditarPrenda"
+        android:layout_width="0dp"
+        android:layout_height="40dp"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="24dp"
+        android:layout_marginEnd="8dp"
+        android:alpha="0.9"
+        android:background="@drawable/spinner"
+        android:elevation="10dp"
+        android:entries="@array/Color"
+        android:textAlignment="center"
+        android:textColor="#000000"
+        app:layout_constraintBottom_toTopOf="@+id/guardarEditarPrendas"
+        app:layout_constraintEnd_toStartOf="@+id/calidezEditarPrenda"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tallaEditarPrenda" />
+
+    <Spinner
+        android:id="@+id/calidezEditarPrenda"
+        android:layout_width="0dp"
+        android:layout_height="40dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginEnd="40dp"
+        android:alpha="0.9"
+        android:background="@drawable/spinner"
+        android:elevation="10dp"
+        android:entries="@array/calidez"
+        android:textAlignment="center"
+        android:textColor="#000000"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/colorEditarPrenda"
+        app:layout_constraintTop_toTopOf="@+id/colorEditarPrenda" />
+
+    <Spinner
+        android:id="@+id/tipoEditarPrenda"
+        android:layout_width="0dp"
+        android:layout_height="40dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginEnd="40dp"
+        android:alpha="0.9"
+        android:background="@drawable/spinner"
+        android:elevation="10dp"
+        android:entries="@array/categoria"
+        android:textAlignment="center"
+        android:textColor="#000000"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/tallaEditarPrenda"
+        app:layout_constraintTop_toTopOf="@+id/tallaEditarPrenda" />
+
+    <TextView
+        android:id="@+id/editaprenda"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:fontFamily="@font/nunito_bold"
+        android:text="@string/EditarPrenda_titulo"
+        android:textColor="#000000"
+        android:textSize="28dp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/botonFotoEditarPrenda"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_chainStyle="packed" />
+
+    <Button
+        android:id="@+id/guardarEditarPrendas"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:background="@drawable/botones_circulares_degradado"
+        android:elevation="10dp"
+        android:fontFamily="@font/roboto_medium"
+        android:onClick="lanzarGuardarEditarPrenda"
+        android:text="@string/Comunes_guardar"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/calidezEditarPrenda"
+        app:layout_constraintStart_toStartOf="@+id/colorEditarPrenda"
+        app:layout_constraintTop_toBottomOf="@+id/colorEditarPrenda" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

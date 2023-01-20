@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:alpha="0.80"
+    android:background="@drawable/fondo_degradado">
+
+    <TextView
+        android:id="@+id/crearConjunto"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="80dp"
+        android:text="@string/CrearConjunto_titulo"
+        android:textColor="#000000"
+        android:textSize="28dp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_chainStyle="packed" />
+
+    <ImageView
+        android:id="@+id/barraConjunto"
+        android:layout_width="0dp"
+        android:layout_height="5dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="16dp"
+        android:alpha="0.9"
+        android:elevation="20dp"
+        app:layout_constraintBottom_toBottomOf="@+id/rectanguloConjunto"
+        app:layout_constraintEnd_toEndOf="@+id/rectanguloConjunto"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="@+id/rectanguloConjunto"
+        app:layout_constraintTop_toTopOf="@+id/rectanguloConjunto"
+        app:srcCompat="@drawable/rectangulo" />
+
+    <Button
+        android:id="@+id/guardarConjunto"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="128dp"
+        android:layout_marginEnd="128dp"
+        android:layout_marginBottom="16dp"
+        android:background="@drawable/botones_degradados"
+        android:elevation="60dp"
+        android:onClick="lanzarGuardarConjunto"
+        android:text="@string/Comunes_guardar"
+        android:textColor="#000000"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <ImageView
+        android:id="@+id/rectanguloConjunto"
+        android:layout_width="0dp"
+        android:layout_height="320dp"
+        android:layout_marginStart="64dp"
+        android:layout_marginTop="56dp"
+        android:layout_marginEnd="64dp"
+        android:alpha="0.70"
+        android:background="@drawable/rectangulo"
+        android:elevation="10dp"
+        android:padding="10dp"
+        app:cornerRadius="25dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/crearConjunto" />
+
+    <ImageView
+        android:id="@+id/rectanguloCircularConjunto"
+        android:layout_width="450dp"
+        android:layout_height="225dp"
+        android:alpha="0.5"
+        android:background="@drawable/rectangulo_circular"
+        android:padding="10dp"
+        app:cornerRadius="25dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.512"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <ImageView
+        android:id="@+id/fotoConjunto"
+        android:layout_width="153dp"
+        android:layout_height="0dp"
+        android:layout_marginTop="4dp"
+        android:background="?android:selectableItemBackground"
+        android:elevation="20dp"
+        android:padding="10dp"
+        app:cornerRadius="25dp"
+        app:layout_constraintBottom_toTopOf="@+id/textViewParteAbajo"
+        app:layout_constraintEnd_toEndOf="@+id/rectanguloConjunto"
+        app:layout_constraintHorizontal_chainStyle="spread_inside"
+        app:layout_constraintStart_toStartOf="@+id/rectanguloConjunto"
+        app:layout_constraintTop_toBottomOf="@+id/barraConjunto"
+        app:srcCompat="@drawable/icono_imagen" />
+
+    <ImageView
+        android:id="@+id/fotoConjunto2"
+        android:layout_width="150dp"
+        android:layout_height="0dp"
+        android:layout_marginTop="8dp"
+        android:background="?android:selectableItemBackground"
+        android:elevation="20dp"
+        android:padding="10dp"
+        app:cornerRadius="25dp"
+        app:layout_constraintBottom_toTopOf="@+id/textViewParteArriba"
+        app:layout_constraintEnd_toEndOf="@+id/rectanguloConjunto"
+        app:layout_constraintStart_toStartOf="@+id/rectanguloConjunto"
+        app:layout_constraintTop_toTopOf="@+id/rectanguloConjunto"
+        app:srcCompat="@drawable/icono_imagen" />
+
+    <ImageView
+        android:id="@+id/anyadirConjunto"
+        android:layout_width="45dp"
+        android:layout_height="45dp"
+        android:alpha="0.8"
+        android:background="@drawable/botones_circulares"
+        android:elevation="40dp"
+        android:onClick="seleccionarParteArriba"
+        android:padding="5dp"
+        app:cornerRadius="25dp"
+        app:layout_constraintEnd_toEndOf="@+id/fotoConjunto2"
+        app:layout_constraintTop_toTopOf="@+id/fotoConjunto2"
+        app:srcCompat="@drawable/icono_anyadir" />
+
+    <ImageView
+        android:id="@+id/anyadirConjunto2"
+        android:layout_width="45dp"
+        android:layout_height="45dp"
+        android:alpha="0.8"
+        android:background="@drawable/botones_circulares"
+        android:elevation="40dp"
+        android:onClick="seleccionarParteAbajo"
+        android:padding="5dp"
+        app:cornerRadius="25dp"
+        app:layout_constraintEnd_toEndOf="@+id/fotoConjunto"
+        app:layout_constraintTop_toTopOf="@+id/fotoConjunto"
+        app:srcCompat="@drawable/icono_anyadir" />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recyclerView"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginTop="16dp"
+        app:layout_behavior="@string/appbar_scrolling_view_behavior"
+        app:layout_constraintBottom_toTopOf="@+id/guardarConjunto"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/rectanguloCircularConjunto" />
+
+    <TextView
+        android:id="@+id/textViewParteArriba"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:elevation="30dp"
+        android:text="prendaParteArriba"
+        android:textColor="@color/black"
+        android:visibility="invisible"
+        app:layout_constraintBottom_toTopOf="@+id/barraConjunto"
+        app:layout_constraintEnd_toEndOf="@+id/fotoConjunto2"
+        app:layout_constraintStart_toStartOf="@+id/fotoConjunto2" />
+
+    <TextView
+        android:id="@+id/textViewParteAbajo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:elevation="30dp"
+        android:text="prendaParteDeAbajo"
+        android:textColor="@color/black"
+        android:visibility="invisible"
+        app:layout_constraintBottom_toBottomOf="@+id/rectanguloConjunto"
+        app:layout_constraintEnd_toEndOf="@+id/fotoConjunto"
+        app:layout_constraintStart_toStartOf="@+id/fotoConjunto" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
